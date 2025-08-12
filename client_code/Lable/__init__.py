@@ -1,7 +1,7 @@
-from ._anvil_designer import lableTemplate
+from ._anvil_designer import LableTemplate
 from anvil import *
 
-class lable(lableTemplate):
+class Lable(LableTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
