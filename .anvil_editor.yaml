@@ -3,7 +3,8 @@ unique_ids:
     nb.png: FO5QPHUSWEKVDUBRQMG6IX6Y7P46FPVY
     standard-page.html: 2MRJYJEMZW6VA4HKBOVARSIXTDI7GKYS
     theme.css: 527UXK2FZRN42XK2CE4PLZ3ZQ6F672YV
-  forms: {}
+  forms:
+    splashform: '1755041781126101667514223.16356'
   modules: {}
   scripts: {}
   server_modules: {}
