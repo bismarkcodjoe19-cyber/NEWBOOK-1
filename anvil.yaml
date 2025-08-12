@@ -12,5 +12,5 @@ services:
 - client_config: {}
   server_config: {}
   source: /runtime/services/tables.yml
-startup: null
+startup: {module: splashform, type: form}
 startup_form: null
