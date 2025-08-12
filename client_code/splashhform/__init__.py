@@ -1,7 +1,7 @@
-from ._anvil_designer import lableTemplate
+from ._anvil_designer import splashhformTemplate
 from anvil import *
 
-class lable(lableTemplate):
+class splashhform(splashhformTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
