@@ -1,0 +1,7 @@
+components:
+- layout_properties: {grid_position: 'YCANJZ,WYZQEY'}
+  name: label_1
+  properties: {align: center, font_size: 20, icon: 'fa:android', text: Loading....}
+  type: Label
+container: {type: ColumnPanel}
+is_package: true
