@@ -23,7 +23,7 @@ components:
     type: Label
   - layout_properties: {grid_position: 'APWGUT,MECLEG HGNFUS,LSNERP'}
     name: label_3
-    properties: {bold: true, text: 'Username/Email :'}
+    properties: {align: left, bold: true, text: 'Username/Email :'}
     type: Label
   - layout_properties: {grid_position: 'APWGUT,MECLEG HGNFUS,RDRZML'}
     name: text_box_1
@@ -31,11 +31,11 @@ components:
     type: TextBox
   - layout_properties: {grid_position: 'APWGUT,MECLEG BSCRAL,IGZMJW'}
     name: label_4
-    properties: {bold: true, text: 'Passcode :'}
+    properties: {align: left, bold: true, text: 'Passcode :'}
     type: Label
   - layout_properties: {grid_position: 'APWGUT,MECLEG BSCRAL,IDUWLA'}
     name: text_box_2
-    properties: {background: 'theme:On Primary', font_size: 12, italic: true, placeholder: Passcode here..., visible: false}
+    properties: {align: left, background: 'theme:On Primary', font_size: 12, italic: true, placeholder: Passcode here..., visible: false}
     type: TextBox
   - layout_properties: {grid_position: 'APWGUT,MECLEG PTUYUG,BUIUYS'}
     name: button_4
@@ -44,7 +44,7 @@ components:
   - event_bindings: {click: button_1_click}
     layout_properties: {grid_position: 'APWGUT,MECLEG OFPPEM,BSLPWG'}
     name: button_1
-    properties: {align: right, bold: true, font_size: 16, text: Login}
+    properties: {align: right, bold: true, font_size: 1, text: Login}
     type: Button
   - layout_properties: {grid_position: 'APWGUT,MECLEG YITWXA,NVRSMQ'}
     name: button_2
