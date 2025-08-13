@@ -25,14 +25,14 @@ components:
       name: text_box_1
       properties: {background: 'theme:On Primary', font_size: 14, italic: true, placeholder: input your email address to reset, visible: false}
       type: TextBox
-    - layout_properties: {grid_position: 'ZCWHBI,AHUGZT HEHEGJ,OTQFYH'}
-      name: label_5
-      properties: {bold: true, icon: 'fa:clock-o', italic: true, text: 59s}
-      type: Label
-    - layout_properties: {grid_position: 'ZCWHBI,AHUGZT HEHEGJ,SQHLLL'}
+    - layout_properties: {grid_position: 'ZCWHBI,AHUGZT XVDZPK,JGTXOW'}
       name: button_1
       properties: {align: right, bold: true, role: filled-button, text: Send reset link}
       type: Button
+    - layout_properties: {grid_position: 'ZCWHBI,AHUGZT CCDJGX,EEELES'}
+      name: label_5
+      properties: {bold: true, icon: 'fa:clock-o', italic: true, text: 59s}
+      type: Label
     - layout_properties: {grid_position: 'ZCWHBI,AHUGZT MCXOHO,BMVNEO'}
       name: label_4
       properties: {}
