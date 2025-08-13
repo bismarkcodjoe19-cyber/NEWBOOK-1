@@ -57,10 +57,10 @@ components:
     name: button_3
     properties: {bold: true, icon: 'fa:google', text: Google Account}
     type: Button
-  - layout_properties: {grid_position: 'APWGUT,MECLEG BVEJFL,WUIRAA'}
-    name: label_5
-    properties: {align: right, bold: true, font_size: 9, text: 'HELP ?'}
-    type: Label
+  - layout_properties: {grid_position: 'APWGUT,MECLEG DFCMFC,KWXUIS'}
+    name: button_1
+    properties: {align: right, font_size: 12, text: 'HELP?'}
+    type: Button
   layout_properties: {grid_position: 'VCPQAK,JOGWAW'}
   name: column_panel_1
   properties: {}
