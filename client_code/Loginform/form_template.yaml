@@ -2,12 +2,12 @@ components:
 - components:
   - layout_properties: {grid_position: 'APWGUT,QBZNSO'}
     name: image_1
-    properties: {height: 283, source: _/theme/A 3D human-like avat.png}
+    properties: {height: 424, source: _/theme/A 3D human-like avat.png}
     type: Image
   - components:
     - layout_properties: {grid_position: 'CJIZGB,LWBDCP'}
       name: label_1
-      properties: {align: center, bold: true, text: ' NEWBOOK'}
+      properties: {align: center, bold: true, font_size: 22, text: ' NEWBOOK'}
       type: Label
     layout_properties: {grid_position: 'APWGUT,MECLEG SRZPFE,GXNYUQ'}
     name: column_panel_2
@@ -19,11 +19,35 @@ components:
     type: Image
   - layout_properties: {grid_position: 'APWGUT,MECLEG WOYRYJ,EENDEI'}
     name: label_2
-    properties: {align: center, bold: true, italic: false, text: Sign in, underline: false}
+    properties: {align: center, bold: true, font_size: 16, italic: false, text: Sign in, underline: false}
     type: Label
   - layout_properties: {grid_position: 'APWGUT,MECLEG HGNFUS,LSNERP'}
     name: label_3
     properties: {bold: true, text: 'Username/Email :'}
+    type: Label
+  - layout_properties: {grid_position: 'APWGUT,MECLEG BSCRAL,IGZMJW'}
+    name: label_4
+    properties: {bold: true, text: 'Passcode :'}
+    type: Label
+  - layout_properties: {grid_position: 'APWGUT,MECLEG FGYVEC,UQIMMS'}
+    name: label_5
+    properties: {font_size: 10, text: 'Forgot passcode?'}
+    type: Label
+  - layout_properties: {grid_position: 'APWGUT,MECLEG KYAQYF,PZWFZR'}
+    name: outlined_1
+    properties: {align: center, bold: true, font_size: 19, role: outlined, text: Login}
+    type: TextBox
+  - layout_properties: {grid_position: 'APWGUT,MECLEG KFJTDM,ZQAYHM'}
+    name: label_6
+    properties: {bold: true, icon: 'fa:address-book-o', text: Create New account}
+    type: Label
+  - layout_properties: {grid_position: 'APWGUT,MECLEG ULDFLT,GFGRER'}
+    name: label_7
+    properties: {align: center, bold: true, text: OR}
+    type: Label
+  - layout_properties: {grid_position: 'APWGUT,MECLEG YKAFKE,YZGCKK'}
+    name: label_8
+    properties: {bold: true, text: Google Account}
     type: Label
   layout_properties: {grid_position: 'VCPQAK,JOGWAW'}
   name: column_panel_1
