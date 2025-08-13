@@ -39,7 +39,7 @@ components:
     type: TextBox
   - layout_properties: {grid_position: 'APWGUT,MECLEG PTUYUG,BUIUYS'}
     name: button_4
-    properties: {align: center, bold: true, text: 'forgot passcode?', visible: false}
+    properties: {align: right, bold: true, text: 'forgot passcode?', visible: false}
     type: Button
   - layout_properties: {grid_position: 'APWGUT,MECLEG NDQNLG,ECNKFF'}
     name: outlined_button_1
