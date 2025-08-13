@@ -6,7 +6,7 @@ components:
     type: Image
   - layout_properties: {grid_position: 'YQOXAP,NCBXTG'}
     name: label_1
-    properties: {align: left, bold: true, role: headline, text: '         NEWBOOK'}
+    properties: {align: left, bold: true, role: headline, text: '              NEWBOOK'}
     type: Label
   - components:
     - layout_properties: {grid_position: 'UGJXOJ,DCGNJO'}
