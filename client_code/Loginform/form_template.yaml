@@ -39,16 +39,16 @@ components:
     type: TextBox
   - layout_properties: {grid_position: 'APWGUT,MECLEG PTUYUG,BUIUYS'}
     name: button_4
-    properties: {align: right, bold: true, text: 'forgot passcode?'}
+    properties: {align: center, bold: true, text: 'forgot passcode?', visible: false}
     type: Button
   - event_bindings: {click: button_1_click}
     layout_properties: {grid_position: 'APWGUT,MECLEG OFPPEM,BSLPWG'}
     name: button_1
-    properties: {align: right, bold: true, font_size: 1, text: Login}
+    properties: {align: right, bold: true, font_size: 1, text: login, visible: true}
     type: Button
   - layout_properties: {grid_position: 'APWGUT,MECLEG YITWXA,NVRSMQ'}
     name: button_2
-    properties: {align: right, bold: true, icon: 'fa:address-book', text: Create New Account}
+    properties: {align: center, bold: true, icon: 'fa:address-book', text: Create New Account}
     type: Button
   - layout_properties: {grid_position: 'APWGUT,MECLEG ULDFLT,GFGRER'}
     name: label_7
@@ -58,6 +58,10 @@ components:
     name: button_3
     properties: {bold: true, icon: 'fa:google', text: Google Account}
     type: Button
+  - layout_properties: {grid_position: 'APWGUT,MECLEG KGELSO,ZTRUGT'}
+    name: label_5
+    properties: {align: right, bold: true, font_size: 9, text: 'HELP ?'}
+    type: Label
   layout_properties: {grid_position: 'VCPQAK,JOGWAW'}
   name: column_panel_1
   properties: {}
