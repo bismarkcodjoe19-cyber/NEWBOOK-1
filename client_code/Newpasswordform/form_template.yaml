@@ -1,28 +1,36 @@
 components:
+- layout_properties: {grid_position: 'EISUKC,DHFZBU'}
+  name: Help_button
+  properties: {align: right, text: 'HELP?'}
+  type: Button
 - components:
-  - layout_properties: {grid_position: 'JFVXHN,KBTCSX'}
-    name: label_5
-    properties: {align: right, bold: true, text: 'Help ?'}
-    type: Label
+  - layout_properties: {grid_position: 'TJQLIO,POUCET'}
+    name: image_2
+    properties: {height: 63, source: _/theme/nb.png}
+    type: Image
   - layout_properties: {grid_position: 'TJQLIO,FYIDGC'}
     name: label_1
-    properties: {align: center, bold: true, font_size: 26, text: NEWBOOK}
+    properties: {align: left, bold: true, font_size: 26, role: headline, text: ' NEWBOOK'}
     type: Label
+  - layout_properties: {grid_position: 'KDFFSS,NWGXGS'}
+    name: image_1
+    properties: {height: 72, source: _/theme/uncolored design of .png}
+    type: Image
   layout_properties: {grid_position: 'DJQHFJ,CBJFEW'}
   name: column_panel_1
-  properties: {col_widths: '{"FYIDGC":30}'}
+  properties: {col_widths: '{"FYIDGC":35,"POUCET":25}'}
   type: ColumnPanel
 - layout_properties: {grid_position: 'FLKXMM,VQHZPG'}
   name: label_2
-  properties: {align: center, font_size: 25, text: CREATE NEW PASSCODE}
+  properties: {align: center, font_size: 25, role: body, text: CREATE NEW PASSCODE}
   type: Label
 - layout_properties: {grid_position: 'UIUMNN,ZZSKRH'}
   name: label_3
-  properties: {bold: true, font: '34', font_size: 15, text: New Passcode}
+  properties: {bold: true, font: '34', font_size: 15, text: 'New Passcode:'}
   type: Label
 - layout_properties: {grid_position: 'UIUMNN,RXYHED'}
   name: text_box_1
-  properties: {enabled: false, placeholder: 'New passcode ', text: ' Enter New Passcode'}
+  properties: {background: 'theme:On Primary', enabled: false, italic: true, placeholder: 'New passcode ', text: ' Enter New Passcode', visible: false}
   type: TextBox
 - layout_properties: {grid_position: 'HXQLSF,QHBGQR'}
   name: label_4
@@ -30,7 +38,7 @@ components:
   type: Label
 - layout_properties: {grid_position: 'HXQLSF,JJVCAX TTBHMV,QHJQAX'}
   name: text_box_2
-  properties: {enabled: false, placeholder: Confirm New Passcode, text: Enter passcode again, visible: true}
+  properties: {background: 'theme:On Primary', enabled: false, italic: true, placeholder: Confirm New Passcode, text: Enter passcode again, visible: false}
   type: TextBox
 - layout_properties: {grid_position: 'HXQLSF,JJVCAX TVOZDT,EXHFNB'}
   name: spacer_1
@@ -41,6 +49,6 @@ components:
   properties: {align: right, bold: true, font_size: 16, role: filled-button, text: Submit}
   type: Button
 container:
-  properties: {col_widths: '{"ZZSKRH":10,"RXYHED":50,"QHBGQR":10,"JJVCAX":50}'}
+  properties: {col_widths: '{"ZZSKRH":15,"RXYHED":45,"QHBGQR":15,"JJVCAX":45}'}
   type: ColumnPanel
 is_package: true
