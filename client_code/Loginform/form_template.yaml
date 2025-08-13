@@ -39,7 +39,7 @@ components:
     type: TextBox
   - layout_properties: {grid_position: 'APWGUT,MECLEG PTUYUG,BUIUYS'}
     name: button_4
-    properties: {align: left, bold: true, text: 'forgot passcode?'}
+    properties: {align: right, bold: true, text: 'forgot passcode?'}
     type: Button
   - event_bindings: {click: button_1_click}
     layout_properties: {grid_position: 'APWGUT,MECLEG OFPPEM,BSLPWG'}
