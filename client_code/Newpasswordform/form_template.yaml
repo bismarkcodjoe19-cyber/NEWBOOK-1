@@ -12,13 +12,15 @@ components:
   name: label_2
   properties: {align: center, font_size: 25, text: New Passcode}
   type: Label
-- layout_properties: {grid_position: 'XQJNZD,GHKCBN'}
+- layout_properties: {grid_position: 'MPHIEJ,FCNZQO'}
   name: label_3
-  properties: {font: '34', text: ded}
+  properties: {bold: true, font: '34', text: Old Passcode}
   type: Label
 - layout_properties: {grid_position: 'MPHIEJ,BTPBSQ'}
   name: text_box_1
-  properties: {placeholder: 'Old passcode '}
+  properties: {placeholder: 'Old passcode ', text: ' Enter Old Passcode'}
   type: TextBox
-container: {type: ColumnPanel}
+container:
+  properties: {col_widths: '{"FCNZQO":10,"BTPBSQ":50}'}
+  type: ColumnPanel
 is_package: true
