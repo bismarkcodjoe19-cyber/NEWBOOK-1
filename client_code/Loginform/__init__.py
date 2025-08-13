@@ -15,6 +15,10 @@ class Loginform(LoginformTemplate):
 
   def button_1_click(self, **event_args):SHOW
     """This method is called when the button is clicked"""
+
+  def outlined_button_1_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    pass
 <div class="input-container">
 <div class="prefix-box">📧</div>
 <input type="text" class="input-field" placeholder="Username or Email">
