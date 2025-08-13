@@ -4,10 +4,6 @@ components:
     name: image_1
     properties: {height: 424, source: _/theme/A 3D human-like avat.png}
     type: Image
-  - layout_properties: {grid_position: 'APWGUT,EABUAK'}
-    name: spacer_1
-    properties: {height: 32}
-    type: Spacer
   - components:
     - layout_properties: {grid_position: 'CJIZGB,LWBDCP'}
       name: label_1
@@ -35,8 +31,12 @@ components:
     type: Label
   - layout_properties: {grid_position: 'APWGUT,MECLEG FGYVEC,UQIMMS'}
     name: label_5
-    properties: {align: center, font_size: 7, text: 'Forgot passcode?'}
+    properties: {align: center, bold: true, font_size: 9, text: 'Forgot passcode?', visible: false}
     type: Label
+  - layout_properties: {grid_position: 'APWGUT,MECLEG BVSIFC,KMOIAL'}
+    name: spacer_1
+    properties: {height: 32, visible: false}
+    type: Spacer
   - layout_properties: {grid_position: 'APWGUT,MECLEG YOBTKK,KNZZWT'}
     name: outlined_1
     properties: {align: center, bold: true, font_size: 19, role: outlined, text: Login}
@@ -51,7 +51,7 @@ components:
     type: Label
   - layout_properties: {grid_position: 'APWGUT,MECLEG YKAFKE,YZGCKK'}
     name: label_8
-    properties: {align: center, bold: true, text: Google Account}
+    properties: {align: center, bold: true, icon: 'fa:google', text: Google Account, visible: true}
     type: Label
   layout_properties: {grid_position: 'VCPQAK,JOGWAW'}
   name: column_panel_1
