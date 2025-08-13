@@ -13,9 +13,8 @@ class Loginform(LoginformTemplate):
     """This method is called when the video changes state (eg PAUSED to PLAYING)"""
     pass
 
-  def button_1_click(self, **event_args):
+  def button_1_click(self, **event_args):SHOW
     """This method is called when the button is clicked"""
-    pass
 <div class="input-container">
 <div class="prefix-box">📧</div>
 <input type="text" class="input-field" placeholder="Username or Email">
