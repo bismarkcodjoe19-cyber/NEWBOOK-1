@@ -25,33 +25,44 @@ components:
     name: label_3
     properties: {bold: true, text: 'Username/Email :'}
     type: Label
+  - layout_properties: {grid_position: 'APWGUT,MECLEG HGNFUS,RDRZML'}
+    name: text_box_1
+    properties: {background: 'theme:On Primary', font_size: 12, italic: true, placeholder: Name here..., visible: false}
+    type: TextBox
   - layout_properties: {grid_position: 'APWGUT,MECLEG BSCRAL,IGZMJW'}
     name: label_4
     properties: {bold: true, text: 'Passcode :'}
     type: Label
-  - layout_properties: {grid_position: 'APWGUT,MECLEG FGYVEC,UQIMMS'}
-    name: label_5
-    properties: {font_size: 10, text: 'Forgot passcode?'}
-    type: Label
-  - layout_properties: {grid_position: 'APWGUT,MECLEG KYAQYF,PZWFZR'}
-    name: outlined_1
-    properties: {align: center, bold: true, font_size: 19, role: outlined, text: Login}
+  - layout_properties: {grid_position: 'APWGUT,MECLEG BSCRAL,IDUWLA'}
+    name: text_box_2
+    properties: {background: 'theme:On Primary', font_size: 12, italic: true, placeholder: Passcode here..., visible: false}
     type: TextBox
-  - layout_properties: {grid_position: 'APWGUT,MECLEG KFJTDM,ZQAYHM'}
-    name: label_6
-    properties: {align: center, bold: true, icon: 'fa:address-book-o', text: Create New account}
-    type: Label
+  - layout_properties: {grid_position: 'APWGUT,MECLEG PTUYUG,BUIUYS'}
+    name: button_4
+    properties: {align: left, bold: true, text: 'forgot passcode?'}
+    type: Button
+  - event_bindings: {click: button_1_click}
+    layout_properties: {grid_position: 'APWGUT,MECLEG OFPPEM,BSLPWG'}
+    name: button_1
+    properties: {bold: true, text: Login}
+    type: Button
+  - layout_properties: {grid_position: 'APWGUT,MECLEG YITWXA,NVRSMQ'}
+    name: button_2
+    properties: {align: left, bold: true, icon: 'fa:address-book', text: Create New Account}
+    type: Button
   - layout_properties: {grid_position: 'APWGUT,MECLEG ULDFLT,GFGRER'}
     name: label_7
     properties: {align: center, bold: true, text: OR}
     type: Label
-  - layout_properties: {grid_position: 'APWGUT,MECLEG YKAFKE,YZGCKK'}
-    name: label_8
-    properties: {align: center, bold: true, text: Google Account}
-    type: Label
+  - layout_properties: {grid_position: 'APWGUT,MECLEG OWSNMP,GFPIUZ'}
+    name: button_3
+    properties: {bold: true, icon: 'fa:google', text: Google Account}
+    type: Button
   layout_properties: {grid_position: 'VCPQAK,JOGWAW'}
   name: column_panel_1
   properties: {}
   type: ColumnPanel
-container: {type: ColumnPanel}
+container:
+  properties: {col_widths: '{"JOGWAW":45}', visible: true}
+  type: ColumnPanel
 is_package: true
