@@ -31,7 +31,7 @@ components:
     type: Label
   - layout_properties: {grid_position: 'APWGUT,MECLEG FGYVEC,UQIMMS'}
     name: label_5
-    properties: {font_size: 10, text: 'Forgot passcode?'}
+    properties: {align: center, font_size: 7, text: 'Forgot passcode?'}
     type: Label
   - layout_properties: {grid_position: 'APWGUT,MECLEG KYAQYF,PZWFZR'}
     name: outlined_1
@@ -39,7 +39,7 @@ components:
     type: TextBox
   - layout_properties: {grid_position: 'APWGUT,MECLEG LWWXVX,ZTNLCF'}
     name: label_9
-    properties: {}
+    properties: {font_size: 7, spacing_above: small}
     type: Label
   - layout_properties: {grid_position: 'APWGUT,MECLEG KFJTDM,ZQAYHM'}
     name: label_6
