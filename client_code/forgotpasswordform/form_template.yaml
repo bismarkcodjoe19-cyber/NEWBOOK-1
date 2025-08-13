@@ -21,6 +21,10 @@ components:
       name: label_3
       properties: {text: 'Email :'}
       type: Label
+    - layout_properties: {grid_position: 'ZCWHBI,RJEQWC'}
+      name: label_5
+      properties: {}
+      type: Label
     - layout_properties: {grid_position: 'ZCWHBI,AHUGZT VZBMTI,KZNFHM'}
       name: text_box_1
       properties: {background: 'theme:On Primary', font_size: 14, italic: true, placeholder: input your email address to reset, visible: false}
