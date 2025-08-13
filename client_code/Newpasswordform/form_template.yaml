@@ -1,0 +1,24 @@
+components:
+- components:
+  - layout_properties: {grid_position: 'TJQLIO,FYIDGC'}
+    name: label_1
+    properties: {align: center, bold: true, font_size: 26, text: NEWBOOK}
+    type: Label
+  layout_properties: {grid_position: 'DJQHFJ,CBJFEW'}
+  name: column_panel_1
+  properties: {}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'BRXKSV,NFRTSU'}
+  name: label_2
+  properties: {align: center, font_size: 25, text: New Passcode}
+  type: Label
+- layout_properties: {grid_position: 'XQJNZD,GHKCBN'}
+  name: label_3
+  properties: {font: '34', text: ded}
+  type: Label
+- layout_properties: {grid_position: 'MPHIEJ,BTPBSQ'}
+  name: text_box_1
+  properties: {placeholder: 'Old passcode '}
+  type: TextBox
+container: {type: ColumnPanel}
+is_package: true
