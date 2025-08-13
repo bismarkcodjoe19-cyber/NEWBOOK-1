@@ -1,26 +1,46 @@
 components:
 - components:
+  - layout_properties: {grid_position: 'JFVXHN,KBTCSX'}
+    name: label_5
+    properties: {align: right, bold: true, text: 'Help ?'}
+    type: Label
   - layout_properties: {grid_position: 'TJQLIO,FYIDGC'}
     name: label_1
     properties: {align: center, bold: true, font_size: 26, text: NEWBOOK}
     type: Label
   layout_properties: {grid_position: 'DJQHFJ,CBJFEW'}
   name: column_panel_1
-  properties: {}
+  properties: {col_widths: '{"FYIDGC":30}'}
   type: ColumnPanel
-- layout_properties: {grid_position: 'BRXKSV,NFRTSU'}
+- layout_properties: {grid_position: 'FLKXMM,VQHZPG'}
   name: label_2
-  properties: {align: center, font_size: 25, text: New Passcode}
+  properties: {align: center, font_size: 25, text: CREATE NEW PASSCODE}
   type: Label
-- layout_properties: {grid_position: 'MPHIEJ,FCNZQO'}
+- layout_properties: {grid_position: 'UIUMNN,ZZSKRH'}
   name: label_3
-  properties: {bold: true, font: '34', text: Old Passcode}
+  properties: {bold: true, font: '34', font_size: 15, text: New Passcode}
   type: Label
-- layout_properties: {grid_position: 'MPHIEJ,BTPBSQ'}
+- layout_properties: {grid_position: 'UIUMNN,RXYHED'}
   name: text_box_1
-  properties: {placeholder: 'Old passcode ', text: ' Enter Old Passcode'}
+  properties: {enabled: false, placeholder: 'New passcode ', text: ' Enter New Passcode'}
   type: TextBox
+- layout_properties: {grid_position: 'HXQLSF,QHBGQR'}
+  name: label_4
+  properties: {bold: true, font_size: 15, text: Confirm New Passcode}
+  type: Label
+- layout_properties: {grid_position: 'HXQLSF,JJVCAX TTBHMV,QHJQAX'}
+  name: text_box_2
+  properties: {enabled: false, placeholder: Confirm New Passcode, text: Enter passcode again, visible: true}
+  type: TextBox
+- layout_properties: {grid_position: 'HXQLSF,JJVCAX TVOZDT,EXHFNB'}
+  name: spacer_1
+  properties: {height: 32}
+  type: Spacer
+- layout_properties: {grid_position: 'HXQLSF,JJVCAX LYNQQI,PFUROE'}
+  name: button_1
+  properties: {align: right, bold: true, font_size: 16, text: Submit}
+  type: Button
 container:
-  properties: {col_widths: '{"FCNZQO":10,"BTPBSQ":50}'}
+  properties: {col_widths: '{"ZZSKRH":10,"RXYHED":50,"QHBGQR":10,"JJVCAX":50}'}
   type: ColumnPanel
 is_package: true
