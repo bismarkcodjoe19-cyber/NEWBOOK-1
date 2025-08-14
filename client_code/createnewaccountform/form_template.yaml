@@ -43,7 +43,7 @@ components:
     properties: {background: 'theme:On Primary', italic: true, placeholder: eg.newbook25@gmail.com, visible: false}
     type: TextBox
   - layout_properties: {grid_position: 'PNBEED,YXQVXM'}
-    name: label_4
+    name: firstname_label
     properties: {bold: true, text: 'First Name : '}
     type: Label
   - layout_properties: {grid_position: 'PNBEED,DYOIMG'}
