@@ -1,6 +1,8 @@
 unique_ids:
   assets:
     A 3D human-like avat.png: '1755079541072660722988998.2827'
+    avat.png: '1755201757435102933361137.83824'
+    change the hairstyle.png: '1755201616303307500154851.1773'
     nb.png: FO5QPHUSWEKVDUBRQMG6IX6Y7P46FPVY
     standard-page.html: 2MRJYJEMZW6VA4HKBOVARSIXTDI7GKYS
     theme.css: 527UXK2FZRN42XK2CE4PLZ3ZQ6F672YV
@@ -8,6 +10,7 @@ unique_ids:
   forms:
     Loginform: '1755045785591261658978158.58664'
     Newpasswordform: '1755145424670607301273394.3424'
+    createnewaccountform: '1755200939392747068111385.527'
     forgotpasswordform: '1755095284292104651171498.64545'
     splashhform: 5LFPZ4QLJXJVWQ75HG5WBSMNPMB67T5E
   modules: {}
