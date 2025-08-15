@@ -143,7 +143,7 @@ components:
     type: Spacer
   - layout_properties: {grid_position: 'PUBAYL,FJMXER'}
     name: button_1
-    properties: {align: right, background: 'theme:Primary', bold: true, enabled: true, font_size: 15, icon: 'fa:arrow-right', icon_align: right, role: filled-button, text: Next, visible: true}
+    properties: {align: right, background: 'theme:Primary', bold: true, enabled: false, font_size: 15, icon: 'fa:arrow-right', icon_align: right, role: filled-button, text: Next, visible: true}
     type: Button
   - layout_properties: {grid_position: 'GMKGUT,JLSGEZ'}
     name: label_9
