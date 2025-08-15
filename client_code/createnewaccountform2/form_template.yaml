@@ -108,7 +108,7 @@ components:
   type: CheckBox
 - layout_properties: {grid_position: 'KRMZUJ,HBOOPR HBVVYM,HVTWHS'}
   name: label_6
-  properties: {bold: true, text: 'Help us beat robots.                What is 3-4?'}
+  properties: {bold: true, icon: res, text: 'Help us beat robots.                What is 3-4?'}
   type: Label
 - layout_properties: {grid_position: 'KRMZUJ,HBOOPR HBVVYM,CNOCXY TMSXER,BRBDWS'}
   name: text_box_4
