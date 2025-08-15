@@ -33,6 +33,10 @@ components:
   name: text_box_1
   properties: {background: 'theme:On Primary', bold: false, enabled: false, italic: true, placeholder: phone number, role: outlined, visible: false}
   type: TextBox
+- layout_properties: {grid_position: 'IZUEGA,YECJKK'}
+  name: label_3
+  properties: {}
+  type: Label
 container:
   properties: {col_widths: '{"MDBHEJ":10,"GLFQGU":10,"CKTCFY":40}'}
   type: ColumnPanel
