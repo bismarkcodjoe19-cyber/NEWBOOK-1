@@ -17,12 +17,36 @@ components:
   type: Spacer
 - layout_properties: {grid_position: 'HSZPNL,DSETSQ'}
   name: label_3
-  properties: {text: 'EMAIL/Phone Number:'}
+  properties: {text: 'Enter the 7-digit Verification code :'}
   type: Label
-- layout_properties: {grid_position: 'HSZPNL,UNILHS'}
-  name: text_box_1
-  properties: {enabled: false, text: type phone number or email, visible: false}
+- layout_properties: {grid_position: 'HSZPNL,CQXDDT'}
+  name: text_box_2
+  properties: {role: outlined}
   type: TextBox
+- layout_properties: {grid_position: 'HSZPNL,FZMJPU'}
+  name: text_box_3
+  properties: {}
+  type: TextBox
+- layout_properties: {grid_position: 'HSZPNL,VKOOUE'}
+  name: text_box_4
+  properties: {}
+  type: TextBox
+- layout_properties: {grid_position: 'HSZPNL,LPJEGC'}
+  name: text_box_5
+  properties: {}
+  type: TextBox
+- layout_properties: {grid_position: 'HSZPNL,CYZWLR'}
+  name: text_box_6
+  properties: {}
+  type: TextBox
+- layout_properties: {grid_position: 'HSZPNL,KZAOES'}
+  name: text_box_7
+  properties: {}
+  type: TextBox
+- layout_properties: {grid_position: 'HSZPNL,DGZEXE'}
+  name: spacer_3
+  properties: {height: 32}
+  type: Spacer
 - layout_properties: {grid_position: 'XGGLXY,XMIAYP'}
   name: spacer_2
   properties: {height: 32}
@@ -32,6 +56,6 @@ components:
   properties: {align: right, bold: true, enabled: true, icon: 'fa:arrow-right', role: filled-button, text: request code, visible: true}
   type: Button
 container:
-  properties: {col_widths: '{"DSETSQ":15,"UNILHS":45}'}
+  properties: {col_widths: '{"DSETSQ":15,"CQXDDT":5,"FZMJPU":5,"VKOOUE":5,"LPJEGC":5,"CYZWLR":5,"KZAOES":5,"DGZEXE":22}'}
   type: ColumnPanel
 is_package: true
