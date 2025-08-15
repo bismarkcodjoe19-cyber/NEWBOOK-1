@@ -123,6 +123,6 @@ components:
   properties: {align: right, enabled: false, icon: 'fa:pencil', icon_align: right, role: filled-button, text: Register}
   type: Button
 container:
-  properties: {col_spacing: small, col_widths: '{"MDBHEJ":10,"GLFQGU":10,"CKTCFY":40,"DPOYZL":35,"NMMISS":25,"QWTFAW":10,"LVDMBN":50,"KWEMVE":10,"WRHXWG":50,"NHVQPV":15,"XFKYPQ":40,"IRQRJQ":35,"HUVWXR":15,"TBMRIV":45,"ISOJMK":25,"HBOOPR":35}'}
+  properties: {col_spacing: small, col_widths: '{"MDBHEJ":10,"GLFQGU":10,"CKTCFY":40,"DPOYZL":35,"NMMISS":25,"KWEMVE":10,"WRHXWG":50,"NHVQPV":15,"XFKYPQ":40,"IRQRJQ":35,"HUVWXR":15,"TBMRIV":45,"ISOJMK":25,"HBOOPR":35}'}
   type: ColumnPanel
 is_package: true
