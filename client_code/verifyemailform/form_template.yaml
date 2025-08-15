@@ -55,17 +55,13 @@ components:
   name: spacer_3
   properties: {height: 32}
   type: Spacer
-- layout_properties: {grid_position: 'DSVQLP,FBPGPU'}
-  name: timer_1
-  properties: {interval: 1}
-  type: Timer
 - layout_properties: {grid_position: 'JWWYNL,UMSYVU'}
   name: label_5
   properties: {bold: true, italic: true, text: 59s}
   type: Label
 - layout_properties: {grid_position: 'JWWYNL,JRXQZK'}
   name: button_2
-  properties: {bold: true, text: Resend}
+  properties: {align: right, bold: true, text: Resend}
   type: Button
 - layout_properties: {grid_position: 'XGGLXY,XMIAYP'}
   name: spacer_2
@@ -75,6 +71,10 @@ components:
   name: button_1
   properties: {align: right, bold: true, enabled: true, icon: 'fa:arrow-right', icon_align: right, role: filled-button, text: Continue, visible: true}
   type: Button
+- layout_properties: {grid_position: 'LXZRHD,QYLRAZ'}
+  name: verification_check
+  properties: {align: center}
+  type: Label
 container:
   properties: {col_widths: '{"DSETSQ":15,"CQXDDT":5,"FZMJPU":5,"VKOOUE":5,"LPJEGC":5,"CYZWLR":5,"KZAOES":5,"DGZEXE":22,"PUACKJ":25,"BVAWVN":35}'}
   type: ColumnPanel
