@@ -1,15 +1,23 @@
 components:
+- layout_properties: {grid_position: 'QIFMCP,PUACKJ'}
+  name: image_2
+  properties: {height: 66, source: _/theme/nb.png}
+  type: Image
 - layout_properties: {grid_position: 'QIFMCP,BVAWVN'}
   name: label_1
-  properties: {align: center, font_size: 23, text: NEWBOOK}
+  properties: {align: left, bold: true, font_size: 23, role: headline, text: NEWBOOK}
   type: Label
 - layout_properties: {grid_position: 'BSQLED,QOHBGA'}
   name: image_1
-  properties: {height: 69.66665649414062}
+  properties: {height: 69.66665649414062, source: _/theme/uncolored design of .png}
   type: Image
 - layout_properties: {grid_position: 'AKNEVA,EWYHMW'}
   name: label_2
-  properties: {align: center, bold: true, font_size: 16, text: VERIFY EMAIl}
+  properties: {align: center, bold: true, font_size: 16, text: Verify Your Email}
+  type: Label
+- layout_properties: {grid_position: 'YKPRPN,HYDZTU'}
+  name: label_4
+  properties: {bold: true, italic: true, text: 'Hint : Check your email for link'}
   type: Label
 - layout_properties: {grid_position: 'CWRKEF,PNZOVF'}
   name: spacer_1
@@ -21,41 +29,53 @@ components:
   type: Label
 - layout_properties: {grid_position: 'HSZPNL,CQXDDT'}
   name: text_box_2
-  properties: {role: outlined}
+  properties: {placeholder: ' ', role: outlined}
   type: TextBox
 - layout_properties: {grid_position: 'HSZPNL,FZMJPU'}
   name: text_box_3
-  properties: {}
+  properties: {placeholder: ' ', role: outlined}
   type: TextBox
 - layout_properties: {grid_position: 'HSZPNL,VKOOUE'}
   name: text_box_4
-  properties: {}
+  properties: {placeholder: ' ', role: outlined}
   type: TextBox
 - layout_properties: {grid_position: 'HSZPNL,LPJEGC'}
   name: text_box_5
-  properties: {}
+  properties: {placeholder: ' ', role: outlined}
   type: TextBox
 - layout_properties: {grid_position: 'HSZPNL,CYZWLR'}
   name: text_box_6
-  properties: {}
+  properties: {placeholder: ' ', role: outlined}
   type: TextBox
 - layout_properties: {grid_position: 'HSZPNL,KZAOES'}
   name: text_box_7
-  properties: {}
+  properties: {placeholder: ' ', role: outlined}
   type: TextBox
 - layout_properties: {grid_position: 'HSZPNL,DGZEXE'}
   name: spacer_3
   properties: {height: 32}
   type: Spacer
+- layout_properties: {grid_position: 'DSVQLP,FBPGPU'}
+  name: timer_1
+  properties: {interval: 1}
+  type: Timer
+- layout_properties: {grid_position: 'JWWYNL,UMSYVU'}
+  name: label_5
+  properties: {bold: true, italic: true, text: 59s}
+  type: Label
+- layout_properties: {grid_position: 'JWWYNL,JRXQZK'}
+  name: button_2
+  properties: {bold: true, text: Resend}
+  type: Button
 - layout_properties: {grid_position: 'XGGLXY,XMIAYP'}
   name: spacer_2
   properties: {height: 32}
   type: Spacer
 - layout_properties: {grid_position: 'MXPSSS,MGCTTD'}
   name: button_1
-  properties: {align: right, bold: true, enabled: true, icon: 'fa:arrow-right', role: filled-button, text: request code, visible: true}
+  properties: {align: right, bold: true, enabled: true, icon: 'fa:arrow-right', icon_align: right, role: filled-button, text: Continue, visible: true}
   type: Button
 container:
-  properties: {col_widths: '{"DSETSQ":15,"CQXDDT":5,"FZMJPU":5,"VKOOUE":5,"LPJEGC":5,"CYZWLR":5,"KZAOES":5,"DGZEXE":22}'}
+  properties: {col_widths: '{"DSETSQ":15,"CQXDDT":5,"FZMJPU":5,"VKOOUE":5,"LPJEGC":5,"CYZWLR":5,"KZAOES":5,"DGZEXE":22,"PUACKJ":25,"BVAWVN":35}'}
   type: ColumnPanel
 is_package: true
