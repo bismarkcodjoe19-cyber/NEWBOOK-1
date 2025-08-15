@@ -706,7 +706,10 @@ button.close > span, button.close {
   color: %color:On Disabled%;
   box-shadow: none;
 }
-
+.scrollable-panel {
+  height: 500px;
+  overflow-y: auto;
+}
 .anvil-role-outlined-button > .btn[disabled], .anvil-role-outlined-button.file-loader.anvil-disabled>label {
   border-color: %color:On Disabled%;
   background-color: transparent;
