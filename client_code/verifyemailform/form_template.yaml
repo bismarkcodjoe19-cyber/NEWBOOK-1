@@ -52,6 +52,6 @@ components:
   properties: {align: right, bold: true, enabled: true, icon: 'fa:arrow-right', role: filled-button, text: request code, visible: true}
   type: Button
 container:
-  properties: {col_widths: '{"DSETSQ":17,"CQXDDT":3,"FZMJPU":5,"VKOOUE":11,"LPJEGC":8,"CYZWLR":8,"KZAOES":8}'}
+  properties: {col_widths: '{"DSETSQ":17,"CQXDDT":5,"FZMJPU":3,"VKOOUE":11,"LPJEGC":8,"CYZWLR":8,"KZAOES":8}'}
   type: ColumnPanel
 is_package: true
