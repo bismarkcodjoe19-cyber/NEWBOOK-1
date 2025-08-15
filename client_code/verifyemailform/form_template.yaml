@@ -63,10 +63,6 @@ components:
   name: button_2
   properties: {align: right, bold: true, text: Resend}
   type: Button
-- layout_properties: {grid_position: 'XGGLXY,XMIAYP'}
-  name: spacer_2
-  properties: {height: 32}
-  type: Spacer
 - layout_properties: {grid_position: 'MXPSSS,MGCTTD'}
   name: button_1
   properties: {align: right, bold: true, enabled: true, icon: 'fa:arrow-right', icon_align: right, role: filled-button, text: Continue, visible: true}
