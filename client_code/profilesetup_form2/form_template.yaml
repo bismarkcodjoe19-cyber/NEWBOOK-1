@@ -16,22 +16,51 @@ components:
     name: spacer_1
     properties: {height: 32}
     type: Spacer
+  - layout_properties: {grid_position: 'DMXQTC,RGKSCF'}
+    name: image_2
+    properties: {height: 66, source: _/theme/Copilot_20250816_192021.png}
+    type: Image
   - layout_properties: {grid_position: 'DMXQTC,EEBXOZ'}
     name: label_2
-    properties: {align: center, bold: true, icon: '', role: null, text: Connect with people(Friends)}
+    properties: {align: left, bold: true, font_size: 17, icon: 'fa:connectdevelop', role: null, text: Connect with people(Friends)}
     type: Label
   - components:
-    - layout_properties: {}
+    - layout_properties: {column: ''}
       name: text_box_1
-      properties: {enabled: true, italic: true, placeholder: Search for users, role: outlined, visible: true}
+      properties:
+        enabled: true
+        hide_text: false
+        italic: true
+        margin: [null, 26, null, 15]
+        placeholder: Search for users
+        role: outlined
+        visible: true
       type: TextBox
+    - layout_properties: {}
+      name: repeating_panel_1
+      properties: {item_template: suggestionform}
+      type: RepeatingPanel
+    - layout_properties: {}
+      name: linear_panel_1
+      properties: {}
+      type: LinearPanel
     layout_properties: {grid_position: 'HSEJOY,AWSCLR'}
     name: data_row_panel_1
     properties: {}
     type: DataRowPanel
+  - layout_properties: {grid_position: 'HSEJOY,RFDOVE'}
+    name: button_1
+    properties:
+      align: left
+      icon: fa:search
+      role: filled-button
+      spacing:
+        margin: [2, 11, null, 0]
+      text: Search
+    type: Button
   layout_properties: {grid_position: 'URYYDV,OIXLED'}
   name: column_panel_1
-  properties: {col_widths: '{"MMNVKU":20,"RRFGNG":40}', role: elevated-card}
+  properties: {col_widths: '{"MMNVKU":20,"RRFGNG":40,"RGKSCF":20,"EEBXOZ":40}', role: elevated-card}
   type: ColumnPanel
 container: {type: ColumnPanel}
 is_package: true
