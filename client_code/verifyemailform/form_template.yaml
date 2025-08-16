@@ -17,7 +17,7 @@ components:
   type: Label
 - layout_properties: {grid_position: 'YKPRPN,HYDZTU'}
   name: label_4
-  properties: {bold: true, italic: true, text: 'Hint : Check your email for link'}
+  properties: {bold: true, foreground: '#709a32', italic: true, text: 'Hint : Check your email for link'}
   type: Label
 - layout_properties: {grid_position: 'CWRKEF,PNZOVF'}
   name: spacer_1
