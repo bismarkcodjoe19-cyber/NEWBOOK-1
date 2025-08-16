@@ -68,6 +68,6 @@ components:
     text: Ato Forson
   type: Label
 container:
-  properties: {col_widths: '{"WKXTYZ":15,"CTEWXF":45,"XYQNSA":15,"ZCJVWL":45,"BFUUJD":15,"LAZYWP":45,"XIPLDN":15,"GQZCXP":45,"KKGZHA":15,"SQNWOZ":45}', tooltip: scrollable, visible: false}
+  properties: {col_widths: '{"WKXTYZ":15,"CTEWXF":45,"XYQNSA":15,"ZCJVWL":45,"BFUUJD":15,"LAZYWP":45,"XIPLDN":15,"GQZCXP":45,"KKGZHA":15,"SQNWOZ":45}', tooltip: scrollable, visible: true}
   type: ColumnPanel
 is_package: true
