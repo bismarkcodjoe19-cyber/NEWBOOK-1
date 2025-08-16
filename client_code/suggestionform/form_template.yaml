@@ -1,13 +1,19 @@
 components:
 - components:
-  - name: image_1
-    properties: {}
+  - layout_properties: {}
+    name: image_1
+    properties: {height: 40}
     type: Image
   layout_properties: {grid_position: 'IGPWCA,DLWOJR'}
   name: linear_panel_1
   properties: {}
   type: LinearPanel
-- layout_properties: {grid_position: 'APZUQQ,OSMBQQ'}
+- components:
+  - layout_properties: {}
+    name: image_2
+    properties: {height: 36, source: _/theme/create an uncolored .png}
+    type: Image
+  layout_properties: {grid_position: 'ZUUKPX,KPJNMX'}
   name: linear_panel_2
   properties: {}
   type: LinearPanel
