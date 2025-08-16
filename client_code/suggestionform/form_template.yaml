@@ -1,3 +1,73 @@
-components: []
-container: {type: ColumnPanel}
+components:
+- components:
+  - layout_properties: {}
+    name: image_1
+    properties: {height: 38, source: _/theme/create an uncolored .png}
+    type: Image
+  layout_properties: {grid_position: 'AOMQWC,WKXTYZ'}
+  name: data_row_panel_1
+  properties: {}
+  type: DataRowPanel
+- layout_properties: {grid_position: 'AOMQWC,CTEWXF'}
+  name: label_1
+  properties: {text: Rita Codjoe}
+  type: Label
+- components:
+  - layout_properties: {}
+    name: image_3
+    properties: {height: 38, source: _/theme/create an uncolored .png}
+    type: Image
+  layout_properties: {grid_position: 'IZZNEU,XYQNSA'}
+  name: data_row_panel_2
+  properties: {}
+  type: DataRowPanel
+- layout_properties: {grid_position: 'IZZNEU,ZCJVWL'}
+  name: label_2
+  properties: {text: Bismark Codjoe}
+  type: Label
+- components:
+  - layout_properties: {}
+    name: image_2
+    properties: {height: 39, source: _/theme/create an uncolored .png}
+    type: Image
+  layout_properties: {grid_position: 'XFVSZO,BFUUJD'}
+  name: data_row_panel_3
+  properties: {}
+  type: DataRowPanel
+- layout_properties: {grid_position: 'XFVSZO,LAZYWP'}
+  name: label_3
+  properties: {text: Benson Adangabe}
+  type: Label
+- components:
+  - layout_properties: {}
+    name: image_4
+    properties: {height: 41, source: _/theme/create an uncolored .png}
+    type: Image
+  layout_properties: {grid_position: 'OSCUMY,XIPLDN'}
+  name: data_row_panel_4
+  properties: {}
+  type: DataRowPanel
+- layout_properties: {grid_position: 'OSCUMY,GQZCXP'}
+  name: label_4
+  properties: {text: Benjamin Budu}
+  type: Label
+- components:
+  - layout_properties: {}
+    name: image_5
+    properties: {height: 37, source: _/theme/create an uncolored .png}
+    type: Image
+  layout_properties: {grid_position: 'XBAWMY,KKGZHA'}
+  name: data_row_panel_5
+  properties: {}
+  type: DataRowPanel
+- layout_properties: {grid_position: 'XBAWMY,SQNWOZ'}
+  name: label_5
+  properties:
+    spacing:
+      margin: [null, 0, null, null]
+    text: Ato Forson
+  type: Label
+container:
+  properties: {col_widths: '{"WKXTYZ":15,"CTEWXF":45,"XYQNSA":15,"ZCJVWL":45,"BFUUJD":15,"LAZYWP":45,"XIPLDN":15,"GQZCXP":45,"KKGZHA":15,"SQNWOZ":45}', tooltip: scrollable, visible: false}
+  type: ColumnPanel
 is_package: true
