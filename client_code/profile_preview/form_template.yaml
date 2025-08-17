@@ -10,7 +10,7 @@ components:
     type: Label
   layout_properties: {grid_position: 'WICFDX,NLLBXX'}
   name: column_panel_1
-  properties: {col_widths: '{"JOQDBX":15,"AJZZQW":39}'}
+  properties: {col_widths: '{"JOQDBX":15,"AJZZQW":39}', role: elevated-card}
   type: ColumnPanel
 - components:
   - layout_properties: {grid_position: 'IRZFRP,JQMBXI'}
@@ -23,11 +23,11 @@ components:
     type: Label
   - layout_properties: {grid_position: 'DZNVZG,TANVXE'}
     name: button_2
-    properties: {icon: 'fa:send', role: filled-button, text: Send Vibe}
+    properties: {font_size: 17, icon: 'fa:send', role: filled-button, text: Send Vibe}
     type: Button
   layout_properties: {grid_position: 'QGSSZZ,XWTBHT'}
   name: column_panel_2
-  properties: {}
+  properties: {role: elevated-card}
   type: ColumnPanel
 - layout_properties: {grid_position: 'JNENWS,LJHMNP'}
   name: label_3
@@ -35,24 +35,28 @@ components:
   type: Label
 - layout_properties: {grid_position: 'ZTAPWN,QJGTDW'}
   name: image_3
-  properties: {height: 41, source: _/theme/Copilot_20250817_212157.png}
+  properties: {height: 49, source: _/theme/Copilot_20250817_212157.png}
   type: Image
 - layout_properties: {grid_position: 'ZTAPWN,SJNVRH'}
   name: label_6
   properties: {bold: true, font_size: 21, icon: '', italic: false, text: 'Location: Chelsea - United Kingdom'}
   type: Label
-- layout_properties: {grid_position: 'NOASZU,YRHKZN FYADPE,GJQXUH'}
+- layout_properties: {grid_position: 'TNNVOA,BRKOQW'}
+  name: spacer_1
+  properties: {height: 32}
+  type: Spacer
+- layout_properties: {grid_position: 'NOASZU,YRHKZN'}
   name: label_4
   properties: {bold: true, font_size: 21, icon: 'fa:connectdevelop', text: 'Friends Connected👨‍👨‍👧‍👦: 109K'}
   type: Label
-- layout_properties: {grid_position: 'NOASZU,YRHKZN PPZZRM,CUFAGX'}
-  name: button_1
-  properties: {font_size: 18, icon: 'fa:connectdevelop', role: filled-button, text: Connect}
-  type: Button
 - layout_properties: {grid_position: 'NOASZU,DYHCIZ'}
   name: label_5
   properties: {bold: true, font: '', font_size: 21, icon: 'fa:connectdevelop', text: 'Friends Connecting👨‍👨‍👧‍👦: 20K'}
   type: Label
+- layout_properties: {grid_position: 'VNHUGR,YFPPVR'}
+  name: button_1
+  properties: {font_size: 18, icon: 'fa:connectdevelop', role: filled-button, text: Connect}
+  type: Button
 container:
   properties: {col_widths: '{"YRHKZN":35,"DYHCIZ":25,"QJGTDW":5,"SJNVRH":55}'}
   type: ColumnPanel
