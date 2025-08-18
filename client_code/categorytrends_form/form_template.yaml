@@ -1,0 +1,112 @@
+components:
+- components:
+  - layout_properties: {grid_position: 'JRMIRV,FRFEKN'}
+    name: outlined_button_1
+    properties: {align: right, role: null, text: 'HELP?'}
+    type: Button
+  - layout_properties: {grid_position: 'PSKPOC,JUBXRQ'}
+    name: image_1
+    properties: {height: 55, source: _/theme/nb.png}
+    type: Image
+  - layout_properties: {grid_position: 'PSKPOC,HDFURQ'}
+    name: label_1
+    properties: {align: left, bold: true, role: headline, text: '          NEWBOOK'}
+    type: Label
+  - layout_properties: {grid_position: 'NRIGZX,AICGYG'}
+    name: spacer_1
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'GNFCVI,FNHKYV'}
+    name: label_2
+    properties: {align: center, bold: true, font_size: 18, icon: 'fa:star', text: Select Category Trends}
+    type: Label
+  - layout_properties: {grid_position: 'UIOUFS,KNYMNC'}
+    name: check_box_17
+    properties: {align: left, bold: true, text: Select all}
+    type: CheckBox
+  - components:
+    - layout_properties: {grid_position: 'ZULHOQ,DENIOQ'}
+      name: check_box_1
+      properties:
+        bold: false
+        checked: false
+        font_size: 16
+        spacing:
+          margin: [1, null, null, null]
+          padding: [10, null, null, null]
+        text: 🎗Health & Fitness
+      type: CheckBox
+    - layout_properties: {grid_position: 'ZULHOQ,JXXUIW'}
+      name: check_box_2
+      properties: {text: ⚽Sports}
+      type: CheckBox
+    - layout_properties: {grid_position: 'DYDCEZ,IRTIVF'}
+      name: check_box_3
+      properties: {text: 💽Entertainment}
+      type: CheckBox
+    - layout_properties: {grid_position: 'DYDCEZ,XVLZAQ'}
+      name: check_box_4
+      properties: {text: 🎮Gaming}
+      type: CheckBox
+    - layout_properties: {grid_position: 'TBSPMQ,IJGTVD MUIBNX,IQRMKE'}
+      name: check_box_5
+      properties: {text: 🍗Food & Nutrition}
+      type: CheckBox
+    - layout_properties: {grid_position: 'TBSPMQ,IJGTVD GTDIVF,NUJBBI'}
+      name: check_box_7
+      properties: {text: 💻Computing}
+      type: CheckBox
+    - layout_properties: {grid_position: 'TBSPMQ,IJGTVD IJJWQB,MMBFNX'}
+      name: check_box_9
+      properties: {text: 💲Politics}
+      type: CheckBox
+    - layout_properties: {grid_position: 'TBSPMQ,IJGTVD HWJHKD,YBOEBO'}
+      name: check_box_11
+      properties: {text: ✈Travel & Tour}
+      type: CheckBox
+    - layout_properties: {grid_position: 'TBSPMQ,IJGTVD UTRXBQ,HBJTJW'}
+      name: check_box_13
+      properties: {text: 💼Business}
+      type: CheckBox
+    - layout_properties: {grid_position: 'TBSPMQ,IJGTVD NXRFAD,INIJQF'}
+      name: check_box_15
+      properties: {text: 🚗Driving}
+      type: CheckBox
+    - layout_properties: {grid_position: 'TBSPMQ,ZRRMCW UIBTOP,HVABNC'}
+      name: check_box_6
+      properties: {text: 🩺Science & Technology}
+      type: CheckBox
+    - layout_properties: {grid_position: 'TBSPMQ,ZRRMCW CEDWKT,URDBCK'}
+      name: check_box_8
+      properties: {text: 🎭Arts & Design}
+      type: CheckBox
+    - layout_properties: {grid_position: 'TBSPMQ,ZRRMCW LDXMTZ,EDEYFZ'}
+      name: check_box_10
+      properties: {text: 🎧Music}
+      type: CheckBox
+    - layout_properties: {grid_position: 'TBSPMQ,ZRRMCW IHJCOR,ANJWFI'}
+      name: check_box_12
+      properties: {text: 👨‍👨‍👧‍👧Lifestyle}
+      type: CheckBox
+    - layout_properties: {grid_position: 'TBSPMQ,ZRRMCW CSYNTA,BZQNJC'}
+      name: check_box_14
+      properties: {text: 📝Education}
+      type: CheckBox
+    - layout_properties: {grid_position: 'TBSPMQ,ZRRMCW RLHKKH,DRCAUY'}
+      name: check_box_16
+      properties: {text: 👠Fashion}
+      type: CheckBox
+    - layout_properties: {grid_position: 'KWDEBY,YSFGDX'}
+      name: button_1
+      properties: {align: right, icon: '', role: filled-button, text: Complete}
+      type: Button
+    layout_properties: {grid_position: 'WAIIQX,FOJACK'}
+    name: column_panel_2
+    properties: {}
+    type: ColumnPanel
+  layout_properties: {grid_position: 'UXLTSA,QSCFTV'}
+  name: column_panel_1
+  properties: {col_widths: '{"JUBXRQ":20,"HDFURQ":40}', role: elevated-card}
+  type: ColumnPanel
+container: {type: ColumnPanel}
+is_package: true
