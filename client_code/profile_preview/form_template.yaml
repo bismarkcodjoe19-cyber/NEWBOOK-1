@@ -75,6 +75,65 @@ components:
   name: button_1
   properties: {font_size: 18, icon: 'fa:connectdevelop', role: filled-button, text: Connect}
   type: Button
+- layout_properties: {grid_position: 'VKMAUY,CXAHBR'}
+  name: spacer_3
+  properties: {height: 32}
+  type: Spacer
+- components:
+  - layout_properties: {grid_position: 'RZHVWY,TJDZPL'}
+    name: button_5
+    properties:
+      bold: true
+      font_size: 19
+      icon: ''
+      spacing:
+        margin: [0, null, null, null]
+        padding: [0, null, null, null]
+      text: . . .
+    type: Button
+  - layout_properties: {grid_position: 'ZRNUEK,ICTAMB'}
+    name: image_4
+    properties: {height: 49, horizontal_align: right, source: _/theme/create an uncolored .png}
+    type: Image
+  - layout_properties: {grid_position: 'ZRNUEK,ENSOZS'}
+    name: label_7
+    properties: {align: center, icon: 'fa:send', icon_align: left, text: Send Vibe}
+    type: Label
+  - layout_properties: {grid_position: 'ZRNUEK,ACSAJV'}
+    name: label_8
+    properties:
+      icon: fa:video-camera
+      spacing:
+        padding: [9, null, null, null]
+    type: Label
+  - layout_properties: {grid_position: 'ZRNUEK,IVLBDU'}
+    name: label_9
+    properties:
+      icon: fa:phone
+      spacing:
+        padding: [7, null, null, null]
+    type: Label
+  - layout_properties: {grid_position: 'MIFDPZ,YGDNVX'}
+    name: column_panel_4
+    properties: {}
+    type: ColumnPanel
+  - layout_properties: {grid_position: 'DZRWPF,CJCKID'}
+    name: text_box_1
+    properties: {italic: true, placeholder: Enter vibe here, role: outlined, visible: false}
+    type: TextBox
+  - layout_properties: {grid_position: 'DZRWPF,BAGVAF'}
+    name: button_4
+    properties: {align: left, icon: 'fa:send', icon_align: left_edge, text: ''}
+    type: Button
+  layout_properties: {grid_position: 'VKMAUY,UQXJZQ'}
+  name: column_panel_3
+  properties:
+    border: cc
+    col_widths: '{"ICTAMB":15,"ENSOZS":45,"ACSAJV":5,"IVLBDU":10,"CJCKID":50,"BAGVAF":10}'
+    role: outlined-card
+    spacing:
+      padding: [8, null, null, null]
+  type: ColumnPanel
 container:
   properties: {col_widths: '{"YRHKZN":35,"DYHCIZ":25,"QJGTDW":5,"SJNVRH":55}'}
   type: ColumnPanel
