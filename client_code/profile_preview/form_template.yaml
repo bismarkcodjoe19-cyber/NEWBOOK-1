@@ -73,7 +73,7 @@ components:
   type: Spacer
 - layout_properties: {grid_position: 'VNHUGR,YFPPVR'}
   name: button_1
-  properties: {align: left, font_size: 18, icon: 'fa:connectdevelop', role: filled-button, text: Connect}
+  properties: {align: center, font_size: 18, icon: 'fa:connectdevelop', role: filled-button, text: Connect}
   type: Button
 - layout_properties: {grid_position: 'VKMAUY,CXAHBR'}
   name: spacer_3
