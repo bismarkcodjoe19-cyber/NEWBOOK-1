@@ -128,13 +128,102 @@ components:
         margin: [null, 0, null, null]
       text: Create Pulse
     type: Button
-  - layout_properties: {grid_position: 'TOXRIU,FTHUYR ZYPHAS,DZTHKR'}
+  - layout_properties: {grid_position: 'TOXRIU,FTHUYR WFVRWF,CRAFDM'}
+    name: image_9
+    properties: {height: 46, horizontal_align: left, source: _/theme/Copilot_20250821_090218.png}
+    type: Image
+  - components:
+    - layout_properties: {grid_position: 'OXWDRR,YCJIGW'}
+      name: image_3
+      properties: {height: 47, horizontal_align: left, source: _/theme/uncolored design of .png}
+      type: Image
+    - layout_properties: {grid_position: 'OXWDRR,FHXKBT'}
+      name: label_12
+      properties: {text: John Doe}
+      type: Label
+    - layout_properties: {grid_position: 'FJZRYO,NEAHVQ'}
+      name: label_13
+      properties: {text: 'This is Mt Everest the biggest mountain. Do uou agree? , if yes then leave a like and comment YES I AGREE'}
+      type: Label
+    - layout_properties: {grid_position: 'XWWZYF,HHKBAK'}
+      name: image_7
+      properties: {height: 266, source: _/theme/Copilot_20250821_095820.png}
+      type: Image
+    - layout_properties: {grid_position: 'CDEVFP,ZUQXRW'}
+      name: label_16
+      properties: {font_size: 17, icon: 'fa:thumbs-up', text: 200k}
+      type: Label
+    - layout_properties: {grid_position: 'CDEVFP,YTZTWC'}
+      name: label_17
+      properties: {font_size: 17, icon: 'fa:comment', text: 18K}
+      type: Label
+    - layout_properties: {grid_position: 'CDEVFP,RNREFQ'}
+      name: label_18
+      properties: {font_size: 17, icon: 'fa:share', text: Share}
+      type: Label
+    layout_properties: {grid_position: 'TOXRIU,FTHUYR ZYPHAS,DZTHKR'}
     name: column_panel_4
-    properties: {}
+    properties: {col_widths: '{"YCJIGW":15,"FHXKBT":45,"ZUQXRW":15,"YTZTWC":20,"RNREFQ":45}', role: elevated-card}
+    type: ColumnPanel
+  - components:
+    - layout_properties: {grid_position: 'KCXYPH,FKXOEB'}
+      name: button_2
+      properties: {align: left, font_size: 24, icon: 'fa:thumbs-up', text: ''}
+      type: Button
+    - layout_properties: {grid_position: 'KCXYPH,NPQERW'}
+      name: label_14
+      properties:
+        bold: true
+        spacing:
+          margin: [null, 26, null, 0]
+          padding: [19, null, null, null]
+        text: 'Likes : 200K'
+      type: Label
+    - layout_properties: {grid_position: 'KRIZFC,NTVJHO'}
+      name: spacer_6
+      properties: {height: 55}
+      type: Spacer
+    - layout_properties: {grid_position: 'URBSIR,FTNSMH'}
+      name: button_3
+      properties: {font_size: 20, icon: 'fa:comment', text: ''}
+      type: Button
+    - layout_properties: {grid_position: 'URBSIR,GGMTAG IPBOMQ,KKGGRM'}
+      name: label_15
+      properties:
+        bold: true
+        icon: ''
+        spacing:
+          padding: [18, null, null, null]
+        text: 'Comments: 18K'
+      type: Label
+    - layout_properties: {grid_position: 'URBSIR,GGMTAG YUJEEX,DLHRUY'}
+      name: text_box_1
+      properties: {italic: true, placeholder: Comment here!, role: outlined, visible: false}
+      type: TextBox
+    - layout_properties: {grid_position: 'RMDFFX,NVQRFS'}
+      name: image_8
+      properties: {height: 101, source: _/theme/uncolored design of .png}
+      type: Image
+    - layout_properties: {grid_position: 'VJFFOD,JIHLAI'}
+      name: label_19
+      properties: {align: center, bold: true, text: 'Friends Connected: 180M'}
+      type: Label
+    - layout_properties: {grid_position: 'RJLCAD,HXSMGK'}
+      name: label_20
+      properties: {bold: true, italic: true, text: 'BIO: I love nature and I''am ready to explore it.'}
+      type: Label
+    layout_properties: {grid_position: 'TOXRIU,FTHUYR ZYPHAS,FVTLIU'}
+    name: column_panel_5
+    properties:
+      col_widths: '{"FKXOEB":15,"NPQERW":45,"FTNSMH":15,"GGMTAG":45}'
+      role: elevated-card
+      spacing:
+        margin: [0, null, null, null]
+        padding: [20, null, null, null]
     type: ColumnPanel
   layout_properties: {grid_position: 'NLAEQO,WOPBRP'}
   name: column_panel_2
-  properties: {col_widths: '{"EZLHFT":5,"FTHUYR":20}'}
+  properties: {col_widths: '{"EZLHFT":5,"FTHUYR":20,"DZTHKR":40,"FVTLIU":20,"WUJCLM":15,"CRAFDM":45}'}
   type: ColumnPanel
 container: {type: ColumnPanel}
 is_package: true
