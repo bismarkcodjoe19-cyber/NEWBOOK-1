@@ -11,7 +11,7 @@ components:
       type: Label
     layout_properties: {grid_position: 'APWGUT,MECLEG SRZPFE,GXNYUQ'}
     name: column_panel_2
-    properties: {}
+    properties: {role: elevated-card}
     type: ColumnPanel
   - layout_properties: {grid_position: 'APWGUT,MECLEG WJOWKP,XPEMBC'}
     name: image_2
@@ -64,7 +64,7 @@ components:
     type: Button
   layout_properties: {grid_position: 'VCPQAK,JOGWAW'}
   name: column_panel_1
-  properties: {}
+  properties: {role: elevated-card}
   type: ColumnPanel
 container:
   properties: {col_widths: '{"JOGWAW":45}', visible: true}
