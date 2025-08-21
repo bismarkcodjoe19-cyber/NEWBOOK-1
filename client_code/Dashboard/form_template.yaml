@@ -1,0 +1,140 @@
+components:
+- components:
+  - layout_properties: {grid_position: 'LOQKLH,OGMODU'}
+    name: image_1
+    properties: {height: 51, source: _/theme/nb.png}
+    type: Image
+  - layout_properties: {grid_position: 'LOQKLH,ZNJMPG'}
+    name: label_1
+    properties: {bold: true, role: headline, text: NEWBOOK}
+    type: Label
+  - layout_properties: {grid_position: 'EEFZCM,YKGEOO'}
+    name: spacer_1
+    properties: {height: 55}
+    type: Spacer
+  - layout_properties: {grid_position: 'EEFZCM,OSOYWK SVNOPT,PFVYBH'}
+    name: image_2
+    properties:
+      height: 43
+      margin: [9, 26, null, 154]
+      source: _/theme/Copilot_20250821_083724.png
+    type: Image
+  - layout_properties: {grid_position: 'EEFZCM,OSOYWK ZRODMY,ILDWOG'}
+    name: label_3
+    properties:
+      align: right
+      spacing:
+        margin: [null, 25, null, 13]
+      text: Search
+    type: Label
+  - layout_properties: {grid_position: 'EEFZCM,SSXLOM NRGDDU,DWQRFG'}
+    name: label_2
+    properties:
+      align: center
+      font_size: 23
+      icon: fa:gear
+      spacing:
+        margin: [8, null, 10, null]
+        padding: [23, null, null, null]
+    type: Label
+  - layout_properties: {grid_position: 'EEFZCM,SSXLOM DEAXYT,ZLPUML'}
+    name: label_4
+    properties:
+      align: right
+      spacing:
+        margin: [1, 11, null, null]
+      text: Settings
+    type: Label
+  layout_properties: {grid_position: 'DEGGIY,PHIFXA'}
+  name: column_panel_1
+  properties: {background: 'theme:Background', col_widths: '{"YKGEOO":36,"SSXLOM":6,"OSOYWK":14,"ZNJMPG":40,"OGMODU":25}', role: elevated-card}
+  type: ColumnPanel
+- components:
+  - components:
+    - layout_properties: {grid_position: 'BJHLBC,JVZUKP'}
+      name: label_5
+      properties: {align: center, font_size: 26, foreground: '#2514a3', icon: 'fa:home'}
+      type: Label
+    - layout_properties: {grid_position: 'HNXSAS,DLCKDL'}
+      name: label_7
+      properties: {align: center, foreground: 'theme:Primary', role: body, text: Home}
+      type: Label
+    - layout_properties: {grid_position: 'DKPTZP,RWWQXE'}
+      name: spacer_2
+      properties: {height: 14}
+      type: Spacer
+    - layout_properties: {grid_position: 'YBTSAG,OQRLYR'}
+      name: image_4
+      properties: {background: '', height: 40, source: _/theme/Create a big letter .png}
+      type: Image
+    - layout_properties: {grid_position: 'FJLFUO,HVXQEB'}
+      name: label_8
+      properties: {align: center, foreground: 'theme:Primary', role: body, text: Codworld messenger}
+      type: Label
+    - layout_properties: {grid_position: 'FSXIFG,CDTUPL'}
+      name: spacer_3
+      properties: {height: 11}
+      type: Spacer
+    - layout_properties: {grid_position: 'FKYHTT,HRJUVG'}
+      name: image_6
+      properties: {height: 45, source: _/theme/Copilot_20250821_092703.png}
+      type: Image
+    - layout_properties: {grid_position: 'KFDVNJ,FIFTVK'}
+      name: label_9
+      properties: {align: center, foreground: 'theme:Primary', role: body, text: Videos}
+      type: Label
+    - layout_properties: {grid_position: 'YDUEHQ,OKDUOZ'}
+      name: spacer_5
+      properties: {height: 15}
+      type: Spacer
+    - layout_properties: {grid_position: 'QQTJQR,NCWVAG'}
+      name: label_6
+      properties:
+        align: center
+        font_size: 23
+        foreground: '#4622aa'
+        icon: fa:plus
+        spacing:
+          margin: [0, null, 26, null]
+          padding: [null, null, 41, null]
+        text: ''
+      type: Label
+    - layout_properties: {grid_position: 'DYTJOL,TXHIPB'}
+      name: label_10
+      properties: {align: center, foreground: 'theme:Primary', role: body, text: Create post}
+      type: Label
+    - layout_properties: {grid_position: 'YMXNDL,VHDFYE'}
+      name: spacer_4
+      properties: {height: 11}
+      type: Spacer
+    - layout_properties: {grid_position: 'VDBEKZ,GTJNRL'}
+      name: image_5
+      properties: {height: 41, source: _/theme/Copilot_20250821_092233.png}
+      type: Image
+    - layout_properties: {grid_position: 'GPGLKN,LNQMRV'}
+      name: label_11
+      properties: {align: center, foreground: 'theme:Primary', text: My Book}
+      type: Label
+    layout_properties: {grid_position: 'TOXRIU,EZLHFT'}
+    name: column_panel_3
+    properties: {role: elevated-card}
+    type: ColumnPanel
+  - layout_properties: {grid_position: 'TOXRIU,FTHUYR WFVRWF,WUJCLM'}
+    name: button_1
+    properties:
+      align: left
+      icon: fa:plus
+      spacing:
+        margin: [null, 0, null, null]
+      text: Create Pulse
+    type: Button
+  - layout_properties: {grid_position: 'TOXRIU,FTHUYR ZYPHAS,DZTHKR'}
+    name: column_panel_4
+    properties: {}
+    type: ColumnPanel
+  layout_properties: {grid_position: 'NLAEQO,WOPBRP'}
+  name: column_panel_2
+  properties: {col_widths: '{"EZLHFT":5,"FTHUYR":20}'}
+  type: ColumnPanel
+container: {type: ColumnPanel}
+is_package: true
