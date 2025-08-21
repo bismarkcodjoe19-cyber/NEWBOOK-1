@@ -204,6 +204,10 @@ components:
       name: image_8
       properties: {height: 65, source: _/theme/uncolored design of .png}
       type: Image
+    - layout_properties: {grid_position: 'FZRSCZ,GRRRCE'}
+      name: label_21
+      properties: {align: center, bold: true, foreground: 'theme:On Primary Container', text: Connected}
+      type: Label
     - layout_properties: {grid_position: 'VJFFOD,JIHLAI'}
       name: label_19
       properties: {align: center, bold: true, text: 'Friends Connected: 180M'}
