@@ -1,0 +1,82 @@
+components:
+- components:
+  - layout_properties: {grid_position: 'ESIETE,TGHPBW'}
+    name: image_1
+    properties:
+      height: 58
+      margin: [null, null, null, 102]
+      source: _/theme/uncolored design of .png
+    type: Image
+  - layout_properties: {grid_position: 'ESIETE,FZMLPM'}
+    name: label_1
+    properties:
+      bold: true
+      font_size: 16
+      spacing:
+        margin: [null, 129, null, null]
+        padding: [18, null, null, null]
+      text: John Doe
+    type: Label
+  - layout_properties: {grid_position: 'ESIETE,HMDESP'}
+    name: label_2
+    properties: {bold: true, font_size: 16, foreground: 'theme:On Primary Container', icon: 'fa:clock-o', text: 'Duration: 1 Hour'}
+    type: Label
+  - layout_properties: {grid_position: 'CKFUQX,BGCFBX'}
+    name: label_3
+    properties: {align: center, bold: true, foreground: 'theme:On Primary Container', role: headline, text: John Doe Needs Advice!!!}
+    type: Label
+  - layout_properties: {grid_position: 'DSTCYP,EMOALT'}
+    name: spacer_1
+    properties: {height: 46}
+    type: Spacer
+  - layout_properties: {grid_position: 'JDPTIP,NQQUGS'}
+    name: label_4
+    properties: {align: center, font_size: 20, text: '🙏🙏Guys am off to work but I need good work advice from you. Please can you spark me with any work advice?'}
+    type: Label
+  - components:
+    - layout_properties: {grid_position: 'CMQTWA,XOVWVW'}
+      name: button_1
+      properties:
+        align: left
+        font_size: 20
+        foreground: '#e01a1a'
+        icon: fa:heart
+        spacing:
+          padding: [null, null, null, 41]
+        text: Vibe
+      type: Button
+    - layout_properties: {grid_position: 'CMQTWA,FJMRIS'}
+      name: label_5
+      properties:
+        font_size: 20
+        spacing:
+          margin: [null, 25, null, null]
+          padding: [10, null, 9, 0]
+        text: :200
+      type: Label
+    - layout_properties: {grid_position: 'CMQTWA,KJCWBF'}
+      name: button_2
+      properties: {align: left, font_size: 20, icon: 'fa:star', text: ' Spark'}
+      type: Button
+    - layout_properties: {grid_position: 'CMQTWA,YGJVBY'}
+      name: label_6
+      properties:
+        font_size: 20
+        spacing:
+          padding: [10, null, null, null]
+        text: :24
+      type: Label
+    layout_properties: {grid_position: 'SISVKO,AMQXTC'}
+    name: column_panel_2
+    properties: {col_widths: '{"XOVWVW":15,"FJMRIS":5,"KJCWBF":15,"YGJVBY":60}'}
+    type: ColumnPanel
+  layout_properties: {grid_position: 'UCXENY,AHTOUJ'}
+  name: column_panel_1
+  properties: {col_widths: '{"TGHPBW":15,"FZMLPM":45}', role: elevated-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'FLFAFM,LFKLRI'}
+  name: button_3
+  properties: {icon: '', role: filled-button, text: Activate}
+  type: Button
+container: {type: ColumnPanel}
+is_package: true
