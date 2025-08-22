@@ -1,0 +1,111 @@
+components:
+- components:
+  - layout_properties: {grid_position: 'YOGIZD,NUKJIX'}
+    name: label_1
+    properties: {align: center, bold: true, role: headline, text: Your Pulse History}
+    type: Label
+  - layout_properties: {grid_position: 'CCQZMU,UORNZK'}
+    name: label_2
+    properties: {align: right, bold: true, text: 'Filter:'}
+    type: Label
+  - layout_properties: {grid_position: 'CCQZMU,PGJWRG'}
+    name: drop_down_1
+    properties:
+      items: [All Pulses, Recent Pulses, Old Pulses]
+      role: outlined
+    type: DropDown
+  - layout_properties: {grid_position: 'CCQZMU,QPKBQC'}
+    name: label_3
+    properties: {align: right, bold: true, text: 'Sort by:'}
+    type: Label
+  - layout_properties: {grid_position: 'CCQZMU,AJEGOA'}
+    name: drop_down_2
+    properties:
+      items: [Date, Newest, Oldest]
+      role: outlined
+    type: DropDown
+  - layout_properties: {grid_position: 'CCQZMU,BHRMEP'}
+    name: spacer_1
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'GGJUMJ,HDRFFI'}
+    name: spacer_2
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'LSLMZI,GAOFXO'}
+    name: label_4
+    properties: {bold: true, icon: 'fa:clock-o', text: 'Aug 12.    '}
+    type: Label
+  - layout_properties: {grid_position: 'LSLMZI,NAVYWF QLAGWQ,LDJPEU'}
+    name: label_13
+    properties: {align: right, role: body, text: Lasted for 1 day}
+    type: Label
+  - layout_properties: {grid_position: 'LSLMZI,NAVYWF LRUKYU,VDLRDY'}
+    name: label_5
+    properties:
+      text: |-
+        🤝Seeking Collaboration.
+        I want to create a new app called NewBook. Who wants to help? Lets create a chat group.
+    type: Label
+  - layout_properties: {grid_position: 'LSLMZI,NAVYWF WEBLIM,YPCUFH'}
+    name: label_10
+    properties: {align: right, icon: 'fa:eye', role: body, text: Public}
+    type: Label
+  - layout_properties: {grid_position: 'FLAQSV,BXBKZR'}
+    name: spacer_3
+    properties: {height: 16}
+    type: Spacer
+  - layout_properties: {grid_position: 'YNDGIT,FETNCN'}
+    name: label_6
+    properties: {bold: true, icon: 'fa:clock-o', text: Aug 9.}
+    type: Label
+  - layout_properties: {grid_position: 'YNDGIT,CXFIUF SJYMPP,GDAKVA'}
+    name: label_14
+    properties: {align: right, role: body, text: Lasted for 1 Hour}
+    type: Label
+  - layout_properties: {grid_position: 'YNDGIT,CXFIUF KBJPIJ,QXRILQ'}
+    name: label_7
+    properties:
+      text: |-
+        🔗Need Advice.
+        I am getting ready for work but I need good work advice.........
+    type: Label
+  - layout_properties: {grid_position: 'YNDGIT,CXFIUF EHBAKQ,DYNFNX'}
+    name: label_11
+    properties: {align: right, icon: 'fa:eye', role: body, text: Public}
+    type: Label
+  - layout_properties: {grid_position: 'GTVRAI,PEWDBF'}
+    name: spacer_4
+    properties: {height: 13}
+    type: Spacer
+  layout_properties: {grid_position: 'DHHUGG,YONJJF'}
+  name: column_panel_1
+  properties: {col_widths: '{"UORNZK":10,"PGJWRG":25,"QPKBQC":15,"AJEGOA":25,"BHRMEP":27,"GAOFXO":15,"NAVYWF":45,"FETNCN":15,"CXFIUF":45}', role: elevated-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'JYFPBP,VTIRKG'}
+  name: label_8
+  properties: {bold: true, icon: 'fa:clock-o', text: Aug 1.}
+  type: Label
+- layout_properties: {grid_position: 'JYFPBP,JOCJHA JUYGJN,MRVVUP'}
+  name: label_15
+  properties: {align: right, role: body, text: Lasted for A week}
+  type: Label
+- layout_properties: {grid_position: 'JYFPBP,JOCJHA XXDJCN,BIQAOW'}
+  name: label_9
+  properties:
+    text: |-
+      🙄Wants Inspiration.
+      I wish to be a great living footballer. I need someone to inspire me.
+  type: Label
+- layout_properties: {grid_position: 'JYFPBP,JOCJHA WHNUEM,XLECHJ'}
+  name: label_12
+  properties: {align: right, icon: 'fa:eye', role: body, text: Public}
+  type: Label
+- layout_properties: {grid_position: 'IUSZJB,CIVAXN'}
+  name: spacer_5
+  properties: {height: 16}
+  type: Spacer
+container:
+  properties: {col_widths: '{"VTIRKG":15,"JOCJHA":45}'}
+  type: ColumnPanel
+is_package: true
