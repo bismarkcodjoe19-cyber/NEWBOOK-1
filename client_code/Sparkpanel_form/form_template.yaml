@@ -24,77 +24,81 @@ components:
     name: outlined_button_4
     properties: {foreground: 'theme:Secondary', role: outlined-button, text: Advice🔗}
     type: Button
+  - layout_properties: {grid_position: 'KBSGJF,MAABIV'}
+    name: spacer_1
+    properties: {height: 41}
+    type: Spacer
+  - layout_properties: {grid_position: 'DTKKKZ,PWEZJR'}
+    name: button_1
+    properties: {font_size: 19, role: filled-button, text: Spark It}
+    type: Button
+  - layout_properties: {grid_position: 'OCSZKB,JZFUZF'}
+    name: label_8
+    properties: {bold: true, font_size: 19, text: 'Other Sparks:'}
+    type: Label
+  - layout_properties: {grid_position: 'RHWQML,MHQKSF'}
+    name: image_1
+    properties: {height: 42, source: _/theme/uncolored design of .png}
+    type: Image
+  - layout_properties: {grid_position: 'RHWQML,YOCBAK VLPDFZ,PBJHFE'}
+    name: label_2
+    properties:
+      bold: true
+      font_size: 16
+      spacing:
+        padding: [13, null, null, null]
+      text: Sarah
+    type: Label
+  - layout_properties: {grid_position: 'RHWQML,YOCBAK PJKRNT,CGKRXM'}
+    name: label_3
+    properties: {bold: true, font_size: 13, italic: true, text: 'Sparked:'}
+    type: Label
+  - layout_properties: {grid_position: 'RHWQML,YOCBAK FXIECD,LMCGVU'}
+    name: label_4
+    properties: {role: body, text: Listen to your Boss in all way.}
+    type: Label
+  - layout_properties: {grid_position: 'RHWQML,YOCBAK FXIECD,UQLGAW'}
+    name: button_2
+    properties: {font_size: 17, foreground: '#ed1d1d', icon: 'fa:heart', text: '4'}
+    type: Button
+  - layout_properties: {grid_position: 'RHWQML,YOCBAK FXSPCH,KOYBGA'}
+    name: spacer_2
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'GBGUJH,BCOWNR'}
+    name: image_2
+    properties: {height: 41, source: _/theme/uncolored design of .png}
+    type: Image
+  - layout_properties: {grid_position: 'GBGUJH,ZQMDPK TTSZNS,TVDYFB'}
+    name: label_5
+    properties:
+      bold: true
+      font_size: 16
+      spacing:
+        padding: [14, null, null, null]
+      text: Michael
+    type: Label
+  - layout_properties: {grid_position: 'GBGUJH,ZQMDPK PAVQZP,RJGASL'}
+    name: label_6
+    properties: {bold: true, font_size: 13, italic: true, text: 'Sparked:'}
+    type: Label
+  - layout_properties: {grid_position: 'GBGUJH,ZQMDPK WMTBAJ,EEPXTH'}
+    name: label_7
+    properties: {role: body, text: Commit yourself into the hands of the Lord first}
+    type: Label
+  - layout_properties: {grid_position: 'GBGUJH,ZQMDPK WMTBAJ,OPIMLA'}
+    name: button_3
+    properties: {font_size: 17, foreground: '#f42f2f', icon: 'fa:heart', text: '119'}
+    type: Button
+  - layout_properties: {grid_position: 'GBGUJH,ZQMDPK KYEYXH,NFZGFA'}
+    name: spacer_3
+    properties: {height: 32}
+    type: Spacer
   layout_properties: {grid_position: 'LGJPKO,GBFPYX'}
   name: column_panel_1
-  properties: {col_widths: '{"GIMGLA":20,"UDWMVL":15,"BXFNDM":25}'}
+  properties: {col_widths: '{"GIMGLA":20,"UDWMVL":15,"BXFNDM":25,"MHQKSF":2,"YOCBAK":35,"BCOWNR":5,"ZQMDPK":55}', role: elevated-card}
   type: ColumnPanel
-- layout_properties: {grid_position: 'BVIBHU,VVAVOW'}
-  name: spacer_1
-  properties: {height: 41}
-  type: Spacer
-- layout_properties: {grid_position: 'ACBIMT,CTDTGI'}
-  name: button_1
-  properties: {font_size: 19, role: filled-button, text: Spark It}
-  type: Button
-- layout_properties: {grid_position: 'MLKGAW,NCYDDR'}
-  name: image_1
-  properties: {height: 42, source: _/theme/uncolored design of .png}
-  type: Image
-- layout_properties: {grid_position: 'MLKGAW,BUAAQK RGIPBU,LXMYRA'}
-  name: label_2
-  properties:
-    bold: true
-    font_size: 16
-    spacing:
-      padding: [13, null, null, null]
-    text: Sarah
-  type: Label
-- layout_properties: {grid_position: 'MLKGAW,BUAAQK XGEWPS,LSMABY'}
-  name: label_3
-  properties: {bold: true, font_size: 13, italic: true, text: 'Sparked:'}
-  type: Label
-- layout_properties: {grid_position: 'MLKGAW,BUAAQK AFDCIQ,AOFUIQ'}
-  name: label_4
-  properties: {role: body, text: Listen to your Boss in all way.}
-  type: Label
-- layout_properties: {grid_position: 'MLKGAW,BUAAQK AFDCIQ,GJLLKP'}
-  name: button_2
-  properties: {font_size: 17, foreground: '#ed1d1d', icon: 'fa:heart', text: '4'}
-  type: Button
-- layout_properties: {grid_position: 'MLKGAW,BUAAQK ZKUXQT,DFWOPF'}
-  name: spacer_2
-  properties: {height: 32}
-  type: Spacer
-- layout_properties: {grid_position: 'LWUSDH,DMOMRL'}
-  name: image_2
-  properties: {height: 41, source: _/theme/uncolored design of .png}
-  type: Image
-- layout_properties: {grid_position: 'LWUSDH,DIBEAQ PYWQQE,CLZWDN'}
-  name: label_5
-  properties:
-    bold: true
-    font_size: 16
-    spacing:
-      padding: [14, null, null, null]
-    text: Michael
-  type: Label
-- layout_properties: {grid_position: 'LWUSDH,DIBEAQ KTXSFH,BPZHFE'}
-  name: label_6
-  properties: {bold: true, font_size: 13, italic: true, text: 'Sparked:'}
-  type: Label
-- layout_properties: {grid_position: 'LWUSDH,DIBEAQ DUIDLX,SDZCGM'}
-  name: label_7
-  properties: {role: body, text: Commit yourself into the hands of the Lord first}
-  type: Label
-- layout_properties: {grid_position: 'LWUSDH,DIBEAQ DUIDLX,XSOWKC'}
-  name: button_3
-  properties: {font_size: 17, foreground: '#f42f2f', icon: 'fa:heart', text: '119'}
-  type: Button
-- layout_properties: {grid_position: 'LWUSDH,DIBEAQ THHFVY,QAAUWP'}
-  name: spacer_3
-  properties: {height: 32}
-  type: Spacer
 container:
-  properties: {col_widths: '{"NCYDDR":5,"BUAAQK":55,"DMOMRL":5,"DIBEAQ":55}'}
+  properties: {col_widths: '{}'}
   type: ColumnPanel
 is_package: true
