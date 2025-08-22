@@ -1,5 +1,10 @@
 components:
-- layout_properties: {grid_position: 'BMSDWM,HQYBPU'}
+- components:
+  - layout_properties: {grid_position: 'IHPERL,ISPHHQ'}
+    name: label_1
+    properties: {align: center, bold: true, text: Your Pulse History}
+    type: Label
+  layout_properties: {grid_position: 'BMSDWM,HQYBPU'}
   name: column_panel_1
   properties: {}
   type: ColumnPanel
