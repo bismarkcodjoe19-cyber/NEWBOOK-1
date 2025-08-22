@@ -30,7 +30,7 @@ components:
     type: Label
   - layout_properties: {grid_position: 'XXMGTE,LXDRVX'}
     name: button_2
-    properties: {text: button_2}
+    properties: {icon: 'fa:star', text: Spark}
     type: Button
   layout_properties: {grid_position: 'NIAGUT,VLOQHO'}
   name: column_panel_1
