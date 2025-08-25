@@ -9,5 +9,7 @@ class profilesetup_form2(profilesetup_form2Template):
     # Any code you write here will run before the form opens.
 
   def text_box_1_pressed_enter(self, **event_args):
-    """This method is called when the user presses Enter in this text box"""
-    pass
+     query = self.text_box_1.text.lower()
+     results = [item for item in self.all_items if query in item.lower()]
+     print(results)  # You can replace this with logic to display results
+
