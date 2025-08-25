@@ -1,4 +1,4 @@
-from ._anvil_designer import Form1Template
+  from ._anvil_designer import Form1Template
 from anvil import *
 
 class Form1(Form1Template):
@@ -9,5 +9,5 @@ class Form1(Form1Template):
     # Any code you write here will run before the form opens.
 
   def submit_button_click(self, **event_args):
-    
+    self.text_label.text = 'Welc
 
