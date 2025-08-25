@@ -9,5 +9,5 @@ class Form1(Form1Template):
     # Any code you write here will run before the form opens.
 
   def submit_button_click(self, **event_args):
-    """This method is called when the button is clicked"""
-    when submit_button clicked show:Hello Bismark in text_label
+    
+
