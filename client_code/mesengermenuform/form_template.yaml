@@ -1,3 +1,17 @@
-components: []
+components:
+- components:
+  - layout_properties: {grid_position: 'YSJWOJ,ZWYLOS'}
+    name: label_1
+    properties: {align: center, bold: true, foreground: 'theme:On Primary Container', icon: '', role: headline, text: Menu . . .}
+    type: Label
+  - layout_properties: {grid_position: 'WTSQYM,RWGUTP'}
+    name: drop_down_1
+    properties:
+      items: [From personal chatroom, From group chatroom]
+    type: DropDown
+  layout_properties: {grid_position: 'WWDTFZ,RMPQBJ'}
+  name: column_panel_1
+  properties: {role: elevated-card}
+  type: ColumnPanel
 container: {type: ColumnPanel}
 is_package: true
