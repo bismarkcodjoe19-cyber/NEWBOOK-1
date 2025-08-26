@@ -4,14 +4,49 @@ components:
     name: label_1
     properties: {align: center, bold: true, foreground: 'theme:On Primary Container', icon: '', role: headline, text: Menu . . .}
     type: Label
+  - layout_properties: {grid_position: 'IJZKHA,FYZBLT'}
+    name: spacer_1
+    properties: {height: 45}
+    type: Spacer
+  - layout_properties: {grid_position: 'WTSQYM,ORLKKX'}
+    name: label_2
+    properties: {align: right, icon: 'fa:trash', text: Delete chats}
+    type: Label
   - layout_properties: {grid_position: 'WTSQYM,RWGUTP'}
     name: drop_down_1
     properties:
+      include_placeholder: false
       items: [From personal chatroom, From group chatroom]
+      placeholder: Delete chats
+      role: outlined
     type: DropDown
+  - layout_properties: {grid_position: 'WTSQYM,ZPMWDK'}
+    name: spacer_3
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'IMGSBP,JWATMI'}
+    name: spacer_2
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'OHIDQX,XEGUXA'}
+    name: label_3
+    properties: {align: right, icon: 'fa:remove', text: Block chats}
+    type: Label
+  - layout_properties: {grid_position: 'OHIDQX,BJZBCD'}
+    name: drop_down_2
+    properties:
+      include_placeholder: false
+      items: [From personal chatroom, From group chatroom]
+      placeholder: Block chats
+      role: outlined
+    type: DropDown
+  - layout_properties: {grid_position: 'OHIDQX,YLLTHO'}
+    name: spacer_4
+    properties: {height: 32}
+    type: Spacer
   layout_properties: {grid_position: 'WWDTFZ,RMPQBJ'}
   name: column_panel_1
-  properties: {role: elevated-card}
+  properties: {col_widths: '{"ORLKKX":15,"RWGUTP":25,"ZPMWDK":20,"XEGUXA":15,"BJZBCD":25,"YLLTHO":20}', role: elevated-card}
   type: ColumnPanel
 container: {type: ColumnPanel}
 is_package: true
