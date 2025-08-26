@@ -43,7 +43,7 @@ components:
     name: button_2
     properties: {align: left, role: filled-button, text: Open}
     type: Button
-  layout_properties: {grid_position: 'IKDARG,CNVQPL'}
+  layout_properties: {grid_position: 'LEVIEM,AMHRQX'}
   name: column_panel_1
   properties: {col_widths: '{"PSTBAW":15,"PPKHKD":45,"OJZYSB":20,"XOLDRU":40,"HDEGUN":20,"QLPJFV":40,"LMUBHF":20}', role: elevated-card}
   type: ColumnPanel
