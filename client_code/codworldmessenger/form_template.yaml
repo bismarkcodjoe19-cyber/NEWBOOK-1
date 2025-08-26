@@ -3,7 +3,7 @@ components:
   - layout_properties: {grid_position: 'KEHWXH,PSTBAW'}
     name: image_1
     properties:
-      height: 47
+      height: 57
       margin: [null, null, null, 38]
       source: _/theme/Create a big letter .png
     type: Image
@@ -15,31 +15,35 @@ components:
     name: button_3
     properties: {bold: true, text: 'HELP?'}
     type: Button
+  - layout_properties: {grid_position: 'SSPCPE,YIRXDV'}
+    name: spacer_1
+    properties: {height: 56.666656494140625}
+    type: Spacer
+  - layout_properties: {grid_position: 'CLKIZX,OJZYSB'}
+    name: label_2
+    properties: {bold: true, font_size: 16, foreground: 'theme:On Primary Container', icon: 'fa:home', text: Group Chatrooms}
+    type: Label
+  - layout_properties: {grid_position: 'CLKIZX,XOLDRU CBRNHQ,PMVOOI'}
+    name: button_1
+    properties: {align: left, background: 'theme:Primary', foreground: '', role: filled-button, text: Open, visible: true}
+    type: Button
+  - layout_properties: {grid_position: 'CLKIZX,XOLDRU USSEFT,WAEYXS'}
+    name: spacer_2
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'EXUGQR,HDEGUN'}
+    name: label_3
+    properties: {bold: true, font_size: 16, foreground: 'theme:On Primary Container', icon: 'fa:home', text: Personal Chat Rooms}
+    type: Label
+  - layout_properties: {grid_position: 'EXUGQR,QLPJFV'}
+    name: button_2
+    properties: {align: left, role: filled-button, text: Open}
+    type: Button
   layout_properties: {grid_position: 'IKDARG,CNVQPL'}
   name: column_panel_1
-  properties: {col_widths: '{"PSTBAW":10,"PPKHKD":50}'}
+  properties: {col_widths: '{"PSTBAW":15,"PPKHKD":45,"OJZYSB":20,"XOLDRU":40,"HDEGUN":20,"QLPJFV":40,"LMUBHF":20}', role: elevated-card}
   type: ColumnPanel
-- layout_properties: {grid_position: 'BGUJGL,IXIWEZ'}
-  name: spacer_1
-  properties: {height: 56.666656494140625}
-  type: Spacer
-- layout_properties: {grid_position: 'OQFIVW,URBMLJ'}
-  name: label_2
-  properties: {bold: true, font_size: 16, icon: 'fa:home', text: Group Chatrooms}
-  type: Label
-- layout_properties: {grid_position: 'OQFIVW,IRJUAI'}
-  name: button_1
-  properties: {align: left, background: 'theme:Primary', foreground: '', role: filled-button, text: Open, visible: true}
-  type: Button
-- layout_properties: {grid_position: 'YXTMOP,LMBERE'}
-  name: label_3
-  properties: {text: Personal Chat Room}
-  type: Label
-- layout_properties: {grid_position: 'YXTMOP,RYMWEV'}
-  name: button_2
-  properties: {align: left, role: filled-button, text: Open}
-  type: Button
 container:
-  properties: {col_widths: '{"URBMLJ":10,"IRJUAI":50,"LMBERE":10,"RYMWEV":50}'}
+  properties: {col_widths: '{}'}
   type: ColumnPanel
 is_package: true
