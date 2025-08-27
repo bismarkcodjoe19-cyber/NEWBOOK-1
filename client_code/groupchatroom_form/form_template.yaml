@@ -1,0 +1,52 @@
+components:
+- components:
+  - layout_properties: {grid_position: 'MYQVEE,XWXMJA'}
+    name: label_1
+    properties: {align: center, bold: true, foreground: 'theme:On Primary Container', icon: 'fa:home', role: headline, text: Group Chatrooms}
+    type: Label
+  - layout_properties: {grid_position: 'ZNQVKP,CYIZVA'}
+    name: button_1
+    properties: {align: left, icon: 'fa:plus', text: ''}
+    type: Button
+  - layout_properties: {grid_position: 'ZNQVKP,XDHJFP'}
+    name: label_2
+    properties:
+      align: left
+      spacing:
+        padding: [11, null, 17, 0]
+      text: Create A New Group
+    type: Label
+  - layout_properties: {grid_position: 'RXQJKF,WALULA'}
+    name: spacer_1
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'XWLKBZ,SECWOP'}
+    name: label_3
+    properties: {align: center, background: 'theme:Primary', bold: true, border: solid, font_size: 18, foreground: 'theme:On Primary', text: My Chatrooms}
+    type: Label
+  - layout_properties: {grid_position: 'MYVEKF,ORMASJ'}
+    name: spacer_2
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'MNPFUD,SDHRIR'}
+    name: repeating_panel_1
+    properties: {item_template: groupchats}
+    type: RepeatingPanel
+  - layout_properties: {grid_position: 'UYSRNC,UCKGWL'}
+    name: label_4
+    properties: {align: center, background: 'theme:Primary', bold: true, border: solid, font_size: 19, foreground: 'theme:On Primary', icon: 'fa:cc-discover', role: null, text: Discover Public Groups}
+    type: Label
+  - layout_properties: {grid_position: 'ZBOIYQ,JUEXLV'}
+    name: repeating_panel_3
+    properties: {item_template: RP_publicchats}
+    type: RepeatingPanel
+  - layout_properties: {grid_position: 'ZBOIYQ,JUEXLV'}
+    name: repeating_panel_2
+    properties: {item_template: groupchatroom_form.ItemTemplate3}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'GVJXDO,BJCKLW'}
+  name: column_panel_1
+  properties: {col_widths: '{"CYIZVA":4,"XDHJFP":47}', role: elevated-card}
+  type: ColumnPanel
+container: {type: ColumnPanel}
+is_package: true

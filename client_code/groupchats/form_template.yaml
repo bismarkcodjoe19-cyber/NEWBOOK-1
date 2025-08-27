@@ -1,0 +1,21 @@
+components:
+- layout_properties: {grid_position: 'ZUGTAH,VQBLTV'}
+  name: image_1
+  properties: {height: 44.33331298828125, source: _/theme/uncolored design of .png}
+  type: Image
+- layout_properties: {grid_position: 'ZUGTAH,VWQTYA'}
+  name: label_1
+  properties: {text: The Big Boys}
+  type: Label
+- layout_properties: {grid_position: 'YBJJCJ,HEJOQG'}
+  name: image_2
+  properties: {height: 44, source: _/theme/uncolored design of .png}
+  type: Image
+- layout_properties: {grid_position: 'YBJJCJ,TBIMOB'}
+  name: label_2
+  properties: {text: Football Argument Club}
+  type: Label
+container:
+  properties: {col_widths: '{"VQBLTV":10,"VWQTYA":50,"HEJOQG":10,"TBIMOB":50}'}
+  type: ColumnPanel
+is_package: true
