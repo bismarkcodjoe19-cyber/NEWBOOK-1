@@ -14,7 +14,11 @@ components:
     type: Button
   - layout_properties: {grid_position: 'EEVQEK,APLUOT'}
     name: button_2
-    properties: {icon: 'fa:phone', text: ''}
+    properties:
+      icon: fa:phone
+      spacing:
+        margin: [null, null, null, 0]
+      text: ''
     type: Button
   layout_properties: {grid_position: 'LZZJVC,QCKZJM'}
   name: column_panel_1
