@@ -4,12 +4,16 @@ components:
     name: label_1
     properties: {align: center, background: 'theme:Primary', bold: true, foreground: 'theme:On Primary', role: headline, text: Create A New Chatroom}
     type: Label
+  - layout_properties: {grid_position: 'VNTZGR,YBTAYT'}
+    name: button_5
+    properties: {align: left, icon: 'fa:arrow-left', text: Back}
+    type: Button
   - layout_properties: {grid_position: 'UJTZEX,XVROZZ'}
     name: image_1
     properties:
       height: 59.99998474121094
       horizontal_align: center
-      margin: [null, 0, null, 60]
+      margin: [null, 0, null, 213]
       source: _/theme/create an uncolored .png
     type: Image
   - components:
