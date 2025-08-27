@@ -10,12 +10,57 @@ components:
     type: Label
   - layout_properties: {grid_position: 'EEVQEK,DJHFBI'}
     name: button_1
-    properties: {icon: 'fa:video-camera', text: ''}
+    properties: {align: right, icon: 'fa:video-camera', text: ''}
     type: Button
   - layout_properties: {grid_position: 'EEVQEK,APLUOT'}
     name: button_2
-    properties: {icon: 'fa:phone', text: ''}
+    properties:
+      align: left
+      icon: fa:phone
+      spacing:
+        margin: [null, 98, null, null]
+      text: ''
     type: Button
+  - layout_properties: {grid_position: 'EEVQEK,JZWFDU'}
+    name: button_5
+    properties: {bold: true, text: '. . . '}
+    type: Button
+  - components:
+    - layout_properties: {grid_position: 'VFYYYB,VKVTJT'}
+      name: label_2
+      properties: {font_size: 10, text: Joshua}
+      type: Label
+    layout_properties: {grid_position: 'HKSGYK,IYPOWY'}
+    name: column_panel_3
+    properties: {background: '#eae6e6'}
+    type: ColumnPanel
+  - components:
+    - layout_properties: {grid_position: 'SAKAPJ,HTFUWV'}
+      name: image_2
+      properties: {height: 39.600006103515625, horizontal_align: right, source: _/theme/Copilot_20250827_170115.png}
+      type: Image
+    - layout_properties: {grid_position: 'SAKAPJ,WIAFOL'}
+      name: text_box_1
+      properties: {background: 'theme:On Primary', placeholder: Write your message.., role: outlined}
+      type: TextBox
+    - layout_properties: {grid_position: 'SAKAPJ,AGDTEH'}
+      name: button_4
+      properties:
+        align: center
+        foreground: '#242323'
+        icon: fa:microphone
+        spacing:
+          margin: [null, null, null, 0]
+        text: ''
+      type: Button
+    - layout_properties: {grid_position: 'SAKAPJ,HMUSLH'}
+      name: button_3
+      properties: {foreground: '#100f0f', icon: 'fa:send', text: ''}
+      type: Button
+    layout_properties: {grid_position: 'KWGTSI,WJLESH'}
+    name: column_panel_2
+    properties: {col_widths: '{"WIAFOL":40,"AGDTEH":10,"HMUSLH":10}'}
+    type: ColumnPanel
   layout_properties: {grid_position: 'LZZJVC,QCKZJM'}
   name: column_panel_1
   properties: {col_widths: '{"KKXSGY":20,"DERWXI":22,"DJHFBI":8,"APLUOT":22}', role: elevated-card}
