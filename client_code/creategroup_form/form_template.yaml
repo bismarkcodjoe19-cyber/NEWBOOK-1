@@ -4,14 +4,47 @@ components:
     name: label_1
     properties: {align: center, background: 'theme:Primary', bold: true, foreground: 'theme:On Primary', role: headline, text: Create A New Chatroom}
     type: Label
+  - layout_properties: {grid_position: 'UJTZEX,XVROZZ'}
+    name: image_1
+    properties:
+      height: 59.99998474121094
+      horizontal_align: center
+      margin: [null, 0, null, 60]
+      source: _/theme/create an uncolored .png
+    type: Image
+  - components:
+    - layout_properties: {grid_position: 'JVITMF,YZYFHJ'}
+      name: button_2
+      properties: {align: left, icon: 'fa:upload', text: Upload}
+      type: Button
+    - layout_properties: {grid_position: 'GSVIIQ,DQKPKF'}
+      name: button_3
+      properties: {align: left, icon: 'fa:camera', text: Use Camera}
+      type: Button
+    - layout_properties: {grid_position: 'MNKICU,KTQKLR'}
+      name: button_4
+      properties: {align: left, icon: 'fa:remove', text: Remove}
+      type: Button
+    layout_properties: {grid_position: 'UJTZEX,VGBAWZ'}
+    name: column_panel_2
+    properties: {role: elevated-card, visible: false}
+    type: ColumnPanel
+  - layout_properties: {grid_position: 'TGQLWV,FEUMPJ'}
+    name: spacer_2
+    properties: {height: 32}
+    type: Spacer
   - layout_properties: {grid_position: 'EFYMUL,SJZCZV'}
     name: label_2
     properties: {bold: true, foreground: 'theme:On Primary Container', text: 'Group Name:'}
     type: Label
   - layout_properties: {grid_position: 'EFYMUL,YXXTIE'}
     name: text_box_1
-    properties: {placeholder: Input group name, role: outlined, visible: false}
+    properties: {placeholder: Input group name, role: outlined, visible: true}
     type: TextBox
+  - layout_properties: {grid_position: 'UDBCIF,DUOROP'}
+    name: spacer_5
+    properties: {height: 9.199981689453125}
+    type: Spacer
   - layout_properties: {grid_position: 'GWRBHL,EFFJOR'}
     name: label_3
     properties:
@@ -29,6 +62,10 @@ components:
     name: text_area_1
     properties: {background: 'theme:Tertiary Container', height: 96.066650390625, placeholder: Add short group bio..., role: outlined, visible: true}
     type: TextArea
+  - layout_properties: {grid_position: 'AFLLAQ,RMECTH'}
+    name: spacer_4
+    properties: {height: 4.666656494140625}
+    type: Spacer
   - layout_properties: {grid_position: 'WMRRGM,SHMJNS'}
     name: label_5
     properties: {bold: true, foreground: 'theme:On Primary Container', text: 'Group category:'}
@@ -36,20 +73,36 @@ components:
   - layout_properties: {grid_position: 'WMRRGM,SUYAWU'}
     name: drop_down_1
     properties:
-      items: [Sports, Music, Gaming, Movies & TV, Tech & Coding, Art & Design, Education & Study, Business & Startups, Health & Fitness, Food & Cooking, Travel & Adventure, Fashion & Style, Photography, Spirituality & Faith, Relationships & Advice, Comedy & Memes, News & Politics, Books & Writing, Science & Nature, DIY & Crafts, Anime & Manga, Cars & Motors, Finance & Investing, Mental Wellness, Random & Off-topic, '']
+      items: ['🏀 Sports  ', '🎵 Music  ', '🎮 Gaming  ', '🎬 Movies & TV  ', '💻 Tech & Coding  ', '🎨 Art & Design  ', '📚 Education & Study  ', '🚀 Business & Startups  ', '💪 Health & Fitness  ', '🍳 Food & Cooking  ', '✈️ Travel & Adventure  ', '👗 Fashion & Style  ', '📸 Photography  ', '🙏 Spirituality & Faith  ', '💬 Relationships & Advice  ', '🤣 Comedy & Memes  ', '📰 News & Politics  ', '📝 Books & Writing  ', '🌿 Science & Nature  ', '🛠️ DIY & Crafts  ', '🧧 Anime & Manga  ', '🚗 Cars & Motors  ', '💰 Finance & Investing  ', '🧠 Mental Wellness  ', '🎲 Random & Off-topic  ', '']
       role: outlined
     type: DropDown
+  - layout_properties: {grid_position: 'OPHLFR,SEFQPZ'}
+    name: spacer_3
+    properties: {height: 3.5999755859375}
+    type: Spacer
   - layout_properties: {grid_position: 'TAJNIA,NUFITG'}
     name: label_7
     properties: {bold: true, foreground: 'theme:On Primary Container', text: 'Group Rules/Guidelines:'}
     type: Label
-  - layout_properties: {grid_position: 'TAJNIA,BDCCSH JNZKSC,SYVUSL'}
+  - layout_properties: {grid_position: 'TAJNIA,BDCCSH'}
     name: text_area_2
-    properties: {background: 'theme:Tertiary Container', height: 81.53326416015625, placeholder: enter a list of rules for your group, role: outlined, text: Enter a list of rules for your group}
+    properties: {background: 'theme:Tertiary Container', height: 81.53326416015625, placeholder: Enter a list of rules for your group, role: outlined, text: ''}
     type: TextArea
+  - layout_properties: {grid_position: 'RHZSZC,MVWUAA'}
+    name: check_box_1
+    properties: {align: center, bold: true, text: Make your group public}
+    type: CheckBox
+  - layout_properties: {grid_position: 'WIUFRG,PYZCRS'}
+    name: spacer_1
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'JMTQHG,IIYSQF'}
+    name: button_1
+    properties: {align: full, role: filled-button, text: Create Chatroom}
+    type: Button
   layout_properties: {grid_position: 'UZGHPT,ZIWITG'}
   name: column_panel_1
-  properties: {col_widths: '{"SJZCZV":15,"YXXTIE":45,"EFFJOR":15,"KDARTF":45,"SHMJNS":15,"SUYAWU":45,"NUFITG":15,"BDCCSH":45}', role: elevated-card}
+  properties: {col_widths: '{"SJZCZV":15,"YXXTIE":45,"EFFJOR":15,"KDARTF":45,"SHMJNS":15,"SUYAWU":45,"NUFITG":15,"BDCCSH":45,"XVROZZ":40,"VGBAWZ":20}', role: elevated-card}
   type: ColumnPanel
 container: {type: ColumnPanel}
 is_package: true
