@@ -4,9 +4,13 @@ components:
     name: image_1
     properties: {height: 40.80000305175781, source: _/theme/uncolored design of .png}
     type: Image
-  - layout_properties: {grid_position: 'EEVQEK,DERWXI'}
+  - layout_properties: {grid_position: 'EEVQEK,DERWXI HVVQOT,OTCDVD'}
     name: label_1
     properties: {text: ' The Big Boys'}
+    type: Label
+  - layout_properties: {grid_position: 'EEVQEK,DERWXI PGOVRU,GPBPJL'}
+    name: label_7
+    properties: {bold: true, font_size: 12, icon: '', role: body, spacing_above: none, spacing_below: none, text: Joshua is online}
     type: Label
   - layout_properties: {grid_position: 'EEVQEK,DJHFBI'}
     name: button_1
@@ -26,13 +30,108 @@ components:
     properties: {bold: true, text: '. . . '}
     type: Button
   - components:
-    - layout_properties: {grid_position: 'VFYYYB,VKVTJT'}
+    - layout_properties: {grid_position: 'RQWECC,RJGIZR XUZMDH,YACYJS'}
+      name: image_3
+      properties: {height: 42, source: _/theme/uncolored design of .png}
+      type: Image
+    - layout_properties: {grid_position: 'RQWECC,RJGIZR XUZMDH,GSLYZE JBIZVT,CDZNXU'}
+      name: link_1
+      properties:
+        background: '#f2f2f2'
+        font_size: 10
+        foreground: theme:Primary
+        role: null
+        spacing:
+          padding: [18, null, null, null]
+        spacing_above: none
+        spacing_below: none
+        text: '  Joshua '
+      type: Link
+    - layout_properties: {grid_position: 'RQWECC,SLPNTH'}
+      name: spacer_1
+      properties: {height: 32}
+      type: Spacer
+    - layout_properties: {grid_position: 'RQWECC,RJGIZR XUZMDH,GSLYZE VFYYYB,VKVTJT'}
       name: label_2
-      properties: {font_size: 10, spacing_above: none, text: Joshua}
+      properties:
+        align: left
+        background: theme:On Primary
+        font_size: 13
+        spacing:
+          padding: [0, null, null, null]
+        spacing_above: none
+        spacing_below: none
+        text: ' Hi everyone'
+      type: Label
+    - layout_properties: {grid_position: 'JADKTX,ROREFZ'}
+      name: spacer_5
+      properties: {height: 32}
+      type: Spacer
+    - layout_properties: {grid_position: 'JADKTX,CADLLA'}
+      name: label_5
+      properties:
+        align: right
+        background: theme:On Primary
+        font_size: 10
+        role: body
+        spacing:
+          padding: [null, null, null, 0]
+        spacing_above: none
+        spacing_below: none
+        text: ' 10:39'
+      type: Label
+    - layout_properties: {grid_position: 'JADKTX,GVPQFY'}
+      name: spacer_4
+      properties: {height: 32}
+      type: Spacer
+    - layout_properties: {grid_position: 'MCNXKH,GSPZOT'}
+      name: spacer_2
+      properties: {height: 24.79998779296875}
+      type: Spacer
+    - components:
+      - layout_properties: {grid_position: 'RSHVTD,XZABJC'}
+        name: button_6
+        properties: {foreground: 'theme:On Secondary Container', icon: 'fa:reply', text: Reply}
+        type: Button
+      - layout_properties: {grid_position: 'GSGYPZ,JVHQII'}
+        name: button_7
+        properties: {foreground: 'theme:On Secondary Container', icon: 'fa:trash', text: Delete}
+        type: Button
+      - layout_properties: {grid_position: 'RYNEHB,VCCBDX'}
+        name: button_8
+        properties: {foreground: 'theme:On Secondary Container', icon: 'fa:copy', text: Copy}
+        type: Button
+      - layout_properties: {grid_position: 'ENXKLY,ZMJFGX'}
+        name: button_9
+        properties: {foreground: 'theme:On Secondary Container', icon: 'fa:forward', text: Forward}
+        type: Button
+      layout_properties: {grid_position: 'MCNXKH,XMELRU HMMXKB,ARMLOH'}
+      name: column_panel_4
+      properties: {}
+      type: ColumnPanel
+    - layout_properties: {grid_position: 'MCNXKH,XMELRU HEMGYM,QOGESA'}
+      name: label_3
+      properties: {align: right, background: '#b78f8f', font_size: 13, spacing_above: none, spacing_below: none, text: Yh guys}
+      type: Label
+    - layout_properties: {grid_position: 'QAVVOF,IXTLAH'}
+      name: spacer_3
+      properties: {height: 32}
+      type: Spacer
+    - layout_properties: {grid_position: 'QAVVOF,ZMCPVX'}
+      name: label_4
+      properties: {align: right, background: '#b78f8f', font_size: 10, role: body, spacing_above: none, spacing_below: none, text: '10:40'}
+      type: Label
+    - layout_properties: {grid_position: 'APBODC,EOQEXF'}
+      name: image_4
+      properties: {height: 34.79998779296875, source: _/theme/uncolored design of .png}
+      type: Image
+    - layout_properties: {grid_position: 'APBODC,BYEKQF'}
+      name: label_6
+      properties: {background: 'theme:On Primary', bold: true, font_size: 13, role: body, spacing_above: none, spacing_below: none, text: Joshua is typing...}
       type: Label
     layout_properties: {grid_position: 'HKSGYK,IYPOWY'}
     name: column_panel_3
-    properties: {background: '#eae6e6'}
+    properties: {background: '#eae6e6', col_widths: '{"YACYJS":20,"GSLYZE":40,"RJGIZR":15,"SLPNTH":45,"XMELRU":15,"ZMCPVX":3,"CADLLA":8,"ROREFZ":7,"IXTLAH":34,"EOQEXF":5,"BYEKQF":55,"GVPQFY":45}'}
     type: ColumnPanel
   - components:
     - layout_properties: {grid_position: 'SAKAPJ,HTFUWV'}
