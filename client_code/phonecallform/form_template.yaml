@@ -6,7 +6,15 @@ components:
     type: Image
   - layout_properties: {grid_position: 'FVOMIY,SMRZWP'}
     name: label_1
-    properties: {align: center, text: Bright Mottey}
+    properties: {align: center, foreground: 'theme:On Primary', text: Bright Mottey}
+    type: Label
+  - layout_properties: {grid_position: 'HKUKBV,CMEUDV'}
+    name: timer_1
+    properties: {interval: 1}
+    type: Timer
+  - layout_properties: {grid_position: 'YDTWSC,GWVTAP'}
+    name: label_3
+    properties: {align: center, bold: true, foreground: 'theme:On Primary', text: '00:00', visible: true}
     type: Label
   - layout_properties: {grid_position: 'TJNVXA,AQUTJM'}
     name: spacer_1
@@ -14,15 +22,30 @@ components:
     type: Spacer
   - layout_properties: {grid_position: 'KSNFEA,ORUTXN'}
     name: label_2
-    properties: {align: center, text: Calling....}
+    properties: {align: center, background: '', foreground: 'theme:On Primary', text: Calling....}
     type: Label
-  - layout_properties: {grid_position: 'JKYNIV,BWGGMW'}
+  - layout_properties: {grid_position: 'IYYPMM,AXPQLE'}
     name: button_1
-    properties: {align: right, icon: '', text: ''}
+    properties: {foreground: 'theme:On Primary', icon: 'fa:video-camera', text: Switch to Video}
     type: Button
+  - layout_properties: {grid_position: 'IYYPMM,VDMXBJ'}
+    name: button_2
+    properties: {foreground: 'theme:On Primary', icon: 'fa:comment', text: Message}
+    type: Button
+  - layout_properties: {grid_position: 'IYYPMM,REEVFD'}
+    name: image_2
+    properties:
+      background: '#d36ef7'
+      height: 29.199981689453125
+      horizontal_align: right
+      margin: [8, null, 8, null]
+      source: _/theme/Copilot_20250830_103423.png
+      vertical_align: bottom
+      visible: true
+    type: Image
   layout_properties: {grid_position: 'QBRXEE,ULASYK'}
   name: column_panel_1
-  properties: {role: elevated-card}
+  properties: {background: '#d36ef7', col_widths: '{"AXPQLE":25,"REEVFD":35,"VDMXBJ":20}', role: elevated-card}
   type: ColumnPanel
 container: {type: ColumnPanel}
 is_package: true
