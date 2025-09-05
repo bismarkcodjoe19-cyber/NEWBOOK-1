@@ -1,20 +1,20 @@
 components:
 - layout_properties: {grid_position: 'AZIIKP,OGFSIC'}
   name: Help_button
-  properties: {align: right, text: 'HELP?'}
+  properties: {align: right, font_size: 12, text: 'HELP?'}
   type: Button
 - components:
   - layout_properties: {grid_position: 'TJQLIO,SPIGWV'}
     name: image_2
-    properties: {height: 61, source: _/theme/nb.png}
+    properties: {height: 54, source: _/theme/nb.png}
     type: Image
   - layout_properties: {grid_position: 'TJQLIO,FYIDGC'}
     name: label_1
-    properties: {align: left, bold: true, font_size: 27, role: headline, text: NEWBOOK}
+    properties: {align: left, bold: true, font_size: 17, role: headline, text: NEWBOOK}
     type: Label
   - layout_properties: {grid_position: 'EQBODB,LYVBQX'}
     name: image_1
-    properties: {height: 81, source: _/theme/uncolored design of .png}
+    properties: {height: 59, source: _/theme/uncolored design of .png}
     type: Image
   layout_properties: {grid_position: 'DJQHFJ,CBJFEW'}
   name: column_panel_1
@@ -22,23 +22,23 @@ components:
   type: ColumnPanel
 - layout_properties: {grid_position: 'FLKXMM,VQHZPG'}
   name: label_2
-  properties: {align: center, bold: true, font_size: 15, text: CREATE NEW PASSCODE}
+  properties: {align: center, bold: true, font_size: 14, text: CREATE NEW PASSCODE}
   type: Label
 - layout_properties: {grid_position: 'UIUMNN,ZZSKRH'}
   name: label_3
-  properties: {bold: true, font: '34', font_size: 15, text: 'New Passcode :'}
+  properties: {bold: true, font: '34', font_size: 12, text: 'New Passcode :'}
   type: Label
 - layout_properties: {grid_position: 'UIUMNN,RXYHED'}
   name: text_box_1
-  properties: {background: 'theme:On Primary', enabled: false, italic: true, placeholder: Enter new passcode..., text: '', visible: false}
+  properties: {background: 'theme:On Primary', enabled: false, font_size: 12, italic: true, placeholder: Enter new passcode..., text: '', visible: false}
   type: TextBox
 - layout_properties: {grid_position: 'HXQLSF,QHBGQR'}
   name: label_4
-  properties: {bold: true, font_size: 15, text: 'Confirm New Passcode :'}
+  properties: {bold: true, font_size: 12, text: 'Confirm New Passcode :'}
   type: Label
 - layout_properties: {grid_position: 'HXQLSF,JJVCAX TTBHMV,QHJQAX'}
   name: text_box_2
-  properties: {background: 'theme:On Primary', enabled: false, italic: true, placeholder: Enter passcode again...., text: '', visible: false}
+  properties: {background: 'theme:On Primary', enabled: false, font_size: 12, italic: true, placeholder: Enter passcode again...., text: '', visible: false}
   type: TextBox
 - layout_properties: {grid_position: 'HXQLSF,JJVCAX TVOZDT,EXHFNB'}
   name: spacer_1
@@ -46,7 +46,7 @@ components:
   type: Spacer
 - layout_properties: {grid_position: 'HXQLSF,JJVCAX LYNQQI,PFUROE'}
   name: button_1
-  properties: {align: right, bold: true, font_size: 16, role: filled-button, text: Submit}
+  properties: {align: right, bold: true, font_size: 12, role: filled-button, text: Submit}
   type: Button
 container:
   properties: {col_widths: '{"ZZSKRH":10,"RXYHED":50,"QHBGQR":10,"JJVCAX":50}'}

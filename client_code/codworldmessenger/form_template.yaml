@@ -3,21 +3,21 @@ components:
   - layout_properties: {grid_position: 'KEHWXH,PSTBAW'}
     name: image_1
     properties:
-      height: 57
+      height: 46.5555419921875
       margin: [null, null, null, 38]
       source: _/theme/Create a big letter .png
     type: Image
   - layout_properties: {grid_position: 'KEHWXH,PPKHKD'}
     name: label_1
-    properties: {align: left, bold: true, foreground: 'theme:On Primary Container', role: headline, text: CodWorld Messenger}
+    properties: {align: left, bold: true, font_size: 17, foreground: 'theme:On Primary Container', role: headline, text: CodWorld Messenger}
     type: Label
   - layout_properties: {grid_position: 'KEHWXH,LMUBHF'}
     name: button_3
-    properties: {bold: true, text: 'HELP?'}
+    properties: {bold: true, font_size: 12, text: 'HELP?'}
     type: Button
   - layout_properties: {grid_position: 'MKDLSS,KEWPNM'}
     name: outlined_button_1
-    properties: {align: right, bold: true, font_size: 18, role: null, text: . . .}
+    properties: {align: right, bold: true, font_size: 12, role: null, text: . . .}
     type: Button
   - layout_properties: {grid_position: 'SSPCPE,YIRXDV'}
     name: spacer_1
@@ -25,11 +25,11 @@ components:
     type: Spacer
   - layout_properties: {grid_position: 'CLKIZX,OJZYSB'}
     name: label_2
-    properties: {bold: true, font_size: 16, foreground: 'theme:On Primary Container', icon: 'fa:home', text: Group Chatrooms}
+    properties: {bold: true, font_size: 12, foreground: 'theme:On Primary Container', icon: 'fa:home', text: Group Chatrooms}
     type: Label
   - layout_properties: {grid_position: 'CLKIZX,XOLDRU CBRNHQ,PMVOOI'}
     name: button_1
-    properties: {align: left, background: 'theme:Primary', foreground: '', role: filled-button, text: Open, visible: true}
+    properties: {align: left, background: 'theme:Primary', font_size: 12, foreground: '', role: filled-button, text: Open, visible: true}
     type: Button
   - layout_properties: {grid_position: 'CLKIZX,XOLDRU USSEFT,WAEYXS'}
     name: spacer_2
@@ -37,11 +37,11 @@ components:
     type: Spacer
   - layout_properties: {grid_position: 'EXUGQR,HDEGUN'}
     name: label_3
-    properties: {bold: true, font_size: 16, foreground: 'theme:On Primary Container', icon: 'fa:home', text: Personal Chat Rooms}
+    properties: {bold: true, font_size: 12, foreground: 'theme:On Primary Container', icon: 'fa:home', text: Personal Chat Rooms}
     type: Label
   - layout_properties: {grid_position: 'EXUGQR,QLPJFV'}
     name: button_2
-    properties: {align: left, role: filled-button, text: Open}
+    properties: {align: left, font_size: 12, role: filled-button, text: Open}
     type: Button
   layout_properties: {grid_position: 'IKDARG,CNVQPL'}
   name: column_panel_1

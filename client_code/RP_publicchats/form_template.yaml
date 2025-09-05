@@ -1,28 +1,28 @@
 components:
 - layout_properties: {grid_position: 'NIVNVS,SFKSXS'}
   name: image_1
-  properties: {height: 44.666656494140625, source: _/theme/uncolored design of .png}
+  properties: {height: 35.666656494140625, source: _/theme/uncolored design of .png}
   type: Image
 - layout_properties: {grid_position: 'NIVNVS,ZFZPOB'}
   name: label_1
-  properties: {text: Chicago Skateboarding Squad}
+  properties: {font_size: 12, text: Chicago Skateboarding Squad}
   type: Label
 - event_bindings: {click: button_1_click}
   layout_properties: {grid_position: 'NIVNVS,OWLDEX'}
   name: button_1
-  properties: {role: outlined-button, text: Join Chatroom}
+  properties: {font_size: 12, role: outlined-button, text: Join Chatroom}
   type: Button
 - layout_properties: {grid_position: 'NMOOQZ,RTJXNI'}
   name: image_2
-  properties: {height: 42.33331298828125, source: _/theme/uncolored design of .png}
+  properties: {height: 34.444427490234375, source: _/theme/uncolored design of .png}
   type: Image
 - layout_properties: {grid_position: 'NMOOQZ,ZSRRJU'}
   name: label_2
-  properties: {text: Bass Guitar gang}
+  properties: {font_size: 12, text: Bass Guitar gang}
   type: Label
 - layout_properties: {grid_position: 'NMOOQZ,HTJXIF'}
   name: button_4
-  properties: {icon: '', role: outlined-button, text: Join Chatroom}
+  properties: {font_size: 12, icon: '', role: outlined-button, text: Join Chatroom}
   type: Button
 container:
   properties: {col_widths: '{"SFKSXS":10,"ZFZPOB":45,"RTJXNI":10,"ZSRRJU":45,"OWLDEX":25,"HTJXIF":25}'}

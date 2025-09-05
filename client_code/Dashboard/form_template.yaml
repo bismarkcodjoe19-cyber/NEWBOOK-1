@@ -8,15 +8,15 @@ components:
     name: label_1
     properties: {bold: true, font_size: 17, role: headline, text: NEWBOOK}
     type: Label
-  - layout_properties: {grid_position: 'EEFZCM,YKGEOO'}
+  - layout_properties: {grid_position: 'EEFZCM,TCERKF'}
     name: spacer_1
-    properties: {height: 55}
+    properties: {height: 32}
     type: Spacer
   - layout_properties: {grid_position: 'EEFZCM,OSOYWK SVNOPT,PFVYBH'}
     name: image_2
     properties:
-      height: 43
-      margin: [9, 26, null, 154]
+      height: 31
+      margin: [16, 26, null, 191]
       source: _/theme/Copilot_20250821_083724.png
     type: Image
   - layout_properties: {grid_position: 'EEFZCM,OSOYWK ZRODMY,ILDWOG'}
@@ -35,7 +35,7 @@ components:
       font_size: 12
       icon: fa:gear
       spacing:
-        margin: [8, null, 10, null]
+        margin: [8, null, 10, 24]
         padding: [23, null, null, null]
     type: Label
   - layout_properties: {grid_position: 'EEFZCM,SSXLOM DEAXYT,ZLPUML'}
@@ -49,9 +49,18 @@ components:
     type: Label
   layout_properties: {grid_position: 'DEGGIY,PHIFXA'}
   name: column_panel_1
-  properties: {background: 'theme:Background', col_widths: '{"YKGEOO":36,"SSXLOM":6,"OSOYWK":14,"ZNJMPG":40,"OGMODU":25}', role: elevated-card}
+  properties:
+    background: theme:Background
+    col_widths: '{"SSXLOM":6,"OSOYWK":14,"ZNJMPG":40,"OGMODU":25}'
+    role: elevated-card
+    spacing:
+      margin: [null, null, null, 1]
   type: ColumnPanel
 - components:
+  - layout_properties: {grid_position: 'TOXRIU,EZLHFT KQTPUM,QFIVSG'}
+    name: button_4
+    properties: {font_size: 12, foreground: 'theme:On Primary Container', icon: 'fa:bars', text: ''}
+    type: Button
   - components:
     - layout_properties: {grid_position: 'BJHLBC,JVZUKP'}
       name: label_5
@@ -107,7 +116,7 @@ components:
       type: Label
     - layout_properties: {grid_position: 'YMXNDL,VHDFYE'}
       name: spacer_4
-      properties: {height: 11}
+      properties: {height: 14}
       type: Spacer
     - layout_properties: {grid_position: 'VDBEKZ,GTJNRL'}
       name: image_5
@@ -117,9 +126,13 @@ components:
       name: label_11
       properties: {align: center, font_size: 12, foreground: 'theme:Primary', text: My Book}
       type: Label
-    layout_properties: {grid_position: 'TOXRIU,EZLHFT'}
+    layout_properties: {grid_position: 'TOXRIU,EZLHFT JQVJGN,DKGBLA'}
     name: column_panel_3
-    properties: {role: elevated-card}
+    properties:
+      role: elevated-card
+      spacing:
+        margin: [null, 0, null, null]
+        padding: [null, null, null, 21]
     type: ColumnPanel
   - layout_properties: {grid_position: 'TOXRIU,FTHUYR WFVRWF,WUJCLM'}
     name: button_1
@@ -136,114 +149,115 @@ components:
     properties: {height: 39, horizontal_align: left, source: _/theme/Copilot_20250821_090218.png}
     type: Image
   - components:
-    - layout_properties: {grid_position: 'OXWDRR,YCJIGW'}
+    - layout_properties: {grid_position: 'PVTYRE,FXVRCE OXWDRR,YCJIGW'}
       name: image_3
       properties: {height: 38, horizontal_align: left, source: _/theme/uncolored design of .png}
       type: Image
-    - layout_properties: {grid_position: 'OXWDRR,FHXKBT'}
+    - layout_properties: {grid_position: 'PVTYRE,FXVRCE OXWDRR,FHXKBT'}
       name: label_12
       properties: {font_size: 12, text: John Doe}
       type: Label
-    - layout_properties: {grid_position: 'FJZRYO,NEAHVQ'}
+    - layout_properties: {grid_position: 'PVTYRE,FXVRCE FJZRYO,NEAHVQ'}
       name: label_13
       properties: {font_size: 12, text: 'This is Mt Everest the biggest mountain. Do uou agree? , if yes then leave a like and comment YES I AGREE'}
       type: Label
-    - layout_properties: {grid_position: 'XWWZYF,HHKBAK'}
+    - layout_properties: {grid_position: 'PVTYRE,FXVRCE XWWZYF,HHKBAK'}
       name: image_7
-      properties: {height: 225, source: _/theme/Copilot_20250821_095820.png}
+      properties: {height: 297, source: _/theme/Copilot_20250821_095820.png}
       type: Image
-    - layout_properties: {grid_position: 'CDEVFP,ZUQXRW'}
+    - layout_properties: {grid_position: 'PVTYRE,FXVRCE CDEVFP,ZUQXRW'}
       name: label_16
       properties: {font_size: 12, icon: 'fa:thumbs-up', text: 200k}
       type: Label
-    - layout_properties: {grid_position: 'CDEVFP,YTZTWC'}
+    - layout_properties: {grid_position: 'PVTYRE,FXVRCE CDEVFP,YTZTWC'}
       name: label_17
       properties: {font_size: 12, icon: 'fa:comment', text: 18K}
       type: Label
-    - layout_properties: {grid_position: 'CDEVFP,RNREFQ'}
+    - components:
+      - layout_properties: {grid_position: 'KCXYPH,FKXOEB'}
+        name: button_2
+        properties:
+          align: left
+          font_size: 12
+          icon: fa:thumbs-up
+          spacing:
+            padding: [26, null, null, null]
+          text: ''
+        type: Button
+      - layout_properties: {grid_position: 'KCXYPH,NPQERW'}
+        name: label_14
+        properties:
+          bold: true
+          font_size: 12
+          spacing:
+            margin: [null, 26, null, 0]
+            padding: [19, null, null, null]
+          text: 'Likes : 200K'
+        type: Label
+      - layout_properties: {grid_position: 'URBSIR,FTNSMH'}
+        name: button_3
+        properties:
+          font_size: 12
+          icon: fa:comment
+          spacing:
+            padding: [17, null, null, null]
+          text: ''
+        type: Button
+      - layout_properties: {grid_position: 'URBSIR,GGMTAG'}
+        name: label_15
+        properties:
+          bold: true
+          font_size: 12
+          icon: ''
+          spacing:
+            padding: [18, null, null, null]
+          text: 'Comments: 18K'
+        type: Label
+      - layout_properties: {grid_position: 'KPSKBA,SEYEZX'}
+        name: text_box_1
+        properties: {font_size: 12, italic: true, placeholder: Comment here!, role: outlined, visible: false}
+        type: TextBox
+      - layout_properties: {grid_position: 'RMDFFX,NVQRFS'}
+        name: image_8
+        properties: {height: 33, source: _/theme/uncolored design of .png}
+        type: Image
+      - layout_properties: {grid_position: 'FZRSCZ,GRRRCE'}
+        name: label_21
+        properties: {align: center, bold: true, font_size: 12, foreground: 'theme:On Primary Container', text: Connected}
+        type: Label
+      - layout_properties: {grid_position: 'VJFFOD,JIHLAI'}
+        name: label_19
+        properties: {align: center, bold: true, font_size: 12, text: 'Friends Connected: 180M'}
+        type: Label
+      - layout_properties: {grid_position: 'RJLCAD,HXSMGK'}
+        name: label_20
+        properties: {bold: true, font_size: 12, italic: true, text: 'BIO: I love nature and I''am ready to explore it.'}
+        type: Label
+      layout_properties: {grid_position: 'PVTYRE,RSXXVN'}
+      name: column_panel_5
+      properties:
+        col_widths: '{"FKXOEB":20,"NPQERW":40,"FTNSMH":20,"GGMTAG":40}'
+        role: elevated-card
+        spacing:
+          margin: [0, null, null, null]
+          padding: [20, null, null, null]
+      type: ColumnPanel
+    - layout_properties: {grid_position: 'PVTYRE,FXVRCE CDEVFP,RNREFQ'}
       name: label_18
       properties: {font_size: 12, icon: 'fa:share', text: Share}
       type: Label
     layout_properties: {grid_position: 'TOXRIU,FTHUYR ZYPHAS,DZTHKR'}
     name: column_panel_4
-    properties: {col_widths: '{"YCJIGW":15,"FHXKBT":45,"ZUQXRW":20,"YTZTWC":20,"RNREFQ":40}', role: elevated-card}
-    type: ColumnPanel
-  - components:
-    - layout_properties: {grid_position: 'KCXYPH,FKXOEB'}
-      name: button_2
-      properties:
-        align: left
-        font_size: 12
-        icon: fa:thumbs-up
-        spacing:
-          padding: [26, null, null, null]
-        text: ''
-      type: Button
-    - layout_properties: {grid_position: 'KCXYPH,NPQERW'}
-      name: label_14
-      properties:
-        bold: true
-        font_size: 12
-        spacing:
-          margin: [null, 26, null, 0]
-          padding: [19, null, null, null]
-        text: 'Likes : 200K'
-      type: Label
-    - layout_properties: {grid_position: 'KRIZFC,NTVJHO'}
-      name: spacer_6
-      properties: {height: 17}
-      type: Spacer
-    - layout_properties: {grid_position: 'URBSIR,FTNSMH'}
-      name: button_3
-      properties:
-        font_size: 12
-        icon: fa:comment
-        spacing:
-          padding: [17, null, null, null]
-        text: ''
-      type: Button
-    - layout_properties: {grid_position: 'URBSIR,GGMTAG'}
-      name: label_15
-      properties:
-        bold: true
-        font_size: 12
-        icon: ''
-        spacing:
-          padding: [18, null, null, null]
-        text: 'Comments: 18K'
-      type: Label
-    - layout_properties: {grid_position: 'KPSKBA,SEYEZX'}
-      name: text_box_1
-      properties: {font_size: 12, italic: true, placeholder: Comment here!, role: outlined, visible: false}
-      type: TextBox
-    - layout_properties: {grid_position: 'RMDFFX,NVQRFS'}
-      name: image_8
-      properties: {height: 33, source: _/theme/uncolored design of .png}
-      type: Image
-    - layout_properties: {grid_position: 'FZRSCZ,GRRRCE'}
-      name: label_21
-      properties: {align: center, bold: true, font_size: 12, foreground: 'theme:On Primary Container', text: Connected}
-      type: Label
-    - layout_properties: {grid_position: 'VJFFOD,JIHLAI'}
-      name: label_19
-      properties: {align: center, bold: true, font_size: 12, text: 'Friends Connected: 180M'}
-      type: Label
-    - layout_properties: {grid_position: 'RJLCAD,HXSMGK'}
-      name: label_20
-      properties: {bold: true, font_size: 12, italic: true, text: 'BIO: I love nature and I''am ready to explore it.'}
-      type: Label
-    layout_properties: {grid_position: 'TOXRIU,FTHUYR ZYPHAS,FVTLIU'}
-    name: column_panel_5
     properties:
-      col_widths: '{"FKXOEB":20,"NPQERW":40,"FTNSMH":20,"GGMTAG":40}'
+      col_widths: '{"YCJIGW":15,"FHXKBT":45,"ZUQXRW":20,"YTZTWC":20,"RNREFQ":40,"FXVRCE":40,"RSXXVN":20}'
       role: elevated-card
       spacing:
-        margin: [0, null, null, null]
-        padding: [20, null, null, null]
+        margin: [null, null, null, 0]
+        padding: [null, null, null, 9]
     type: ColumnPanel
   layout_properties: {grid_position: 'NLAEQO,WOPBRP'}
   name: column_panel_2
-  properties: {col_widths: '{"EZLHFT":5,"FTHUYR":20,"DZTHKR":40,"FVTLIU":20,"WUJCLM":15,"CRAFDM":45}', role: elevated-card}
+  properties: {col_widths: '{"EZLHFT":5,"FTHUYR":20,"DZTHKR":40,"WUJCLM":15,"CRAFDM":45}', role: elevated-card}
   type: ColumnPanel
 container: {type: ColumnPanel}
 is_package: true

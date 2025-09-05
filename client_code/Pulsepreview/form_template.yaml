@@ -2,15 +2,18 @@ components:
 - components:
   - layout_properties: {grid_position: 'DEAIMG,LNEXJL'}
     name: image_1
-    properties: {height: 53, source: _/theme/uncolored design of .png}
+    properties:
+      height: 55.11109924316406
+      margin: [0, null, 0, null]
+      source: _/theme/uncolored design of .png
     type: Image
   - layout_properties: {grid_position: 'DEAIMG,YOAXTL'}
     name: label_1
-    properties: {font_size: 20, text: John Doe}
+    properties: {font_size: 12, text: John Doe}
     type: Label
   - layout_properties: {grid_position: 'DEAIMG,HEVZFR'}
     name: label_6
-    properties: {bold: true, font_size: 18, foreground: 'theme:On Primary Container', text: 'Duration: 1 Hour'}
+    properties: {bold: true, font_size: 12, foreground: 'theme:On Primary Container', text: 'Duration: 1 Hour'}
     type: Label
   - layout_properties: {grid_position: 'ARQAXQ,ZCHSQO'}
     name: spacer_1
@@ -18,16 +21,17 @@ components:
     type: Spacer
   - layout_properties: {grid_position: 'ZRPMRN,QLCAZI'}
     name: label_2
-    properties: {align: center, bold: true, font_size: 30, role: headline, text: John Doe Needs Advice!!!}
+    properties: {align: center, bold: true, font_size: 14, role: headline, text: John Doe Needs Advice!!!}
     type: Label
   - layout_properties: {grid_position: 'LEWESZ,WAHXRK'}
     name: label_3
-    properties: {align: center, font_size: 19, text: 🙏🙏Guys I am getting ready to work but I need good work advice from you. Can anybody spark me with an advice}
+    properties: {align: center, font_size: 12, text: 🙏🙏Guys I am getting ready to work but I need good work advice from you. Can anybody spark me with an advice}
     type: Label
   - layout_properties: {grid_position: 'XXMGTE,BFLTRE'}
     name: button_1
     properties:
       align: right
+      font_size: 12
       foreground: '#f41f1f'
       icon: fa:heart
       spacing:
@@ -38,14 +42,16 @@ components:
   - layout_properties: {grid_position: 'XXMGTE,QIATFP'}
     name: label_4
     properties:
+      font_size: 12
       spacing:
         padding: [12, null, null, null]
-      text: :200
+      text: :0
     type: Label
   - layout_properties: {grid_position: 'XXMGTE,LXDRVX'}
     name: button_2
     properties:
       align: right
+      font_size: 12
       icon: fa:star
       spacing:
         margin: [null, null, null, 0]
@@ -55,17 +61,18 @@ components:
   - layout_properties: {grid_position: 'XXMGTE,PWVBEQ'}
     name: label_5
     properties:
+      font_size: 12
       spacing:
         padding: [12, null, null, null]
-      text: :18
+      text: :0
     type: Label
   layout_properties: {grid_position: 'NIAGUT,VLOQHO'}
   name: column_panel_1
-  properties: {col_widths: '{"BFLTRE":10,"QIATFP":5,"LXDRVX":10,"PWVBEQ":35,"LNEXJL":5,"YOAXTL":55}', role: elevated-card}
+  properties: {col_widths: '{"BFLTRE":12,"QIATFP":3,"LXDRVX":15,"PWVBEQ":30,"LNEXJL":5,"YOAXTL":55,"HEVZFR":20}', role: elevated-card}
   type: ColumnPanel
-- layout_properties: {grid_position: 'GOSAGO,CHRQHP'}
+- layout_properties: {grid_position: 'FOEABO,ZMFURN'}
   name: button_3
-  properties: {role: filled-button, text: Activate}
+  properties: {align: right, font_size: 12, role: filled-button, text: Activate}
   type: Button
 container: {type: ColumnPanel}
 is_package: true

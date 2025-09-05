@@ -2,16 +2,16 @@ components:
 - components:
   - layout_properties: {grid_position: 'RADTCS,DMWSGY'}
     name: label_1
-    properties: {align: center, background: 'theme:Primary', bold: true, foreground: 'theme:On Primary', role: headline, text: Create A New Chatroom}
+    properties: {align: center, background: 'theme:Primary', bold: true, font_size: 14, foreground: 'theme:On Primary', role: headline, text: Create A New Chatroom}
     type: Label
   - layout_properties: {grid_position: 'VNTZGR,YBTAYT'}
     name: button_5
-    properties: {align: left, icon: 'fa:arrow-left', text: Back}
+    properties: {align: left, font_size: 12, icon: 'fa:arrow-left', text: Back}
     type: Button
   - layout_properties: {grid_position: 'UJTZEX,XVROZZ'}
     name: image_1
     properties:
-      height: 59.99998474121094
+      height: 48.444427490234375
       horizontal_align: center
       margin: [null, 0, null, 213]
       source: _/theme/create an uncolored .png
@@ -19,15 +19,15 @@ components:
   - components:
     - layout_properties: {grid_position: 'JVITMF,YZYFHJ'}
       name: button_2
-      properties: {align: left, icon: 'fa:upload', text: Upload}
+      properties: {align: left, font_size: 12, icon: 'fa:upload', text: Upload}
       type: Button
     - layout_properties: {grid_position: 'GSVIIQ,DQKPKF'}
       name: button_3
-      properties: {align: left, icon: 'fa:camera', text: Use Camera}
+      properties: {align: left, font_size: 12, icon: 'fa:camera', text: Use Camera}
       type: Button
     - layout_properties: {grid_position: 'MNKICU,KTQKLR'}
       name: button_4
-      properties: {align: left, icon: 'fa:remove', text: Remove}
+      properties: {align: left, font_size: 12, icon: 'fa:remove', text: Remove}
       type: Button
     layout_properties: {grid_position: 'UJTZEX,VGBAWZ'}
     name: column_panel_2
@@ -39,11 +39,11 @@ components:
     type: Spacer
   - layout_properties: {grid_position: 'EFYMUL,SJZCZV'}
     name: label_2
-    properties: {bold: true, foreground: 'theme:On Primary Container', text: 'Group Name:'}
+    properties: {bold: true, font_size: 12, foreground: 'theme:On Primary Container', text: 'Group Name:'}
     type: Label
   - layout_properties: {grid_position: 'EFYMUL,YXXTIE'}
     name: text_box_1
-    properties: {placeholder: Input group name, role: outlined, visible: true}
+    properties: {font_size: 12, placeholder: Input group name, role: outlined, visible: true}
     type: TextBox
   - layout_properties: {grid_position: 'UDBCIF,DUOROP'}
     name: spacer_5
@@ -53,6 +53,7 @@ components:
     name: label_3
     properties:
       bold: true
+      font_size: 12
       foreground: theme:On Primary Container
       spacing:
         padding: [28, null, null, null]
@@ -60,11 +61,11 @@ components:
     type: Label
   - layout_properties: {grid_position: 'GWRBHL,KDARTF VGFNWK,LUHBUL'}
     name: label_4
-    properties: {align: right, bold: true, role: body, text: 0/150}
+    properties: {align: right, bold: true, font_size: 12, role: body, text: 0/150}
     type: Label
   - layout_properties: {grid_position: 'GWRBHL,KDARTF RXOYSU,TNPXWT'}
     name: text_area_1
-    properties: {background: 'theme:Tertiary Container', height: 96.066650390625, placeholder: Add short group bio..., role: outlined, visible: true}
+    properties: {background: 'theme:Tertiary Container', font_size: 12, height: 96.066650390625, placeholder: Add short group bio..., role: outlined, visible: true}
     type: TextArea
   - layout_properties: {grid_position: 'AFLLAQ,RMECTH'}
     name: spacer_4
@@ -72,11 +73,12 @@ components:
     type: Spacer
   - layout_properties: {grid_position: 'WMRRGM,SHMJNS'}
     name: label_5
-    properties: {bold: true, foreground: 'theme:On Primary Container', text: 'Group category:'}
+    properties: {bold: true, font_size: 12, foreground: 'theme:On Primary Container', text: 'Group category:'}
     type: Label
   - layout_properties: {grid_position: 'WMRRGM,SUYAWU'}
     name: drop_down_1
     properties:
+      font_size: 12
       items: ['🏀 Sports  ', '🎵 Music  ', '🎮 Gaming  ', '🎬 Movies & TV  ', '💻 Tech & Coding  ', '🎨 Art & Design  ', '📚 Education & Study  ', '🚀 Business & Startups  ', '💪 Health & Fitness  ', '🍳 Food & Cooking  ', '✈️ Travel & Adventure  ', '👗 Fashion & Style  ', '📸 Photography  ', '🙏 Spirituality & Faith  ', '💬 Relationships & Advice  ', '🤣 Comedy & Memes  ', '📰 News & Politics  ', '📝 Books & Writing  ', '🌿 Science & Nature  ', '🛠️ DIY & Crafts  ', '🧧 Anime & Manga  ', '🚗 Cars & Motors  ', '💰 Finance & Investing  ', '🧠 Mental Wellness  ', '🎲 Random & Off-topic  ', '']
       role: outlined
     type: DropDown
@@ -86,15 +88,15 @@ components:
     type: Spacer
   - layout_properties: {grid_position: 'TAJNIA,NUFITG'}
     name: label_7
-    properties: {bold: true, foreground: 'theme:On Primary Container', text: 'Group Rules/Guidelines:'}
+    properties: {bold: true, font_size: 12, foreground: 'theme:On Primary Container', text: 'Group Rules/Guidelines:'}
     type: Label
   - layout_properties: {grid_position: 'TAJNIA,BDCCSH'}
     name: text_area_2
-    properties: {background: 'theme:Tertiary Container', height: 81.53326416015625, placeholder: Enter a list of rules for your group, role: outlined, text: ''}
+    properties: {background: 'theme:Tertiary Container', font_size: 12, height: 81.53326416015625, placeholder: Enter a list of rules for your group, role: outlined, text: ''}
     type: TextArea
   - layout_properties: {grid_position: 'RHZSZC,MVWUAA'}
     name: check_box_1
-    properties: {align: center, bold: true, text: Make your group public}
+    properties: {align: center, bold: true, font_size: 12, text: Make your group public}
     type: CheckBox
   - layout_properties: {grid_position: 'WIUFRG,PYZCRS'}
     name: spacer_1
@@ -102,7 +104,7 @@ components:
     type: Spacer
   - layout_properties: {grid_position: 'JMTQHG,IIYSQF'}
     name: button_1
-    properties: {align: full, role: filled-button, text: Create Chatroom}
+    properties: {align: full, font_size: 12, role: filled-button, text: Create Chatroom}
     type: Button
   layout_properties: {grid_position: 'UZGHPT,ZIWITG'}
   name: column_panel_1
