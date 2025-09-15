@@ -148,6 +148,10 @@ components:
     name: image_9
     properties: {height: 39, horizontal_align: left, source: _/theme/Copilot_20250821_090218.png}
     type: Image
+  - layout_properties: {grid_position: 'TOXRIU,FTHUYR WFVRWF,UIOFAU'}
+    name: button_6
+    properties: {font_size: 12, foreground: '#dd7e7e', icon: 'fa:bell', text: Notifications}
+    type: Button
   - components:
     - layout_properties: {grid_position: 'PVTYRE,FXVRCE OXWDRR,YCJIGW'}
       name: image_3
@@ -258,7 +262,7 @@ components:
   - components:
     - layout_properties: {}
       name: button_5
-      properties: {align: right, foreground: '#636e0c', icon: 'fa:shopping-bag', text: Shop}
+      properties: {align: right, font_size: 12, foreground: '#636e0c', icon: 'fa:shopping-bag', text: Shop}
       type: Button
     layout_properties: {grid_position: 'AQOHIY,TZSEUV'}
     name: data_row_panel_2
@@ -268,7 +272,7 @@ components:
     type: DataRowPanel
   layout_properties: {grid_position: 'NLAEQO,WOPBRP'}
   name: column_panel_2
-  properties: {col_widths: '{"EZLHFT":5,"FTHUYR":20,"DZTHKR":40,"WUJCLM":15,"CRAFDM":45}', role: elevated-card}
+  properties: {col_widths: '{"EZLHFT":5,"FTHUYR":20,"DZTHKR":40,"WUJCLM":15,"CRAFDM":40,"UIOFAU":25}', role: elevated-card}
   type: ColumnPanel
 container: {type: ColumnPanel}
 is_package: true
