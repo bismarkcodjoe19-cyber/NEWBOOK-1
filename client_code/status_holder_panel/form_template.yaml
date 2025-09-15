@@ -1,0 +1,51 @@
+components:
+- components:
+  - layout_properties: {grid_position: 'FSWYSI,BVUCNX'}
+    name: label_1
+    properties:
+      icon: fa:bolt
+      spacing:
+        padding: [70, null, 25, null]
+      text: "Add \nvibe"
+    type: Label
+  layout_properties: {grid_position: 'HSCVXV,WNDLHW'}
+  name: outlined_card_3
+  properties:
+    background: '#a5c2e9'
+    role: outlined-card
+    spacing:
+      margin: [null, null, 0, null]
+      padding: [5, null, 56, null]
+  type: ColumnPanel
+- components:
+  - layout_properties: {grid_position: 'CLRLHQ,OUNDZR'}
+    name: image_1
+    properties: {height: 160.77777099609375, source: _/theme/uncolored design of .png}
+    type: Image
+  layout_properties: {grid_position: 'HSCVXV,LMLEYH'}
+  name: outlined_card_2
+  properties:
+    role: outlined-card
+    spacing:
+      padding: [null, null, 19, null]
+  type: ColumnPanel
+- components:
+  - layout_properties: {grid_position: 'OUWGUI,WFPXFK'}
+    name: image_2
+    properties: {height: 160.77777099609375, source: _/theme/uncolored design of .png}
+    type: Image
+  layout_properties: {grid_position: 'HSCVXV,VAIJRT'}
+  name: outlined_card_1
+  properties:
+    role: outlined-card
+    spacing:
+      padding: [null, null, 19, null]
+  type: ColumnPanel
+- layout_properties: {grid_position: 'HSCVXV,YRBETR'}
+  name: spacer_1
+  properties: {height: 32}
+  type: Spacer
+container:
+  properties: {col_widths: '{"WNDLHW":10,"LMLEYH":10,"VAIJRT":10,"YRBETR":39}'}
+  type: ColumnPanel
+is_package: true
