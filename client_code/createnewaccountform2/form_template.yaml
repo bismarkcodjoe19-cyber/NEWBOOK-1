@@ -1,20 +1,20 @@
 components:
 - layout_properties: {grid_position: 'KRMZUJ,ISOJMK WXMQLE,BYEYDM'}
   name: image_3
-  properties: {height: 482, source: _/theme/change the hairstyle.png}
+  properties: {height: 415.33331298828125, source: _/theme/change the hairstyle.png}
   type: Image
 - layout_properties: {grid_position: 'KRMZUJ,ISOJMK KLBXQB,BPOZVJ'}
   name: image_4
-  properties: {height: 292, source: _/theme/make the shoes very .png}
+  properties: {height: 257.111083984375, source: _/theme/make the shoes very .png}
   type: Image
 - layout_properties: {grid_position: 'KRMZUJ,HBOOPR AQLFBZ,HUVWXR'}
   name: image_2
-  properties: {height: 66, source: _/theme/nb.png}
+  properties: {height: 47.77777099609375, source: _/theme/nb.png}
   type: Image
 - components:
   - layout_properties: {grid_position: 'EKEXMW,WYXMLA'}
     name: label_1
-    properties: {align: left, bold: true, role: headline, text: '        NEWBOOK'}
+    properties: {align: left, bold: true, font_size: 17, role: headline, text: '        NEWBOOK'}
     type: Label
   layout_properties: {grid_position: 'KRMZUJ,HBOOPR AQLFBZ,TBMRIV'}
   name: column_panel_1
@@ -22,20 +22,20 @@ components:
   type: ColumnPanel
 - layout_properties: {grid_position: 'KRMZUJ,HBOOPR UMGJYZ,DPOYZL'}
   name: image_1
-  properties: {height: 99, horizontal_align: right, source: _/theme/create an uncolored .png}
+  properties: {height: 50.999969482421875, horizontal_align: right, source: _/theme/create an uncolored .png}
   type: Image
 - components:
   - layout_properties: {grid_position: 'PEXLTS,MLWFIJ'}
     name: button_1
-    properties: {icon: 'fa:upload', text: Upload Photo, visible: false}
+    properties: {font_size: 12, icon: 'fa:upload', text: Upload Photo, visible: false}
     type: Button
   - layout_properties: {grid_position: 'KBQFAR,VHBTUD'}
     name: button_2
-    properties: {align: center, icon: 'fa:camera', text: Take a photo, visible: false}
+    properties: {align: center, font_size: 12, icon: 'fa:camera', text: Take a photo, visible: false}
     type: Button
   - layout_properties: {grid_position: 'LSRCLA,ODJASF'}
     name: button_3
-    properties: {icon: 'fa:remove', text: Remove picture, visible: false}
+    properties: {font_size: 12, icon: 'fa:remove', text: Remove picture, visible: false}
     type: Button
   layout_properties: {grid_position: 'KRMZUJ,HBOOPR UMGJYZ,NMMISS'}
   name: column_panel_2
@@ -43,7 +43,7 @@ components:
   type: ColumnPanel
 - layout_properties: {grid_position: 'KRMZUJ,HBOOPR QZBDYB,MDBHEJ'}
   name: label_2
-  properties: {bold: true, text: 'Phone Number :'}
+  properties: {bold: true, font_size: 12, text: 'Phone Number :'}
   type: Label
 - layout_properties: {grid_position: 'KRMZUJ,HBOOPR QZBDYB,GLFQGU'}
   name: drop_down_1
@@ -51,6 +51,7 @@ components:
     background: theme:On Primary
     bold: true
     enabled: false
+    font_size: 12
     include_placeholder: false
     italic: true
     items: [+93 Afghanistan, +355 Albania, +213 Algeria, +376 Andorra, +244 Angola, +1-684 American Samoa, +1-268 Antigua and Barbuda, +54 Argentina, +374 Armenia, +297 Aruba, +61 Australia, +43 Austria, +994 Azerbaijan, +1-242 Bahamas, +973 Bahrain, +880 Bangladesh, +1-246 Barbados, +375 Belarus, +32 Belgium, +501 Belize, +229 Benin, +1-441 Bermuda, +975 Bhutan, +591 Bolivia, +387 Bosnia and Herzegovina, +267 Botswana, +55 Brazil, +673 Brunei, +359 Bulgaria, +226 Burkina Faso, +257 Burundi, +855 Cambodia, +237 Cameroon, +1 Canada, +238 Cape Verde, +1-345 Cayman Islands, +236 Central African Republic, +235 Chad, +56 Chile, +86 China, +57 Colombia, +269 Comoros, +242 Congo (Brazzaville), +243 Congo (Kinshasa), +682 Cook Islands, +506 Costa Rica, +225 Côte d'Ivoire, +385 Croatia, +53 Cuba, +599 Curaçao, +357 Cyprus, +420 Czech Republic, +45 Denmark, +253 Djibouti, +1-767 Dominica, +1-809 Dominican Republic, +593 Ecuador, +20 Egypt, +503 El Salvador, +240 Equatorial Guinea, +291 Eritrea, +372 Estonia, +268 Eswatini, +251 Ethiopia, +679 Fiji, +358 Finland, +33 France, +241 Gabon, +220 Gambia, +995 Georgia, +49 Germany, +233 Ghana, +30 Greece, +1-473 Grenada, +502 Guatemala, +224 Guinea, +245 Guinea-Bissau, +592 Guyana, +509 Haiti, +504 Honduras, +852 Hong Kong, +36 Hungary, +354 Iceland, +91 India, +62 Indonesia, +98 Iran, +964 Iraq, +353 Ireland, +972 Israel, +39 Italy, +1-876 Jamaica, +81 Japan, +962 Jordan, +7 Kazakhstan, +254 Kenya, +686 Kiribati, +850 North Korea, +82 South Korea, +965 Kuwait, +996 Kyrgyzstan, +856 Laos, +371 Latvia, +961 Lebanon, +266 Lesotho, +231 Liberia, +218 Libya, +423 Liechtenstein, +370 Lithuania, +352 Luxembourg, +853 Macau, +389 North Macedonia, +261 Madagascar, +265 Malawi, +60 Malaysia, +960 Maldives, +223 Mali, +356 Malta, +692 Marshall Islands, +222 Mauritania, +230 Mauritius, +52 Mexico, +691 Micronesia, +373 Moldova, +377 Monaco, +976 Mongolia, +382 Montenegro, +212 Morocco, +258 Mozambique, +95 Myanmar, +264 Namibia, +674 Nauru, +977 Nepal, +31 Netherlands, +687 New Caledonia, +64 New Zealand, +505 Nicaragua, +227 Niger, +234 Nigeria, +683 Niue, +672 Norfolk Island, +47 Norway, +968 Oman, +92 Pakistan, +680 Palau, +970 Palestine, +507 Panama, +675 Papua New Guinea, +595 Paraguay, +51 Peru, +63 Philippines, +48 Poland, +351 Portugal, +1-787 Puerto Rico, +974 Qatar, +40 Romania, +7 Russia, +250 Rwanda, +1-869 Saint Kitts and Nevis, +1-758 Saint Lucia, +1-784 Saint Vincent and the Grenadines, +685 Samoa, +378 San Marino, +239 São Tomé and Príncipe, +966 Saudi Arabia, +221 Senegal, +381 Serbia, +248 Seychelles, +232 Sierra Leone, +65 Singapore, +421 Slovakia, +386 Slovenia, +677 Solomon Islands, +252 Somalia, +27 South Africa, +211 South Sudan, +34 Spain, +94 Sri Lanka, +249 Sudan, +597 Suriname, +268 Swaziland, +46 Sweden, +41 Switzerland, +963 Syria, +886 Taiwan, +992 Tajikistan, +255 Tanzania, +66 Thailand, +228 Togo, +676 Tonga, +1-868 Trinidad and Tobago, +216 Tunisia, +90 Turkey, +993 Turkmenistan, +688 Tuvalu, +256 Uganda, +380 Ukraine, +971 United Arab Emirates, +44 United Kingdom, +1 United States, +598 Uruguay, +998 Uzbekistan, +678 Vanuatu, +379 Vatican City, +58 Venezuela, +84 Vietnam, +967 Yemen, +260 Zambia, +263 Zimbabwe]
@@ -60,15 +61,16 @@ components:
   type: DropDown
 - layout_properties: {grid_position: 'KRMZUJ,HBOOPR QZBDYB,CKTCFY'}
   name: text_box_1
-  properties: {background: 'theme:On Primary', bold: false, enabled: false, italic: true, placeholder: phone number.., role: outlined, visible: false}
+  properties: {background: 'theme:On Primary', bold: false, enabled: false, font_size: 12, italic: true, placeholder: phone number.., role: outlined, visible: false}
   type: TextBox
 - layout_properties: {grid_position: 'KRMZUJ,HBOOPR XMPSSX,NHVQPV'}
   name: label_3
-  properties: {bold: true, text: 'Region :'}
+  properties: {bold: true, font_size: 12, text: 'Region :'}
   type: Label
 - layout_properties: {grid_position: 'KRMZUJ,HBOOPR XMPSSX,XFKYPQ'}
   name: country_dropdown
   properties:
+    font_size: 12
     italic: true
     items: [Afghanistan, Albania, Algeria, Andorra, Angola, Antigua and Barbuda, Argentina, Armenia, Australia, Austria, Azerbaijan, Bahamas, Bahrain, Bangladesh, Barbados, Belarus, Belgium, Belize, Benin, Bhutan, Bolivia, Bosnia and Herzegovina, Botswana, Brazil, Brunei, Bulgaria, Burkina Faso, Burundi, Cabo Verde, Cambodia, Cameroon, Canada, Central African Republic, Chad, Chile, China, Colombia, Comoros, Congo (Brazzaville), Congo (Kinshasa), Costa Rica, Croatia, Cuba, Cyprus, Czech Republic, Denmark, Djibouti, Dominica, Dominican Republic, Ecuador, Egypt, El Salvador, Equatorial Guinea, Eritrea, Estonia, Eswatini, Ethiopia, Fiji, Finland, France, Gabon, Gambia, Georgia, Germany, Ghana, Greece, Grenada, Guatemala, Guinea, Guinea-Bissau, Guyana, Haiti, Honduras, Hungary, Iceland, India, Indonesia, Iran, Iraq, Ireland, Israel, Italy, Jamaica, Japan, Jordan, Kazakhstan, Kenya, Kiribati, Kuwait, Kyrgyzstan, Laos, Latvia, Lebanon, Lesotho, Liberia, Libya, Liechtenstein, Lithuania, Luxembourg, Madagascar, Malawi, Malaysia, Maldives, Mali, Malta, Marshall Islands, Mauritania, Mauritius, Mexico, Micronesia, Moldova, Monaco, Mongolia, Montenegro, Morocco, Mozambique, Myanmar, Namibia, Nauru, Nepal, Netherlands, New Zealand, Nicaragua, Niger, Nigeria, North Korea, North Macedonia, Norway, Oman, Pakistan, Palau, Palestine, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Qatar, Romania, Russia, Rwanda, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Samoa, San Marino, Sao Tome and Principe, Saudi Arabia, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Slovakia, Slovenia, Solomon Islands, Somalia, South Africa, South Korea, South Sudan, Spain, Sri Lanka, Sudan, Suriname, Sweden, Switzerland, Syria, Taiwan, Tajikistan, Tanzania, Thailand, Timor-Leste, Togo, Tonga, Trinidad and Tobago, Tunisia, Turkey, Turkmenistan, Tuvalu, Uganda, Ukraine, United Arab Emirates, United Kingdom, United States, Uruguay, Uzbekistan, Vanuatu, Vatican City, Venezuela, Vietnam, Yemen, Zambia, Zimbabwe]
     role: outlined
@@ -80,47 +82,47 @@ components:
   type: Spacer
 - layout_properties: {grid_position: 'KRMZUJ,HBOOPR ZJADMC,QWTFAW'}
   name: label_4
-  properties: {bold: true, text: 'Passcode :'}
+  properties: {bold: true, font_size: 12, text: 'Passcode :', underline: true}
   type: Label
 - layout_properties: {grid_position: 'KRMZUJ,HBOOPR ZJADMC,LVDMBN TZOELK,OLFFGG'}
   name: text_box_2
-  properties: {background: 'theme:On Primary', italic: true, placeholder: Enter passcode.., role: outlined, type: text, visible: false}
+  properties: {background: 'theme:On Primary', font_size: 12, italic: true, placeholder: Enter passcode.., role: outlined, type: text, visible: false}
   type: TextBox
 - layout_properties: {grid_position: 'KRMZUJ,HBOOPR ZJADMC,LVDMBN OQDHXX,QIYCDI'}
   name: strength_label
-  properties: {align: right}
+  properties: {align: right, font_size: 12}
   type: Label
 - layout_properties: {grid_position: 'KRMZUJ,HBOOPR FMTXYU,KWEMVE'}
   name: label_5
-  properties: {bold: true, italic: false, text: 'Confirm Passcode:'}
+  properties: {bold: true, font_size: 12, italic: false, text: 'Confirm Passcode:'}
   type: Label
 - layout_properties: {grid_position: 'KRMZUJ,HBOOPR FMTXYU,WRHXWG KUJKHJ,SVNAWW'}
   name: text_box_3
-  properties: {background: 'theme:On Primary', placeholder: Confirm passcode.., role: outlined, visible: false}
+  properties: {background: 'theme:On Primary', font_size: 12, placeholder: Confirm passcode.., role: outlined, visible: false}
   type: TextBox
 - layout_properties: {grid_position: 'KRMZUJ,HBOOPR FMTXYU,WRHXWG ESDVZR,FUCSOK'}
   name: match_label
-  properties: {align: right}
+  properties: {align: right, font_size: 12}
   type: Label
 - layout_properties: {grid_position: 'KRMZUJ,HBOOPR ISKUWO,BMBNIS'}
   name: terms_checkbox
-  properties: {bold: true, checked: false, text: I agree to the Terms & Conitions of NewBook}
+  properties: {bold: true, checked: false, font_size: 12, text: I agree to the Terms & Conitions of NewBook}
   type: CheckBox
 - layout_properties: {grid_position: 'KRMZUJ,HBOOPR HBVVYM,HVTWHS'}
   name: label_6
-  properties: {bold: true, icon: res, text: 'Help us beat robots.                What is 3-4?'}
+  properties: {bold: true, font_size: 12, icon: 'fa:question', text: 'Help us beat robots.   What is 3-4?'}
   type: Label
 - layout_properties: {grid_position: 'KRMZUJ,HBOOPR HBVVYM,CNOCXY TMSXER,BRBDWS'}
   name: text_box_4
-  properties: {italic: true, placeholder: Answer please.., role: outlined, visible: false}
+  properties: {font_size: 12, italic: true, placeholder: Answer please.., role: outlined, visible: false}
   type: TextBox
 - layout_properties: {grid_position: 'KRMZUJ,HBOOPR HBVVYM,CNOCXY OLFZTU,KBEOFQ'}
   name: answer_check
-  properties: {align: right}
+  properties: {align: right, font_size: 12}
   type: Label
 - layout_properties: {grid_position: 'KRMZUJ,HBOOPR TMMEVN,FEVZVQ'}
   name: register_button
-  properties: {align: right, enabled: false, icon: 'fa:pencil', icon_align: right, role: filled-button, text: Register}
+  properties: {align: right, enabled: false, font_size: 12, icon: 'fa:pencil', icon_align: right, role: filled-button, text: Register}
   type: Button
 container:
   properties: {col_spacing: small, col_widths: '{"MDBHEJ":10,"GLFQGU":10,"CKTCFY":40,"DPOYZL":35,"NMMISS":25,"QWTFAW":10,"LVDMBN":50,"KWEMVE":10,"WRHXWG":50,"NHVQPV":15,"XFKYPQ":40,"IRQRJQ":35,"HUVWXR":15,"TBMRIV":45,"ISOJMK":25,"HBOOPR":35}'}
