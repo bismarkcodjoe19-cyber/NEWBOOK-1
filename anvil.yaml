@@ -1,5 +1,22 @@
 allow_embedding: false
 db_schema:
+  category:
+    client: none
+    columns:
+    - admin_ui: {order: 0, width: 200}
+      name: name
+      type: string
+    - admin_ui: {order: 1, width: 200}
+      name: description
+      type: string
+    - admin_ui: {order: 2, width: 200}
+      name: is_active
+      type: simpleObject
+    - admin_ui: {order: 3, width: 200}
+      name: icon_url
+      type: string
+    server: full
+    title: category
   users:
     client: none
     columns:
@@ -39,6 +56,10 @@ db_schema:
     - admin_ui: {order: 11, width: 200}
       name: reset_token
       type: string
+    - admin_ui: {order: 12, width: 200}
+      name: category_ref
+      target: category
+      type: link_single
     server: full
     title: Table 1
 dependencies: []
