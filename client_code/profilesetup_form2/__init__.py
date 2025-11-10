@@ -1,5 +1,8 @@
 from ._anvil_designer import profilesetup_form2Template
 from anvil import *
+import anvil.tables as tables
+import anvil.tables.query as q
+from anvil.tables import app_tables
 
 class profilesetup_form2(profilesetup_form2Template):
   def __init__(self, **properties):

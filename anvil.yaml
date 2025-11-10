@@ -1,4 +1,46 @@
 allow_embedding: false
+db_schema:
+  users:
+    client: none
+    columns:
+    - admin_ui: {order: 0, width: 200}
+      name: email
+      type: string
+    - admin_ui: {order: 1, width: 200}
+      name: password_hash
+      type: string
+    - admin_ui: {order: 2, width: 200}
+      name: username
+      type: string
+    - admin_ui: {order: 3, width: 200}
+      name: created_at
+      type: datetime
+    - admin_ui: {order: 4, width: 200}
+      name: is_active
+      type: simpleObject
+    - admin_ui: {order: 5, width: 200}
+      name: profile_pic
+      type: media
+    - admin_ui: {order: 6, width: 200}
+      name: bio
+      type: string
+    - admin_ui: {order: 7, width: 200}
+      name: last_login
+      type: datetime
+    - admin_ui: {order: 8, width: 200}
+      name: role
+      type: string
+    - admin_ui: {order: 9, width: 200}
+      name: phone_number
+      type: string
+    - admin_ui: {order: 10, width: 200}
+      name: location
+      type: string
+    - admin_ui: {order: 11, width: 200}
+      name: reset_token
+      type: string
+    server: full
+    title: Table 1
 dependencies: []
 metadata: {logo_img: 'asset:nb.png'}
 name: NewBook

@@ -1,5 +1,8 @@
 from ._anvil_designer import phonecallformTemplate
 from anvil import *
+import anvil.tables as tables
+import anvil.tables.query as q
+from anvil.tables import app_tables
 
 class phonecallform(phonecallformTemplate):
   def __init__(self, **properties):
