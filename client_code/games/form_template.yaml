@@ -1,0 +1,7 @@
+components:
+- layout_properties: {grid_position: 'FVJWZH,ERURGV'}
+  name: game_area
+  properties: {}
+  type: RichText
+container: {type: ColumnPanel}
+is_package: true
