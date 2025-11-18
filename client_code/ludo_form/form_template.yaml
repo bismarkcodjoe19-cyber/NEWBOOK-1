@@ -1,0 +1,7 @@
+components:
+- layout_properties: {grid_position: 'ZTXMEE,HNCZLF'}
+  name: ludo_form
+  properties: {}
+  type: RichText
+container: {type: ColumnPanel}
+is_package: true
