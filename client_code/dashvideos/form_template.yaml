@@ -1,0 +1,28 @@
+components:
+- components:
+  - layout_properties: {grid_position: 'AULFAF,EZRRWT'}
+    name: spacer_1
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'AULFAF,AWHYQF'}
+    name: image_1
+    properties: {height: 27, source: _/theme/Copilot_20250821_092703.png}
+    type: Image
+  - layout_properties: {grid_position: 'AULFAF,LUMRRD'}
+    name: label_1
+    properties: {align: left, bold: true, icon: '', text: Videos}
+    type: Label
+  - layout_properties: {grid_position: 'IEPSMU,SNIKHA'}
+    name: spacer_2
+    properties: {height: 19.77777099609375}
+    type: Spacer
+  - layout_properties: {grid_position: 'ZPVAQL,FMHNES'}
+    name: repeating_panel_1
+    properties: {item_template: dashvideos.ItemTemplate9}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'MNPNWJ,GLNWBN'}
+  name: column_panel_1
+  properties: {col_widths: '{"AWHYQF":10,"LUMRRD":60,"EZRRWT":20}', role: elevated-card}
+  type: ColumnPanel
+container: {type: ColumnPanel}
+is_package: true
