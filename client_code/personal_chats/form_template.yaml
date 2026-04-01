@@ -1,0 +1,19 @@
+components:
+- layout_properties: {grid_position: 'OXCKGI,LDCEQY'}
+  name: label_1
+  properties: {text: Sarah}
+  type: Label
+- layout_properties: {grid_position: 'OXCKGI,PGLIED'}
+  name: label_4
+  properties: {text: Germany}
+  type: Label
+- layout_properties: {grid_position: 'FPKHXK,WVOIEO'}
+  name: label_2
+  properties: {text: Jacob}
+  type: Label
+- layout_properties: {grid_position: 'NRYEHT,BXCXDS'}
+  name: label_3
+  properties: {text: Nelson}
+  type: Label
+container: {type: ColumnPanel}
+is_package: true

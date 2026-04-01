@@ -1,0 +1,38 @@
+components:
+- components:
+  - layout_properties: {grid_position: 'LWRPLB,ETAYXL'}
+    name: label_1
+    properties: {align: center, bold: true, icon: 'fa:home', text: Personal Chatroom}
+    type: Label
+  - layout_properties: {grid_position: 'SPJNYO,QTXQIF'}
+    name: spacer_1
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'PDOOZT,OCUGEK'}
+    name: label_2
+    properties: {background: '', icon: 'fa:plus', text: Add a new friend}
+    type: Label
+  - layout_properties: {grid_position: 'BBDKBN,PDNIRE'}
+    name: spacer_2
+    properties: {height: 19.33331298828125}
+    type: Spacer
+  - layout_properties: {grid_position: 'PKBKIV,OHWBLB'}
+    name: label_3
+    properties: {align: center, background: 'theme:Primary', bold: true, border: '', foreground: 'theme:On Primary', text: My Chatroom}
+    type: Label
+  - layout_properties: {grid_position: 'KBBAVI,ASYVMT'}
+    name: spacer_3
+    properties: {height: 16.222198486328125}
+    type: Spacer
+  - layout_properties: {grid_position: 'ZEBVVT,RGMVRD'}
+    name: repeating_panel_1
+    properties: {item_template: personal_chats}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'MEUOAP,TAXKKS'}
+  name: column_panel_1
+  properties: {role: elevated-card}
+  type: ColumnPanel
+container:
+  properties: {foreground: 'theme:On Primary Container', role: null}
+  type: ColumnPanel
+is_package: true
