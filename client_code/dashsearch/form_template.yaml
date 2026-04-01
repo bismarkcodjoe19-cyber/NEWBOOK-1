@@ -12,13 +12,30 @@ components:
     name: spacer_1
     properties: {height: 32}
     type: Spacer
-  - layout_properties: {grid_position: 'KDLOOQ,JWRLXR'}
-    name: repeating_panel_1
-    properties: {item_template: dashsearch.ItemTemplate8}
-    type: RepeatingPanel
   layout_properties: {grid_position: 'GQAHNR,KDKCXB'}
   name: column_panel_1
   properties: {col_widths: '{"PWEAUO":40,"BYFDHE":15,"CHLQON":25}', role: elevated-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'XZGGBX,OBGJHF'}
+  name: label_1
+  properties: {bold: true, foreground: 'theme:Primary', icon: 'fa:lightbulb-o', text: Suggestions}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'QCLVKS,SKBQZE'}
+    name: label_2
+    properties: {foreground: 'theme:On Primary', text: The Bass guitar stars}
+    type: Label
+  - layout_properties: {grid_position: 'LOMLOR,BQIQVX'}
+    name: label_3
+    properties: {foreground: 'theme:On Primary', text: TV3 News update}
+    type: Label
+  - layout_properties: {grid_position: 'LGIOZD,AJKDNI'}
+    name: label_4
+    properties: {foreground: 'theme:On Primary', text: Ukraine and Pakistan war review}
+    type: Label
+  layout_properties: {grid_position: 'HDIMVS,PGVTVJ'}
+  name: column_panel_2
+  properties: {background: 'theme:Primary', role: elevated-card}
   type: ColumnPanel
 container: {type: ColumnPanel}
 is_package: true
