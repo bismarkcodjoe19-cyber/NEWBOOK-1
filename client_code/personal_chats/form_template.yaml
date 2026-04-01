@@ -1,19 +1,85 @@
 components:
+- layout_properties: {grid_position: 'OXCKGI,JJTNOO'}
+  name: image_1
+  properties: {height: 37.11109924316406, source: _/theme/create an uncolored .png}
+  type: Image
 - layout_properties: {grid_position: 'OXCKGI,LDCEQY'}
   name: label_1
   properties: {text: Sarah}
   type: Label
+- layout_properties: {grid_position: 'OXCKGI,RQVFMR'}
+  name: image_5
+  properties: {height: 33.11109924316406, source: _/theme/g.webp}
+  type: Image
 - layout_properties: {grid_position: 'OXCKGI,PGLIED'}
   name: label_4
-  properties: {text: Germany}
+  properties: {text: GE}
   type: Label
+- layout_properties: {grid_position: 'OXCKGI,IAEITV'}
+  name: button_1
+  properties: {role: filled-button, text: Chat}
+  type: Button
+- layout_properties: {grid_position: 'FPKHXK,WSGKIQ'}
+  name: image_2
+  properties: {height: 36.444427490234375, source: _/theme/create an uncolored .png}
+  type: Image
 - layout_properties: {grid_position: 'FPKHXK,WVOIEO'}
   name: label_2
   properties: {text: Jacob}
   type: Label
+- layout_properties: {grid_position: 'FPKHXK,XTXBNW'}
+  name: image_6
+  properties: {height: 33.444427490234375, source: _/theme/france.webp}
+  type: Image
+- layout_properties: {grid_position: 'FPKHXK,ZYWVOQ'}
+  name: label_5
+  properties: {text: FR}
+  type: Label
+- layout_properties: {grid_position: 'FPKHXK,DZJOUH'}
+  name: button_2
+  properties: {role: filled-button, text: Chat}
+  type: Button
+- layout_properties: {grid_position: 'NRYEHT,UFIZMI'}
+  name: image_3
+  properties: {height: 37.77777099609375, source: _/theme/create an uncolored .png}
+  type: Image
 - layout_properties: {grid_position: 'NRYEHT,BXCXDS'}
   name: label_3
   properties: {text: Nelson}
   type: Label
-container: {type: ColumnPanel}
+- layout_properties: {grid_position: 'NRYEHT,ZTOJZP'}
+  name: image_7
+  properties: {height: 37.33331298828125, source: _/theme/a.webp}
+  type: Image
+- layout_properties: {grid_position: 'NRYEHT,YYIUID'}
+  name: label_6
+  properties: {text: US}
+  type: Label
+- layout_properties: {grid_position: 'NRYEHT,HMTVBO'}
+  name: button_4
+  properties: {role: filled-button, text: Chat}
+  type: Button
+- layout_properties: {grid_position: 'OUCCFC,LOBVKA'}
+  name: image_4
+  properties: {height: 37.77777099609375, source: _/theme/create an uncolored .png}
+  type: Image
+- layout_properties: {grid_position: 'OUCCFC,DIERBE'}
+  name: label_7
+  properties: {text: Cheng}
+  type: Label
+- layout_properties: {grid_position: 'OUCCFC,ZOZRKZ'}
+  name: image_8
+  properties: {height: 31.5555419921875, source: _/theme/f.webp}
+  type: Image
+- layout_properties: {grid_position: 'OUCCFC,KYVRBM'}
+  name: label_8
+  properties: {icon: '', text: CH}
+  type: Label
+- layout_properties: {grid_position: 'OUCCFC,VIHSKD'}
+  name: button_3
+  properties: {role: filled-button, text: Chat}
+  type: Button
+container:
+  properties: {col_widths: '{"JJTNOO":5,"LDCEQY":30,"RQVFMR":5,"PGLIED":5,"IAEITV":15,"WSGKIQ":5,"WVOIEO":30,"XTXBNW":5,"ZYWVOQ":5,"DZJOUH":15,"UFIZMI":5,"BXCXDS":30,"ZTOJZP":5,"YYIUID":5,"HMTVBO":15,"LOBVKA":5,"DIERBE":30,"ZOZRKZ":5,"KYVRBM":5,"VIHSKD":15}'}
+  type: ColumnPanel
 is_package: true
