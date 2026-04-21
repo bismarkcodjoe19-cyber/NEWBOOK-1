@@ -1,0 +1,19 @@
+components:
+- layout_properties: {grid_position: 'AECMTJ,VPNEWX'}
+  name: label_1
+  properties: {text: UK made phone watch}
+  type: Label
+- layout_properties: {grid_position: 'SXZYSC,QMXMTI'}
+  name: image_1
+  properties: {}
+  type: Image
+- layout_properties: {grid_position: 'DOIVOI,QNZSKA'}
+  name: label_2
+  properties: {text: 'GHS: 2000.00'}
+  type: Label
+- layout_properties: {grid_position: 'DOIVOI,VRAJYA'}
+  name: storeitem_view
+  properties: {text: 'View '}
+  type: Button
+container: {type: ColumnPanel}
+is_package: true
