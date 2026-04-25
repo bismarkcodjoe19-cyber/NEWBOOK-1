@@ -64,8 +64,8 @@ db_schema:
     title: Table 1
 dependencies: []
 metadata: {logo_img: 'asset:nb.png'}
-name: NewBook
-package_name: NewBook
+name: NewBooklmn
+package_name: NewBooklmn
 renamed: true
 runtime_options:
   client_version: '3'
