@@ -2,7 +2,7 @@ components:
 - components:
   - layout_properties: {grid_position: 'WMKPTB,XQOKZG'}
     name: label_1
-    properties: {align: center, bold: true, foreground: 'theme:Primary', text: Add Products}
+    properties: {align: center, bold: true, foreground: 'theme:Primary', text: Share What You Are Selling}
     type: Label
   layout_properties: {grid_position: 'EGLIRY,OAQXWQ'}
   name: column_panel_1
