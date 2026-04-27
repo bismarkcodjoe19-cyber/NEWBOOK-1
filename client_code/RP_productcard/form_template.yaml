@@ -1,7 +1,7 @@
 components:
 - layout_properties: {full_width_row: false, grid_position: 'DOADAQ,AYIXJM'}
   name: image_1
-  properties: {display_mode: zoom_to_fill}
+  properties: {display_mode: zoom_to_fill, source: _/theme/Copilot_20260427_201508.png}
   type: Image
 - layout_properties: {grid_position: 'CNGTMN,ITFUVQ'}
   name: product_name
@@ -16,7 +16,7 @@ components:
   properties: {height: 32}
   type: Spacer
 - layout_properties: {grid_position: 'NCWYOL,MNDLKE'}
-  name: label_1
+  name: product_description_label
   properties: {}
   type: Label
 container:

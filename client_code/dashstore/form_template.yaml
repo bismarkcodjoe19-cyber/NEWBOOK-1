@@ -31,7 +31,7 @@ components:
   type: Button
 - components:
   - components:
-    - layout_properties: {width: 300}
+    - layout_properties: {width: 715.75}
       name: repeating_panel_1
       properties: {item_template: RP_productcard}
       type: RepeatingPanel
