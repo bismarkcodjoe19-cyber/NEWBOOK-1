@@ -1,3 +1,25 @@
-components: []
-container: {type: ColumnPanel}
+components:
+- layout_properties: {grid_position: 'DOADAQ,AYIXJM'}
+  name: image_1
+  properties: {display_mode: zoom_to_fill}
+  type: Image
+- layout_properties: {grid_position: 'CNGTMN,ITFUVQ'}
+  name: product_name
+  properties: {text: Nike Air Max Sneakers}
+  type: Label
+- layout_properties: {grid_position: 'KSAJHM,EGUUOT'}
+  name: product_category
+  properties: {background: '#67ff3d', bold: true, text: '            Shoes'}
+  type: Label
+- layout_properties: {grid_position: 'KSAJHM,RUFCZZ'}
+  name: spacer_1
+  properties: {height: 32}
+  type: Spacer
+- layout_properties: {grid_position: 'NCWYOL,MNDLKE'}
+  name: label_1
+  properties: {}
+  type: Label
+container:
+  properties: {col_widths: '{"EGUUOT":10,"RUFCZZ":46}'}
+  type: ColumnPanel
 is_package: true
