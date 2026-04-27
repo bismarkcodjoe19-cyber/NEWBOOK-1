@@ -21,25 +21,22 @@ components:
   name: column_panel_1
   properties: {role: elevated-card}
   type: ColumnPanel
-- data_bindings:
-  - code: |
-      [
-        {"name":"UK made phone watch","price":"GHS 2000"},
-        {"name":"Original Rolex watch made with gold","price":"GHS 50000"},
-        {"name":"Bass Guitar","price":"GHS 1500"},
-        {"name":"Laptop Pro 15","price":"GHS 4500"},
-        {"name":"Smart TV 55 inch","price":"GHS 3800"},
-        {"name":"Digital Camera","price":"GHS 2200"},
-        {"name":"House for Sale - Accra","price":"GHS 250000"},
-        {"name":"Apartment for Rent - Kumasi","price":"GHS 1200"},
-        {"name":"Pet Food - Dog Mix","price":"GHS 300"},
-        {"name":"Travel Package - Dubai","price":"GHS 8000"}
-      ]
-    property: items
-    writeback: false
-  layout_properties: {grid_position: 'WNRZJH,HMOHKS'}
-  name: repeating_panel_1
-  properties: {item_template: product_card}
-  type: RepeatingPanel
+- layout_properties: {grid_position: 'VMZQIA,XHDMHT'}
+  name: spacer_1
+  properties: {height: 32}
+  type: Spacer
+- layout_properties: {grid_position: 'VMZQIA,NMRUMJ'}
+  name: button_2
+  properties: {align: center, icon: 'fa:plus', role: null, text: Add Products}
+  type: Button
+- components:
+  - layout_properties: {grid_position: 'NRBILR,YIPUTZ'}
+    name: repeating_panel_1
+    properties: {item_template: RP_productcard}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'UTLGVA,WPLNVA'}
+  name: column_panel_2
+  properties: {role: elevated-card}
+  type: ColumnPanel
 container: {type: ColumnPanel}
 is_package: true
