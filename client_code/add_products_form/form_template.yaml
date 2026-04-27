@@ -8,10 +8,39 @@ components:
   name: column_panel_1
   properties: {role: elevated-card}
   type: ColumnPanel
-- layout_properties: {grid_position: 'HASZLF,ZFYGTT'}
-  name: image_1
-  properties: {height: 134.75, source: _/theme/Copilot_20260427_114355.png}
-  type: Image
+- components:
+  - layout_properties: {grid_position: 'CWQPHZ,RANERV'}
+    name: image_1
+    properties:
+      display_mode: zoom_to_fill
+      height: '130.0'
+      margin: [0, 42, null, 0]
+      source: _/theme/Copilot_20260427_114355.png
+    type: Image
+  - layout_properties: {grid_position: 'CWQPHZ,BYMLKP'}
+    name: image_2
+    properties: {display_mode: zoom_to_fill, height: '130.0', horizontal_align: left, source: _/theme/Copilot_20260427_121547.png}
+    type: Image
+  - layout_properties: {grid_position: 'CWQPHZ,GYVGCL'}
+    name: image_3
+    properties:
+      display_mode: zoom_to_fill
+      height: '130.0'
+      horizontal_align: left
+      margin: [null, 0, null, 0]
+      source: _/theme/Copilot_20260427_122007.png
+    type: Image
+  layout_properties: {grid_position: 'JMWFIH,CJABRJ'}
+  name: column_panel_3
+  properties:
+    col_widths: '{"RANERV":30,"BYMLKP":20,"GYVGCL":30}'
+    spacing:
+      padding: [null, null, null, 4]
+  type: ColumnPanel
+- layout_properties: {grid_position: 'OKWSEX,ANSEIO'}
+  name: label_7
+  properties: {bold: true, foreground: 'theme:Primary', icon: 'fa:lightbulb-o', italic: true, role: body, text: 'Please do well to fill in all parts of this form. Gracias(Thank you), Safe marketing!!!.'}
+  type: Label
 - components:
   - layout_properties: {grid_position: 'XNPRPF,TPCNZQ KWICSU,KBZDQZ'}
     name: label_2
@@ -75,7 +104,11 @@ components:
     name: spacer_1
     properties: {height: 32}
     type: Spacer
-  - layout_properties: {grid_position: 'MYQBUU,VRDYDS'}
+  - layout_properties: {grid_position: 'ACFUMA,CDMILS'}
+    name: image_4
+    properties: {display_mode: zoom_to_fill, height: 486.5, source: _/theme/Copilot_20260427_125025.png}
+    type: Image
+  - layout_properties: {grid_position: 'FTHAVK,YCNJOX'}
     name: submit_button
     properties: {align: right, bold: true, role: filled-button, text: Submit}
     type: Button
