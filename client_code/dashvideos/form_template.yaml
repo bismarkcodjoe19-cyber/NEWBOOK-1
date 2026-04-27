@@ -1,0 +1,38 @@
+components:
+- components:
+  - layout_properties: {grid_position: 'AULFAF,EZRRWT'}
+    name: spacer_1
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'AULFAF,AWHYQF'}
+    name: image_1
+    properties: {height: 39.99998474121094, source: _/theme/Copilot_20250821_092703.png}
+    type: Image
+  - layout_properties: {grid_position: 'AULFAF,LUMRRD'}
+    name: label_1
+    properties:
+      align: left
+      bold: true
+      icon: ''
+      spacing:
+        margin: [15, null, 0, 0]
+      text: Videos
+    type: Label
+  - layout_properties: {grid_position: 'IEPSMU,SNIKHA'}
+    name: spacer_2
+    properties: {height: 23.33331298828125}
+    type: Spacer
+  - layout_properties: {grid_position: 'JVJPBU,JZSCRU'}
+    name: label_2
+    properties: {align: center, background: 'theme:Primary', foreground: 'theme:On Primary', icon: 'fa:wpexplorer', text: Explore and Enjoy greatness}
+    type: Label
+  - layout_properties: {grid_position: 'ZPVAQL,FMHNES'}
+    name: repeating_panel_1
+    properties: {item_template: vids, visible: true}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'MNPNWJ,GLNWBN'}
+  name: column_panel_1
+  properties: {col_widths: '{"EZRRWT":20,"AWHYQF":15,"LUMRRD":55}', role: elevated-card}
+  type: ColumnPanel
+container: {type: ColumnPanel}
+is_package: true

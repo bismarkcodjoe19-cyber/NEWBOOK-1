@@ -13,7 +13,7 @@ components:
   type: Image
 - layout_properties: {grid_position: 'OXCKGI,PGLIED'}
   name: label_4
-  properties: {text: Germany}
+  properties: {text: GE}
   type: Label
 - layout_properties: {grid_position: 'OXCKGI,IAEITV'}
   name: button_1
@@ -79,5 +79,7 @@ components:
   name: button_3
   properties: {role: filled-button, text: Chat}
   type: Button
-container: {type: ColumnPanel}
+container:
+  properties: {col_widths: '{"JJTNOO":5,"LDCEQY":30,"RQVFMR":5,"PGLIED":5,"IAEITV":15,"WSGKIQ":5,"WVOIEO":30,"XTXBNW":5,"ZYWVOQ":5,"DZJOUH":15,"UFIZMI":5,"BXCXDS":30,"ZTOJZP":5,"YYIUID":5,"HMTVBO":15,"LOBVKA":5,"DIERBE":30,"ZOZRKZ":5,"KYVRBM":5,"VIHSKD":15}'}
+  type: ColumnPanel
 is_package: true

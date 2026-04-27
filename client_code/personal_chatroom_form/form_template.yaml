@@ -1,25 +1,34 @@
 components:
 - components:
-  - layout_properties: {grid_position: 'LWRPLB,ETAYXL'}
-    name: label_1
-    properties: {align: center, bold: true, icon: 'fa:home', text: Personal Chatroom}
-    type: Label
-  - layout_properties: {grid_position: 'SPJNYO,QTXQIF'}
-    name: spacer_1
-    properties: {height: 32}
-    type: Spacer
-  - layout_properties: {grid_position: 'PDOOZT,OCUGEK'}
-    name: label_2
-    properties: {background: '', icon: 'fa:plus', text: Add a new friend}
-    type: Label
-  - layout_properties: {grid_position: 'BBDKBN,PDNIRE'}
-    name: spacer_2
-    properties: {height: 19.33331298828125}
-    type: Spacer
-  - layout_properties: {grid_position: 'PKBKIV,OHWBLB'}
-    name: label_3
-    properties: {align: center, background: 'theme:Primary', bold: true, border: '', foreground: 'theme:On Primary', text: My Chatroom}
-    type: Label
+  - components:
+    - layout_properties: {grid_position: 'CZYIYD,OPETWR'}
+      name: label_4
+      properties: {foreground: 'theme:On Primary', icon: 'fa:bars'}
+      type: Label
+    - layout_properties: {grid_position: 'CZYIYD,QJKRAY'}
+      name: label_1
+      properties: {align: center, bold: true, foreground: 'theme:On Primary', icon: 'fa:home', text: Personal Chatroom}
+      type: Label
+    - layout_properties: {grid_position: 'JRIMEL,YOSRLF'}
+      name: spacer_1
+      properties: {height: 23.666656494140625}
+      type: Spacer
+    - layout_properties: {grid_position: 'OCVYTE,UXNCEJ'}
+      name: label_2
+      properties: {background: '', foreground: 'theme:On Primary', icon: 'fa:plus', text: Add a new friend}
+      type: Label
+    - layout_properties: {grid_position: 'TWIQEB,QYMEUP'}
+      name: spacer_2
+      properties: {height: 19.33331298828125}
+      type: Spacer
+    - layout_properties: {grid_position: 'KPWGXO,NRLIOO'}
+      name: label_3
+      properties: {align: center, background: 'theme:Primary', bold: true, border: '', foreground: 'theme:On Primary', text: My Chatroom}
+      type: Label
+    layout_properties: {grid_position: 'BTKMWU,CJKKAU'}
+    name: column_panel_2
+    properties: {background: 'theme:Primary', col_widths: '{"QJKRAY":68,"OPETWR":3}', role: elevated-card}
+    type: ColumnPanel
   - layout_properties: {grid_position: 'KBBAVI,ASYVMT'}
     name: spacer_3
     properties: {height: 16.222198486328125}

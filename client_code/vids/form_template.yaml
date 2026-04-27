@@ -1,0 +1,79 @@
+components:
+- layout_properties: {grid_position: 'VTFIJP,NOBRLS'}
+  name: spacer_2
+  properties: {height: 32}
+  type: Spacer
+- components:
+  - layout_properties: {grid_position: 'WTYWMC,EZEDPE'}
+    name: label_2
+    properties: {text: Avatar Season 2 trailer}
+    type: Label
+  - layout_properties: {grid_position: 'XWADAP,ADKWIR'}
+    name: youtube_video_1
+    properties: {}
+    type: YouTubeVideo
+  - layout_properties: {grid_position: 'ABDFEG,FFLFCO'}
+    name: button_1
+    properties: {icon: 'fa:thumbs-up', text: ''}
+    type: Button
+  - layout_properties: {grid_position: 'ABDFEG,TWSCUH'}
+    name: button_2
+    properties: {icon: 'fa:comment', text: ''}
+    type: Button
+  - layout_properties: {grid_position: 'ABDFEG,NDUHSK'}
+    name: button_5
+    properties: {icon: 'fa:download', text: ''}
+    type: Button
+  - layout_properties: {grid_position: 'ABDFEG,IQMOCQ'}
+    name: button_3
+    properties: {icon: 'fa:share', text: ''}
+    type: Button
+  layout_properties: {grid_position: 'VTFIJP,VQLWKT XSPOEN,DNWAZU'}
+  name: outlined_card_1
+  properties: {col_widths: '{"FFLFCO":15,"TWSCUH":15,"IQMOCQ":30,"NDUHSK":15}', role: outlined-card}
+  type: ColumnPanel
+- components:
+  - layout_properties: {grid_position: 'MGIZCY,XZKPGY'}
+    name: label_1
+    properties: {text: Cocomelon series}
+    type: Label
+  - layout_properties: {grid_position: 'JCAHDV,AXDMEJ'}
+    name: youtube_video_2
+    properties: {}
+    type: YouTubeVideo
+  - layout_properties: {grid_position: 'GBSUZL,TTEOKV'}
+    name: button_4
+    properties: {icon: 'fa:thumbs-up', text: ''}
+    type: Button
+  - layout_properties: {grid_position: 'GBSUZL,KTHVAT'}
+    name: button_6
+    properties: {icon: 'fa:comment', text: ''}
+    type: Button
+  - layout_properties: {grid_position: 'GBSUZL,BEIUPS'}
+    name: button_8
+    properties: {icon: 'fa:download', text: ''}
+    type: Button
+  - layout_properties: {grid_position: 'GBSUZL,WBFNSQ'}
+    name: button_7
+    properties: {icon: 'fa:share', text: ''}
+    type: Button
+  layout_properties: {grid_position: 'VTFIJP,VQLWKT QKFHFF,LXDRGH'}
+  name: outlined_card_2
+  properties: {col_widths: '{"TTEOKV":15,"KTHVAT":15,"BEIUPS":15,"WBFNSQ":15}', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'VTFIJP,CPTCPB'}
+  name: spacer_1
+  properties: {height: 32}
+  type: Spacer
+- layout_properties: {grid_position: 'UUMDIC,WPEIJV'}
+  name: spacer_4
+  properties: {height: 32}
+  type: Spacer
+- layout_properties: {grid_position: 'UUMDIC,NWDHXG'}
+  name: spacer_3
+  properties: {height: 32}
+  type: Spacer
+container:
+  properties: {col_widths: '{"NOBRLS":15,"VQLWKT":25,"CPTCPB":20}'}
+  type: ColumnPanel
+is_package: true

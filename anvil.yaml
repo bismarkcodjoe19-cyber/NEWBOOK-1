@@ -76,5 +76,5 @@ services:
 - client_config: {}
   server_config: {}
   source: /runtime/services/tables.yml
-startup: {module: ludo_form, type: form}
+startup: {module: dashvideos, type: form}
 startup_form: null
