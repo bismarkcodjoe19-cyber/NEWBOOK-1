@@ -11,6 +11,7 @@ components:
       include_placeholder: true
       items: [Electronics & Technology, '- Phones & Accessories', '- Computers & Tablets', '- Audio & Headphones', '- Cameras & Drones', '- Gaming & Consoles', '- Smart Home Devices', '- Wearables (Smartwatches, Fitness Bands)', '', Fashion & Apparel, '- Men’s Clothing', '- Women’s Clothing', '- Kids’ Clothing', '- Shoes', '- Bags', '- Watches', '- Jewelry', '- Accessories', '', Beauty & Personal Care, '- Skincare', '- Haircare', '- Makeup', '- Fragrances', '- Grooming Tools', '- Wellness Products', '', Home & Living, '- Furniture', '- Kitchenware', '- Home Decor', '- Lighting', '- Appliances', '- Bedding', '- Cleaning Supplies', '', Sports & Outdoors, '- Fitness Equipment', '- Sportswear', '- Outdoor Gear', '- Bicycles & Accessories', '- Camping & Hiking', '- Team Sports Gear', '', 'Books, Media & Stationery', '- Educational Books', '- Novels & Literature', '- Study Guides', '- Office Supplies', '- Art Materials', '- Movies & Series', '', Music & Entertainment, '- Musical Instruments (Bass Guitars, Keyboards, Drums)', '- Accessories (Strings, Amps, Cases)', '- Recorded Media (Albums, Playlists, Vinyl, CDs)', '- Digital Music & Streaming', '- Concerts & Events', '- DJ & Studio Equipment', '', Food & Beverages, '- Groceries', '- Snacks', '- Drinks', '- Organic & Health Foods', '- Restaurant & Takeaway', '', Automotive, '- Cars', '- Motorcycles', '- Spare Parts', '- Accessories', '- Tools', '- Car Care', '', Kids & Baby, '- Toys', '- Baby Clothing', '- Baby Care Products', '- Educational Materials', '- Games', '', Health & Wellness, '- Supplements', '- Medical Devices', '- Fitness Gear', '- Personal Care', '- Herbal Remedies', '', Travel & Experiences, '- Flights', '- Hotels', '- Tours', '- Tickets & Events', '- Adventure Packages', '', Pets, '- Pet Food', '- Pet Accessories', '- Pet Care Products', '- Veterinary Services', '', Real Estate, '- Houses for Sale', '- Apartments for Rent', '- Land & Plots', '- Commercial Properties', '- Office Spaces', '- Real Estate Services', '', Services, '- Digital Services', '- Repair & Maintenance', '- Education & Training', '- Financial Services', '- Creative & Design', '']
       placeholder: Select item category
+      role: outlined
     type: DropDown
   - layout_properties: {grid_position: 'MLHOMJ,VJRFRO'}
     name: button_1
@@ -20,7 +21,23 @@ components:
   name: column_panel_1
   properties: {role: elevated-card}
   type: ColumnPanel
-- layout_properties: {grid_position: 'WNRZJH,HMOHKS'}
+- data_bindings:
+  - code: |
+      [
+        {"name":"UK made phone watch","price":"GHS 2000"},
+        {"name":"Original Rolex watch made with gold","price":"GHS 50000"},
+        {"name":"Bass Guitar","price":"GHS 1500"},
+        {"name":"Laptop Pro 15","price":"GHS 4500"},
+        {"name":"Smart TV 55 inch","price":"GHS 3800"},
+        {"name":"Digital Camera","price":"GHS 2200"},
+        {"name":"House for Sale - Accra","price":"GHS 250000"},
+        {"name":"Apartment for Rent - Kumasi","price":"GHS 1200"},
+        {"name":"Pet Food - Dog Mix","price":"GHS 300"},
+        {"name":"Travel Package - Dubai","price":"GHS 8000"}
+      ]
+    property: items
+    writeback: false
+  layout_properties: {grid_position: 'WNRZJH,HMOHKS'}
   name: repeating_panel_1
   properties: {item_template: product_card}
   type: RepeatingPanel
