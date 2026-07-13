@@ -29,12 +29,12 @@ components:
   name: button_2
   properties: {align: center, icon: 'fa:plus', role: null, text: Add Products}
   type: Button
+- layout_properties: {grid_position: 'UTLGVA,VRBBLP'}
+  name: repeating_panel_1
+  properties: {item_template: RP_productcard}
+  type: RepeatingPanel
 - components:
-  - components:
-    - layout_properties: {width: 715.75}
-      name: repeating_panel_1
-      properties: {item_template: RP_productcard}
-      type: RepeatingPanel
+  - components: []
     layout_properties: {grid_position: 'KPJVUB,JDQFSK'}
     name: flow_panel_1
     properties: {}
